@@ -2,7 +2,7 @@ import json
 
 electives_dict = {}
 electives = {}
-csv = ["course_code,course_name,course_hour,software_foundations,algorithms,intelligence_big_data,human_social_impact,media,scientific_parallel,distributed_system,machines\n"]
+csv = ["course_code,course_name,course_hour,team_project_requirement,software_foundations,algorithms,intelligence_big_data,human_social_impact,media,scientific_parallel,distributed_system,machines\n"]
 
 with open('cs_electives.json') as json_file:
     electives_dict = json.load(json_file)
