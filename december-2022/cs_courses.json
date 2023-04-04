@@ -893,12 +893,12 @@
         "course_hour": "3 or 4 Hours",
         "course_description": "Thorough coverage of technologies including web-search, auctions, behavioral targeting, mechanisms for viral marketing, that underpin the display of advertisements on a variety of locations (e.g., ads on search engines; display ads). Students shall also learn about emerging areas in computational advertising including location-based adverting and algorithmic synthesis of personalized advertisements. Discussion around privacy will be a significant focus of the class. Same as ADV 462. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
-            "raw_text": "CS 173; CS 225; one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210; one of CS 361, STAT 361, ECE 313, MATH 362, MATH 461, MATH 463 or STAT 400.",
+            "raw_text": "CS 173; CS 225; one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210; one of CS 361, ECE 313, MATH 461, or STAT 400.",
             "prerequisites": [
                 "CS 173",
                 "CS 225",
                 "one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210",
-                "one of CS 361, STAT 361, ECE 313, MATH 362, MATH 461, MATH 463 or STAT 400."
+                "one of CS 361, ECE 313, MATH 461, or STAT 400."
             ]
         }
     },
