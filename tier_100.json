@@ -1,0 +1,160 @@
+{
+    "CS 100": {
+        "course_code": "100",
+        "course_name": "Computer Science Orientation",
+        "course_hour": "1 Hour",
+        "course_description": "Introduction to Computer Science as a field and career for incoming first year and external transfer students in the computer science majors. Overview of the field and specific examples of problem areas and methods of solution.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 101": {
+        "course_code": "101",
+        "course_name": "Intro Computing: Engrg & Sci",
+        "course_hour": "3 Hours",
+        "course_description": "Fundamental principles, concepts, and methods of computing, with emphasis on applications in the physical sciences and engineering. Basic problem solving and programming techniques; fundamental algorithms and data structures; use of computers in solving engineering and scientific problems. Intended for engineering and science majors. ",
+        "course_prerequisites": {
+            "raw_text": "One of MATH 220 or MATH 221 or MATH 231 or MATH 241. This course satisfies the General Education Criteria for:Quantitative Reasoning II",
+            "prerequisites": [
+                [
+                    "MATH 220",
+                    "MATH 221",
+                    "MATH 231",
+                    "MATH 241"
+                ]
+            ]
+        }
+    },
+    "CS 102": {
+        "course_code": "102",
+        "course_name": "Little Bits to Big Ideas",
+        "course_hour": "4 Hours",
+        "course_description": "Same as INFO 102. See INFO 102.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 105": {
+        "course_code": "105",
+        "course_name": "Intro Computing: Non-Tech",
+        "course_hour": "3 Hours",
+        "course_description": "Computing as an essential tool of academic and professional activities. Functions and interrelationships of computer system components: hardware, systems and applications software, and networks. Widely used application packages such as spreadsheets and databases. Concepts and practice of programming for the solution of simple problems in different application areas. Intended for non-science and non-engineering majors. ",
+        "course_prerequisites": {
+            "raw_text": "MATH 112. This course satisfies the General Education Criteria for:Quantitative Reasoning I",
+            "prerequisites": [
+                [
+                    "MATH 112"
+                ]
+            ]
+        }
+    },
+    "CS 107": {
+        "course_code": "107",
+        "course_name": "Data Science Discovery",
+        "course_hour": "4 Hours",
+        "course_description": "Same as IS 107 and STAT 107. See STAT 107.This course satisfies the General Education Criteria for:Quantitative Reasoning I",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 124": {
+        "course_code": "124",
+        "course_name": "Introduction to Computer Science I",
+        "course_hour": "3 Hours",
+        "course_description": "Basic concepts in computing and fundamental techniques for solving computational problems. Intended as a first course for computer science majors and others with a deep interest in computing. Credit is not given for both CS 124 and CS 125. ",
+        "course_prerequisites": {
+            "raw_text": "Three years of high school mathematics or MATH 112.This course satisfies the General Education Criteria for:Quantitative Reasoning I",
+            "prerequisites": [
+                [
+                    "MATH 112"
+                ]
+            ]
+        }
+    },
+    "CS 125": {
+        "course_code": "125",
+        "course_name": "Introduction to Computer Science",
+        "course_hour": "4 Hours",
+        "course_description": "Basic concepts in computing and fundamental techniques for solving computational problems. Intended as a first course for computer science majors and others with a deep interest in computing. Credit is not given for both CS 125 and CS 124. ",
+        "course_prerequisites": {
+            "raw_text": "Three years of high school mathematics or MATH 112. This course satisfies the General Education Criteria for:Quantitative Reasoning I",
+            "prerequisites": [
+                [
+                    "MATH 112"
+                ]
+            ]
+        }
+    },
+    "CS 126": {
+        "course_code": "126",
+        "course_name": "Software Design Studio",
+        "course_hour": "3 Hours",
+        "course_description": "Fundamental principles and techniques of software development. Design, documentation, testing, and debugging software, with a significant emphasis on code review. Credit is not given for both CS 242 and CS 126. ",
+        "course_prerequisites": {
+            "raw_text": "CS 125. For majors only.",
+            "prerequisites": [
+                [
+                    "CS 125"
+                ]
+            ]
+        }
+    },
+    "CS 128": {
+        "course_code": "128",
+        "course_name": "Introduction to Computer Science II",
+        "course_hour": "3 Hours",
+        "course_description": "Continuation of CS 124. More advanced concepts in computing and techniques and approaches for solving computational problems. ",
+        "course_prerequisites": {
+            "raw_text": "CS 124 or CS 125.This course satisfies the General Education Criteria for:Quantitative Reasoning II",
+            "prerequisites": [
+                [
+                    "CS 124",
+                    "CS 125"
+                ]
+            ]
+        }
+    },
+    "CS 173": {
+        "course_code": "173",
+        "course_name": "Discrete Structures",
+        "course_hour": "3 Hours",
+        "course_description": "Discrete mathematical structures frequently encountered in the study of Computer Science. Sets, propositions, Boolean algebra, induction, recursion, relations, functions, and graphs. Credit is not given for both CS 173 and MATH 213. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 124, CS 125, ECE 220; one of MATH 220, MATH 221.",
+            "prerequisites": [
+                [
+                    "CS 124",
+                    "CS 125",
+                    "ECE 220"
+                ],
+                [
+                    "MATH 220",
+                    "MATH 221"
+                ]
+            ]
+        }
+    },
+    "CS 196": {
+        "course_code": "196",
+        "course_name": "First-Year Student Honors",
+        "course_hour": "1 Hour",
+        "course_description": "Offered for honors credit in conjunction with other 100-level computer science courses taken concurrently. A special examination may be required for admission to this course. May be repeated if topics vary, for a maximum of 2 hours in the same semester and a maximum of 3 hours total. ",
+        "course_prerequisites": {
+            "raw_text": "Concurrent registration in another 100-level computer science course (see Schedule).",
+            "prerequisites": []
+        }
+    },
+    "CS 199": {
+        "course_code": "199",
+        "course_name": "Undergraduate Open Seminar in Computer Science",
+        "course_hour": "0 to 5 Hours",
+        "course_description": "Topics vary. Approved for Letter and S/U grading. May be repeated.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    }
+}

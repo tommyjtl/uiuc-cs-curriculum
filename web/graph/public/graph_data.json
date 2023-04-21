@@ -1,0 +1,2662 @@
+{
+    "nodes": [
+        {
+            "id": "CS 100",
+            "name": "Computer Science Orientation"
+        },
+        {
+            "id": "CS 101",
+            "name": "Intro Computing: Engrg & Sci"
+        },
+        {
+            "id": "MATH 220",
+            "name": "MATH 220"
+        },
+        {
+            "id": "MATH 221",
+            "name": "MATH 221"
+        },
+        {
+            "id": "MATH 231",
+            "name": "MATH 231"
+        },
+        {
+            "id": "MATH 241",
+            "name": "MATH 241"
+        },
+        {
+            "id": "CS 102",
+            "name": "Little Bits to Big Ideas"
+        },
+        {
+            "id": "CS 105",
+            "name": "Intro Computing: Non-Tech"
+        },
+        {
+            "id": "MATH 112",
+            "name": "MATH 112"
+        },
+        {
+            "id": "CS 107",
+            "name": "Data Science Discovery"
+        },
+        {
+            "id": "CS 124",
+            "name": "Introduction to Computer Science I"
+        },
+        {
+            "id": "CS 125",
+            "name": "Introduction to Computer Science"
+        },
+        {
+            "id": "CS 126",
+            "name": "Software Design Studio"
+        },
+        {
+            "id": "CS 128",
+            "name": "Introduction to Computer Science II"
+        },
+        {
+            "id": "CS 173",
+            "name": "Discrete Structures"
+        },
+        {
+            "id": "ECE 220",
+            "name": "ECE 220"
+        },
+        {
+            "id": "CS 196",
+            "name": "First-Year Student Honors"
+        },
+        {
+            "id": "CS 199",
+            "name": "Undergraduate Open Seminar in Computer Science"
+        },
+        {
+            "id": "CS 210",
+            "name": "Ethical & Professional Issues"
+        },
+        {
+            "id": "CS 225",
+            "name": "CS 225"
+        },
+        {
+            "id": "CS 211",
+            "name": "Ethical and Professional Conduct"
+        },
+        {
+            "id": "CS 222",
+            "name": "Software Design Lab"
+        },
+        {
+            "id": "CS 225",
+            "name": "Data Structures"
+        },
+        {
+            "id": "CS 413",
+            "name": "CS 413"
+        },
+        {
+            "id": "MATH 213",
+            "name": "MATH 213"
+        },
+        {
+            "id": "MATH 347",
+            "name": "MATH 347"
+        },
+        {
+            "id": "MATH 412",
+            "name": "MATH 412"
+        },
+        {
+            "id": "MATH 413",
+            "name": "MATH 413"
+        },
+        {
+            "id": "CS 233",
+            "name": "Computer Architecture"
+        },
+        {
+            "id": "CS 242",
+            "name": "Programming Studio"
+        },
+        {
+            "id": "CS 241",
+            "name": "CS 241"
+        },
+        {
+            "id": "CS 265",
+            "name": "Innovation Illinois: From Accessible Design to Supercomputing Cultures"
+        },
+        {
+            "id": "CS 277",
+            "name": "Algorithms and Data Structures for Data Science"
+        },
+        {
+            "id": "STAT 207",
+            "name": "STAT 207"
+        },
+        {
+            "id": "MATH 234",
+            "name": "MATH 234"
+        },
+        {
+            "id": "CS 296",
+            "name": "Honors Course"
+        },
+        {
+            "id": "CS 307",
+            "name": "Modeling and Learning in Data Science"
+        },
+        {
+            "id": "MATH 225",
+            "name": "MATH 225"
+        },
+        {
+            "id": "MATH 227",
+            "name": "MATH 227"
+        },
+        {
+            "id": "MATH 257",
+            "name": "MATH 257"
+        },
+        {
+            "id": "MATH 415",
+            "name": "MATH 415"
+        },
+        {
+            "id": "MATH 416",
+            "name": "MATH 416"
+        },
+        {
+            "id": "ASRM 406",
+            "name": "ASRM 406"
+        },
+        {
+            "id": "CS 340",
+            "name": "Introduction to Computer Systems"
+        },
+        {
+            "id": "CS 341",
+            "name": "System Programming"
+        },
+        {
+            "id": "CS 357",
+            "name": "Numerical Methods I"
+        },
+        {
+            "id": "BIOE 210",
+            "name": "BIOE 210"
+        },
+        {
+            "id": "CS 361",
+            "name": "Probability & Statistics for Computer Science"
+        },
+        {
+            "id": "CS 374",
+            "name": "Introduction to Algorithms & Models of Computation"
+        },
+        {
+            "id": "CS 397",
+            "name": "Individual Study"
+        },
+        {
+            "id": "consent of instructor",
+            "name": "consent of instructor"
+        },
+        {
+            "id": "CS 398",
+            "name": "Special Topics"
+        },
+        {
+            "id": "CS 400",
+            "name": "Accelerated Fundamentals of Computing I"
+        },
+        {
+            "id": "CS 401",
+            "name": "Accelerated Fundamentals of Algorithms I"
+        },
+        {
+            "id": "CS 402",
+            "name": "Accelerated Fundamentals of Computing II"
+        },
+        {
+            "id": "CS 403",
+            "name": "Accelerated Fundamentals of Algorithms II"
+        },
+        {
+            "id": "CS 407",
+            "name": "Cryptography"
+        },
+        {
+            "id": "CS 409",
+            "name": "The Art of Web Programming"
+        },
+        {
+            "id": "CS 410",
+            "name": "Text Information Systems"
+        },
+        {
+            "id": "CS 411",
+            "name": "Database Systems"
+        },
+        {
+            "id": "CS 412",
+            "name": "Introduction to Data Mining"
+        },
+        {
+            "id": "CS 413",
+            "name": "Intro to Combinatorics"
+        },
+        {
+            "id": "CS 414",
+            "name": "Multimedia Systems"
+        },
+        {
+            "id": "CS 240",
+            "name": "CS 240"
+        },
+        {
+            "id": "ECE 391",
+            "name": "ECE 391"
+        },
+        {
+            "id": "CS 415",
+            "name": "Game Development"
+        },
+        {
+            "id": "CS 416",
+            "name": "Data Visualization"
+        },
+        {
+            "id": "CS 417",
+            "name": "Virtual Reality"
+        },
+        {
+            "id": "CS 418",
+            "name": "Interactive Computer Graphics"
+        },
+        {
+            "id": "CS 419",
+            "name": "Production Computer Graphics"
+        },
+        {
+            "id": "CSE 427",
+            "name": "CSE 427"
+        },
+        {
+            "id": "CS 420",
+            "name": "Parallel Progrmg: Sci & Engrg"
+        },
+        {
+            "id": "CS 421",
+            "name": "Programming Languages & Compilers"
+        },
+        {
+            "id": "ECE 374",
+            "name": "ECE 374"
+        },
+        {
+            "id": "CS 422",
+            "name": "Programming Language Design"
+        },
+        {
+            "id": "CS 423",
+            "name": "Operating Systems Design"
+        },
+        {
+            "id": "CS 424",
+            "name": "Real-Time Systems"
+        },
+        {
+            "id": "CS 425",
+            "name": "Distributed Systems"
+        },
+        {
+            "id": "CS 426",
+            "name": "Compiler Construction"
+        },
+        {
+            "id": "CS 427",
+            "name": "Software Engineering I"
+        },
+        {
+            "id": "CS 428",
+            "name": "Software Engineering II"
+        },
+        {
+            "id": "CSE 426",
+            "name": "CSE 426"
+        },
+        {
+            "id": "CS 429",
+            "name": "Software Engineering II, ACP"
+        },
+        {
+            "id": "CS 431",
+            "name": "Embedded Systems"
+        },
+        {
+            "id": "CS 433",
+            "name": "Computer System Organization"
+        },
+        {
+            "id": "CS 434",
+            "name": "Mobile Computing & Application"
+        },
+        {
+            "id": "CS 435",
+            "name": "Cloud Networking"
+        },
+        {
+            "id": "CS 436",
+            "name": "Computer Networking Laboratory"
+        },
+        {
+            "id": "CS 437",
+            "name": "Topics in Internet of Things"
+        },
+        {
+            "id": "CS 438",
+            "name": "Communication Networks"
+        },
+        {
+            "id": "STAT 361",
+            "name": "STAT 361"
+        },
+        {
+            "id": "ECE 313",
+            "name": "ECE 313"
+        },
+        {
+            "id": "MATH 362",
+            "name": "MATH 362"
+        },
+        {
+            "id": "MATH 461",
+            "name": "MATH 461"
+        },
+        {
+            "id": "MATH 463",
+            "name": "MATH 463"
+        },
+        {
+            "id": "STAT 400",
+            "name": "STAT 400"
+        },
+        {
+            "id": "CS 439",
+            "name": "Wireless Networks"
+        },
+        {
+            "id": "CS 440",
+            "name": "Artificial Intelligence"
+        },
+        {
+            "id": "BIOE 310",
+            "name": "BIOE 310"
+        },
+        {
+            "id": "CS 441",
+            "name": "Applied Machine Learning"
+        },
+        {
+            "id": "CS 442",
+            "name": "Trustworthy Machine Learning"
+        },
+        {
+            "id": "ECE 448",
+            "name": "ECE 448"
+        },
+        {
+            "id": "CS 446",
+            "name": "CS 446"
+        },
+        {
+            "id": "ECE 449",
+            "name": "ECE 449"
+        },
+        {
+            "id": "CS 443",
+            "name": "Reinforcement Learning"
+        },
+        {
+            "id": "CS 444",
+            "name": "Deep Learning for Computer Vision"
+        },
+        {
+            "id": "CS 445",
+            "name": "Computational Photography"
+        },
+        {
+            "id": "CS 446",
+            "name": "Machine Learning"
+        },
+        {
+            "id": "CS 447",
+            "name": "Natural Language Processing"
+        },
+        {
+            "id": "CS 448",
+            "name": "Audio Computing Laboratory"
+        },
+        {
+            "id": "CS 450",
+            "name": "Numerical Analysis"
+        },
+        {
+            "id": "MATH 357",
+            "name": "MATH 357"
+        },
+        {
+            "id": "MATH 285",
+            "name": "MATH 285"
+        },
+        {
+            "id": "CS 457",
+            "name": "Numerical Methods II"
+        },
+        {
+            "id": "CS 460",
+            "name": "Security Laboratory"
+        },
+        {
+            "id": "CS 461",
+            "name": "CS 461"
+        },
+        {
+            "id": "ECE 422",
+            "name": "ECE 422"
+        },
+        {
+            "id": "CS 461",
+            "name": "Computer Security I"
+        },
+        {
+            "id": "CS 463",
+            "name": "Computer Security II"
+        },
+        {
+            "id": "CS 475",
+            "name": "CS 475"
+        },
+        {
+            "id": "CS 464",
+            "name": "Topics in Societal and Ethical Impacts of Computer Technology"
+        },
+        {
+            "id": "ECE 316",
+            "name": "ECE 316"
+        },
+        {
+            "id": "PHIL 316",
+            "name": "PHIL 316"
+        },
+        {
+            "id": "STAT 200",
+            "name": "STAT 200"
+        },
+        {
+            "id": "CS 465",
+            "name": "User Interface Design"
+        },
+        {
+            "id": "CS 466",
+            "name": "Introduction to Bioinformatics"
+        },
+        {
+            "id": "CS 467",
+            "name": "Social Visualization"
+        },
+        {
+            "id": "CS 468",
+            "name": "Tech and Advertising Campaigns"
+        },
+        {
+            "id": "CS 469",
+            "name": "Computational Advertising Infrastructure"
+        },
+        {
+            "id": "CS 470",
+            "name": "Social and Information Networks"
+        },
+        {
+            "id": "CS 473",
+            "name": "Algorithms"
+        },
+        {
+            "id": "CS 474",
+            "name": "Logic in Computer Science"
+        },
+        {
+            "id": "CS 475",
+            "name": "Formal Models of Computation"
+        },
+        {
+            "id": "CS 476",
+            "name": "Program Verification"
+        },
+        {
+            "id": "MATH 414",
+            "name": "MATH 414"
+        },
+        {
+            "id": "CS 477",
+            "name": "Formal Software Development Methods"
+        },
+        {
+            "id": "CS 481",
+            "name": "Advanced Topics in Stochastic Processes & Applications"
+        },
+        {
+            "id": "CS 482",
+            "name": "Simulation"
+        },
+        {
+            "id": "CS 483",
+            "name": "Applied Parallel Programming"
+        },
+        {
+            "id": "CS 484",
+            "name": "Parallel Programming"
+        },
+        {
+            "id": "CS 491",
+            "name": "Seminar"
+        },
+        {
+            "id": "CS 492",
+            "name": "Senior Project I"
+        },
+        {
+            "id": "CS 493",
+            "name": "Senior Project II, ACP"
+        },
+        {
+            "id": "CS 494",
+            "name": "Senior Project II"
+        },
+        {
+            "id": "CS 497",
+            "name": "CS Team Project"
+        },
+        {
+            "id": "CS 498",
+            "name": "Special Topics"
+        },
+        {
+            "id": "CS 499",
+            "name": "Senior Thesis"
+        },
+        {
+            "id": "CS 500",
+            "name": "Current Topics in Computing Education Research"
+        },
+        {
+            "id": "CS 507",
+            "name": "Topics in Cryptography"
+        },
+        {
+            "id": "CS 508",
+            "name": "Manycore Parallel Algorithms"
+        },
+        {
+            "id": "CS 510",
+            "name": "Advanced Information Retrieval"
+        },
+        {
+            "id": "LING 406",
+            "name": "LING 406"
+        },
+        {
+            "id": "CS 511",
+            "name": "Advanced Data Management"
+        },
+        {
+            "id": "CS 512",
+            "name": "Data Mining Principles"
+        },
+        {
+            "id": "CS 513",
+            "name": "Theory & Practice of Data Cleaning"
+        },
+        {
+            "id": "CS 514",
+            "name": "Advanced Topics in Network Science"
+        },
+        {
+            "id": "CS 519",
+            "name": "Scientific Visualization"
+        },
+        {
+            "id": "CS 521",
+            "name": "Advanced Topics in Programming Systems"
+        },
+        {
+            "id": "CS 522",
+            "name": "Programming Language Semantics"
+        },
+        {
+            "id": "CS 523",
+            "name": "Advanced Operating Systems"
+        },
+        {
+            "id": "CSE 423",
+            "name": "CSE 423"
+        },
+        {
+            "id": "ECE 428",
+            "name": "ECE 428"
+        },
+        {
+            "id": "CSE 422",
+            "name": "CSE 422"
+        },
+        {
+            "id": "CS 524",
+            "name": "Concurrent Progrmg Languages"
+        },
+        {
+            "id": "MATH 475",
+            "name": "MATH 475"
+        },
+        {
+            "id": "CS 525",
+            "name": "Advanced Distributed Systems"
+        },
+        {
+            "id": "ECE 438",
+            "name": "ECE 438"
+        },
+        {
+            "id": "CS 526",
+            "name": "Advanced Compiler Construction"
+        },
+        {
+            "id": "CS 527",
+            "name": "Topics in Software Engineering"
+        },
+        {
+            "id": "CSE 429",
+            "name": "CSE 429"
+        },
+        {
+            "id": "CS 528",
+            "name": "Obj-Oriented Progrmg & Design"
+        },
+        {
+            "id": "CS 533",
+            "name": "Parallel Computer Architecture"
+        },
+        {
+            "id": "CS 534",
+            "name": "Advanced Topics in Computer Architecture"
+        },
+        {
+            "id": "CS 536",
+            "name": "Fault-Tolerant Dig Syst Design"
+        },
+        {
+            "id": "CS 537",
+            "name": "Advanced Topics in Internet of Things (IoT)"
+        },
+        {
+            "id": "CS 538",
+            "name": "Advanced Computer Networks"
+        },
+        {
+            "id": "CS 539",
+            "name": "Distributed Algorithms"
+        },
+        {
+            "id": "CS 540",
+            "name": "Deep Learning Theory"
+        },
+        {
+            "id": "CS 541",
+            "name": "Computer Systems Analysis"
+        },
+        {
+            "id": "CS 542",
+            "name": "Statistical Reinforcement Learning"
+        },
+        {
+            "id": "CS 543",
+            "name": "Computer Vision"
+        },
+        {
+            "id": "CS 544",
+            "name": "Optimiz in Computer Vision"
+        },
+        {
+            "id": "CSE 401",
+            "name": "CSE 401"
+        },
+        {
+            "id": "ECE 491",
+            "name": "ECE 491"
+        },
+        {
+            "id": "MATH 450",
+            "name": "MATH 450"
+        },
+        {
+            "id": "CSE 414",
+            "name": "CSE 414"
+        },
+        {
+            "id": "MATH 473",
+            "name": "MATH 473"
+        },
+        {
+            "id": "CS 545",
+            "name": "Machine Learning for Signal Processing"
+        },
+        {
+            "id": "CS 546",
+            "name": "Advanced Topics in Natural Language Processing"
+        },
+        {
+            "id": "CS 547",
+            "name": "Deep Learning"
+        },
+        {
+            "id": "CS 548",
+            "name": "Models of Cognitive Processes"
+        },
+        {
+            "id": "CS 549",
+            "name": "Seminar in Cognitive Science"
+        },
+        {
+            "id": "CS 554",
+            "name": "Parallel Numerical Algorithms"
+        },
+        {
+            "id": "CS 555",
+            "name": "CS 555"
+        },
+        {
+            "id": "CSE 510",
+            "name": "CSE 510"
+        },
+        {
+            "id": "MATH 552",
+            "name": "MATH 552"
+        },
+        {
+            "id": "CS 555",
+            "name": "Numerical Methods for PDEs"
+        },
+        {
+            "id": "CS 556",
+            "name": "Iterative & Multigrid Methods"
+        },
+        {
+            "id": "CS 558",
+            "name": "Topics in Numerical Analysis"
+        },
+        {
+            "id": "CS 562",
+            "name": "Advanced Topics in Security, Privacy, and Machine Learning"
+        },
+        {
+            "id": "ECE 424",
+            "name": "ECE 424"
+        },
+        {
+            "id": "CS 563",
+            "name": "Advanced Computer Security"
+        },
+        {
+            "id": "CS 565",
+            "name": "Human-Computer Interaction"
+        },
+        {
+            "id": "CS 567",
+            "name": "Social Signals and Social Media"
+        },
+        {
+            "id": "CS 568",
+            "name": "User-Centered Machine Learning"
+        },
+        {
+            "id": "CS 571",
+            "name": "Combinatorial Mathematics"
+        },
+        {
+            "id": "CS 572",
+            "name": "Extremal Graph Theory"
+        },
+        {
+            "id": "CS 573",
+            "name": "Algorithms"
+        },
+        {
+            "id": "CS 574",
+            "name": "Randomized Algorithms"
+        },
+        {
+            "id": "CS 575",
+            "name": "Methods of Combinatorics"
+        },
+        {
+            "id": "CS 576",
+            "name": "Topics in Automated Deduction"
+        },
+        {
+            "id": "CS 579",
+            "name": "Computational Complexity"
+        },
+        {
+            "id": "CS 580",
+            "name": "Topics in Algorithmic Game Theory"
+        },
+        {
+            "id": "CS 581",
+            "name": "Algorithmic Genomic Biology"
+        },
+        {
+            "id": "CS 582",
+            "name": "Machine Learning for Bioinformatics"
+        },
+        {
+            "id": "CS 583",
+            "name": "Approximation Algorithms"
+        },
+        {
+            "id": "CSE 515",
+            "name": "CSE 515"
+        },
+        {
+            "id": "CS 584",
+            "name": "Embedded System Verification"
+        },
+        {
+            "id": "CS 585",
+            "name": "Hardware Verification"
+        },
+        {
+            "id": "CS 586",
+            "name": "Combinatorial Optimization"
+        },
+        {
+            "id": "CS 588",
+            "name": "Autonomous Vehicle System Engineering"
+        },
+        {
+            "id": "ECE 484",
+            "name": "ECE 484"
+        },
+        {
+            "id": "CS 591",
+            "name": "Advanced Seminar"
+        },
+        {
+            "id": "CS 597",
+            "name": "Individual Study"
+        },
+        {
+            "id": "CS 598",
+            "name": "Special Topics"
+        },
+        {
+            "id": "CS 599",
+            "name": "Thesis Research"
+        }
+    ],
+    "links": [
+        {
+            "source": "MATH 220",
+            "target": "CS 101"
+        },
+        {
+            "source": "MATH 221",
+            "target": "CS 101"
+        },
+        {
+            "source": "MATH 231",
+            "target": "CS 101"
+        },
+        {
+            "source": "MATH 241",
+            "target": "CS 101"
+        },
+        {
+            "source": "MATH 112",
+            "target": "CS 105"
+        },
+        {
+            "source": "MATH 112",
+            "target": "CS 124"
+        },
+        {
+            "source": "MATH 112",
+            "target": "CS 125"
+        },
+        {
+            "source": "CS 125",
+            "target": "CS 126"
+        },
+        {
+            "source": "CS 124",
+            "target": "CS 128"
+        },
+        {
+            "source": "CS 125",
+            "target": "CS 128"
+        },
+        {
+            "source": "CS 124",
+            "target": "CS 173"
+        },
+        {
+            "source": "CS 125",
+            "target": "CS 173"
+        },
+        {
+            "source": "ECE 220",
+            "target": "CS 173"
+        },
+        {
+            "source": "MATH 220",
+            "target": "CS 173"
+        },
+        {
+            "source": "MATH 221",
+            "target": "CS 173"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 210"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 211"
+        },
+        {
+            "source": "CS 128",
+            "target": "CS 222"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 222"
+        },
+        {
+            "source": "CS 126",
+            "target": "CS 225"
+        },
+        {
+            "source": "CS 128",
+            "target": "CS 225"
+        },
+        {
+            "source": "ECE 220",
+            "target": "CS 225"
+        },
+        {
+            "source": "CS 173",
+            "target": "CS 225"
+        },
+        {
+            "source": "CS 413",
+            "target": "CS 225"
+        },
+        {
+            "source": "MATH 213",
+            "target": "CS 225"
+        },
+        {
+            "source": "MATH 347",
+            "target": "CS 225"
+        },
+        {
+            "source": "MATH 412",
+            "target": "CS 225"
+        },
+        {
+            "source": "MATH 413",
+            "target": "CS 225"
+        },
+        {
+            "source": "CS 125",
+            "target": "CS 233"
+        },
+        {
+            "source": "CS 128",
+            "target": "CS 233"
+        },
+        {
+            "source": "CS 173",
+            "target": "CS 233"
+        },
+        {
+            "source": "MATH 213",
+            "target": "CS 233"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 233"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 242"
+        },
+        {
+            "source": "STAT 207",
+            "target": "CS 277"
+        },
+        {
+            "source": "MATH 220",
+            "target": "CS 277"
+        },
+        {
+            "source": "MATH 221",
+            "target": "CS 277"
+        },
+        {
+            "source": "MATH 234",
+            "target": "CS 277"
+        },
+        {
+            "source": "CS 277",
+            "target": "CS 277"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 277"
+        },
+        {
+            "source": "STAT 207",
+            "target": "CS 307"
+        },
+        {
+            "source": "MATH 225",
+            "target": "CS 307"
+        },
+        {
+            "source": "MATH 227",
+            "target": "CS 307"
+        },
+        {
+            "source": "MATH 257",
+            "target": "CS 307"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 307"
+        },
+        {
+            "source": "MATH 416",
+            "target": "CS 307"
+        },
+        {
+            "source": "ASRM 406",
+            "target": "CS 307"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 340"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 341"
+        },
+        {
+            "source": "CS 233",
+            "target": "CS 341"
+        },
+        {
+            "source": "CS 101",
+            "target": "CS 357"
+        },
+        {
+            "source": "CS 105",
+            "target": "CS 357"
+        },
+        {
+            "source": "CS 124",
+            "target": "CS 357"
+        },
+        {
+            "source": "CS 125",
+            "target": "CS 357"
+        },
+        {
+            "source": "ECE 220",
+            "target": "CS 357"
+        },
+        {
+            "source": "MATH 241",
+            "target": "CS 357"
+        },
+        {
+            "source": "MATH 225",
+            "target": "CS 357"
+        },
+        {
+            "source": "MATH 257",
+            "target": "CS 357"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 357"
+        },
+        {
+            "source": "MATH 416",
+            "target": "CS 357"
+        },
+        {
+            "source": "ASRM 406",
+            "target": "CS 357"
+        },
+        {
+            "source": "BIOE 210",
+            "target": "CS 357"
+        },
+        {
+            "source": "MATH 220",
+            "target": "CS 361"
+        },
+        {
+            "source": "MATH 221",
+            "target": "CS 361"
+        },
+        {
+            "source": "MATH 225",
+            "target": "CS 361"
+        },
+        {
+            "source": "MATH 257",
+            "target": "CS 361"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 361"
+        },
+        {
+            "source": "MATH 416",
+            "target": "CS 361"
+        },
+        {
+            "source": "ASRM 406",
+            "target": "CS 361"
+        },
+        {
+            "source": "CS 173",
+            "target": "CS 374"
+        },
+        {
+            "source": "MATH 213",
+            "target": "CS 374"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 374"
+        },
+        {
+            "source": "consent of instructor",
+            "target": "CS 397"
+        },
+        {
+            "source": "CS 400",
+            "target": "CS 402"
+        },
+        {
+            "source": "CS 401",
+            "target": "CS 403"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 409"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 410"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 411"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 412"
+        },
+        {
+            "source": "CS 240",
+            "target": "CS 414"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 414"
+        },
+        {
+            "source": "CS 340",
+            "target": "CS 414"
+        },
+        {
+            "source": "CS 341",
+            "target": "CS 414"
+        },
+        {
+            "source": "ECE 391",
+            "target": "CS 414"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 415"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 416"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 417"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 418"
+        },
+        {
+            "source": "MATH 225",
+            "target": "CS 418"
+        },
+        {
+            "source": "MATH 257",
+            "target": "CS 418"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 418"
+        },
+        {
+            "source": "MATH 416",
+            "target": "CS 418"
+        },
+        {
+            "source": "ASRM 406",
+            "target": "CS 418"
+        },
+        {
+            "source": "BIOE 210",
+            "target": "CS 418"
+        },
+        {
+            "source": "MATH 241",
+            "target": "CS 418"
+        },
+        {
+            "source": "CS 418",
+            "target": "CS 419"
+        },
+        {
+            "source": "CSE 427",
+            "target": "CS 419"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 420"
+        },
+        {
+            "source": "CS 233",
+            "target": "CS 421"
+        },
+        {
+            "source": "CS 240",
+            "target": "CS 421"
+        },
+        {
+            "source": "CS 340",
+            "target": "CS 421"
+        },
+        {
+            "source": "CS 374",
+            "target": "CS 421"
+        },
+        {
+            "source": "ECE 374",
+            "target": "CS 421"
+        },
+        {
+            "source": "MATH 225",
+            "target": "CS 421"
+        },
+        {
+            "source": "MATH 257",
+            "target": "CS 421"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 421"
+        },
+        {
+            "source": "MATH 416",
+            "target": "CS 421"
+        },
+        {
+            "source": "ASRM 406",
+            "target": "CS 421"
+        },
+        {
+            "source": "BIOE 210",
+            "target": "CS 421"
+        },
+        {
+            "source": "CS 421",
+            "target": "CS 422"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 423"
+        },
+        {
+            "source": "CS 341",
+            "target": "CS 423"
+        },
+        {
+            "source": "ECE 391",
+            "target": "CS 423"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 424"
+        },
+        {
+            "source": "CS 341",
+            "target": "CS 424"
+        },
+        {
+            "source": "ECE 391",
+            "target": "CS 424"
+        },
+        {
+            "source": "CS 240",
+            "target": "CS 425"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 425"
+        },
+        {
+            "source": "CS 340",
+            "target": "CS 425"
+        },
+        {
+            "source": "CS 341",
+            "target": "CS 425"
+        },
+        {
+            "source": "ECE 391",
+            "target": "CS 425"
+        },
+        {
+            "source": "CS 421",
+            "target": "CS 426"
+        },
+        {
+            "source": "CS 222",
+            "target": "CS 427"
+        },
+        {
+            "source": "CS 240",
+            "target": "CS 427"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 427"
+        },
+        {
+            "source": "CS 340",
+            "target": "CS 427"
+        },
+        {
+            "source": "CS 341",
+            "target": "CS 427"
+        },
+        {
+            "source": "ECE 391",
+            "target": "CS 427"
+        },
+        {
+            "source": "CS 427",
+            "target": "CS 428"
+        },
+        {
+            "source": "CSE 426",
+            "target": "CS 428"
+        },
+        {
+            "source": "CS 427",
+            "target": "CS 429"
+        },
+        {
+            "source": "CSE 426",
+            "target": "CS 429"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 431"
+        },
+        {
+            "source": "CS 341",
+            "target": "CS 431"
+        },
+        {
+            "source": "ECE 391",
+            "target": "CS 431"
+        },
+        {
+            "source": "CS 233",
+            "target": "CS 433"
+        },
+        {
+            "source": "CS 240",
+            "target": "CS 435"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 435"
+        },
+        {
+            "source": "CS 340",
+            "target": "CS 435"
+        },
+        {
+            "source": "CS 341",
+            "target": "CS 435"
+        },
+        {
+            "source": "ECE 391",
+            "target": "CS 435"
+        },
+        {
+            "source": "CS 240",
+            "target": "CS 436"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 436"
+        },
+        {
+            "source": "CS 340",
+            "target": "CS 436"
+        },
+        {
+            "source": "CS 341",
+            "target": "CS 436"
+        },
+        {
+            "source": "ECE 391",
+            "target": "CS 436"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 437"
+        },
+        {
+            "source": "CS 341",
+            "target": "CS 437"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 438"
+        },
+        {
+            "source": "CS 341",
+            "target": "CS 438"
+        },
+        {
+            "source": "ECE 391",
+            "target": "CS 438"
+        },
+        {
+            "source": "CS 361",
+            "target": "CS 438"
+        },
+        {
+            "source": "STAT 361",
+            "target": "CS 438"
+        },
+        {
+            "source": "ECE 313",
+            "target": "CS 438"
+        },
+        {
+            "source": "MATH 362",
+            "target": "CS 438"
+        },
+        {
+            "source": "MATH 461",
+            "target": "CS 438"
+        },
+        {
+            "source": "MATH 463",
+            "target": "CS 438"
+        },
+        {
+            "source": "STAT 400",
+            "target": "CS 438"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 440"
+        },
+        {
+            "source": "CS 361",
+            "target": "CS 440"
+        },
+        {
+            "source": "STAT 361",
+            "target": "CS 440"
+        },
+        {
+            "source": "ECE 313",
+            "target": "CS 440"
+        },
+        {
+            "source": "MATH 362",
+            "target": "CS 440"
+        },
+        {
+            "source": "MATH 461",
+            "target": "CS 440"
+        },
+        {
+            "source": "MATH 463",
+            "target": "CS 440"
+        },
+        {
+            "source": "STAT 400",
+            "target": "CS 440"
+        },
+        {
+            "source": "BIOE 310",
+            "target": "CS 440"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 441"
+        },
+        {
+            "source": "CS 361",
+            "target": "CS 441"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 442"
+        },
+        {
+            "source": "CS 440",
+            "target": "CS 442"
+        },
+        {
+            "source": "ECE 448",
+            "target": "CS 442"
+        },
+        {
+            "source": "CS 441",
+            "target": "CS 442"
+        },
+        {
+            "source": "CS 446",
+            "target": "CS 442"
+        },
+        {
+            "source": "ECE 449",
+            "target": "CS 442"
+        },
+        {
+            "source": "MATH 225",
+            "target": "CS 442"
+        },
+        {
+            "source": "MATH 257",
+            "target": "CS 442"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 442"
+        },
+        {
+            "source": "MATH 416",
+            "target": "CS 442"
+        },
+        {
+            "source": "ASRM 406",
+            "target": "CS 442"
+        },
+        {
+            "source": "BIOE 210",
+            "target": "CS 442"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 443"
+        },
+        {
+            "source": "MATH 241",
+            "target": "CS 443"
+        },
+        {
+            "source": "MATH 225",
+            "target": "CS 443"
+        },
+        {
+            "source": "MATH 257",
+            "target": "CS 443"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 443"
+        },
+        {
+            "source": "MATH 416",
+            "target": "CS 443"
+        },
+        {
+            "source": "ASRM 406",
+            "target": "CS 443"
+        },
+        {
+            "source": "BIOE 210",
+            "target": "CS 443"
+        },
+        {
+            "source": "CS 361",
+            "target": "CS 443"
+        },
+        {
+            "source": "STAT 361",
+            "target": "CS 443"
+        },
+        {
+            "source": "ECE 313",
+            "target": "CS 443"
+        },
+        {
+            "source": "MATH 362",
+            "target": "CS 443"
+        },
+        {
+            "source": "MATH 461",
+            "target": "CS 443"
+        },
+        {
+            "source": "MATH 463",
+            "target": "CS 443"
+        },
+        {
+            "source": "STAT 400",
+            "target": "CS 443"
+        },
+        {
+            "source": "MATH 241",
+            "target": "CS 444"
+        },
+        {
+            "source": "MATH 225",
+            "target": "CS 444"
+        },
+        {
+            "source": "MATH 257",
+            "target": "CS 444"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 444"
+        },
+        {
+            "source": "MATH 416",
+            "target": "CS 444"
+        },
+        {
+            "source": "ASRM 406",
+            "target": "CS 444"
+        },
+        {
+            "source": "BIOE 210",
+            "target": "CS 444"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 444"
+        },
+        {
+            "source": "CS 361",
+            "target": "CS 444"
+        },
+        {
+            "source": "ECE 313",
+            "target": "CS 444"
+        },
+        {
+            "source": "MATH 461",
+            "target": "CS 444"
+        },
+        {
+            "source": "STAT 400",
+            "target": "CS 444"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 445"
+        },
+        {
+            "source": "MATH 225",
+            "target": "CS 445"
+        },
+        {
+            "source": "MATH 231",
+            "target": "CS 445"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 446"
+        },
+        {
+            "source": "MATH 225",
+            "target": "CS 446"
+        },
+        {
+            "source": "MATH 257",
+            "target": "CS 446"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 446"
+        },
+        {
+            "source": "MATH 416",
+            "target": "CS 446"
+        },
+        {
+            "source": "ASRM 406",
+            "target": "CS 446"
+        },
+        {
+            "source": "BIOE 210",
+            "target": "CS 446"
+        },
+        {
+            "source": "CS 361",
+            "target": "CS 446"
+        },
+        {
+            "source": "ECE 313",
+            "target": "CS 446"
+        },
+        {
+            "source": "MATH 461",
+            "target": "CS 446"
+        },
+        {
+            "source": "STAT 400",
+            "target": "CS 446"
+        },
+        {
+            "source": "CS 374",
+            "target": "CS 447"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 448"
+        },
+        {
+            "source": "CS 341",
+            "target": "CS 448"
+        },
+        {
+            "source": "ECE 391",
+            "target": "CS 448"
+        },
+        {
+            "source": "MATH 225",
+            "target": "CS 448"
+        },
+        {
+            "source": "MATH 257",
+            "target": "CS 448"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 448"
+        },
+        {
+            "source": "MATH 416",
+            "target": "CS 448"
+        },
+        {
+            "source": "ASRM 406",
+            "target": "CS 448"
+        },
+        {
+            "source": "BIOE 210",
+            "target": "CS 448"
+        },
+        {
+            "source": "CS 101",
+            "target": "CS 450"
+        },
+        {
+            "source": "CS 124",
+            "target": "CS 450"
+        },
+        {
+            "source": "CS 125",
+            "target": "CS 450"
+        },
+        {
+            "source": "CS 357",
+            "target": "CS 450"
+        },
+        {
+            "source": "MATH 257",
+            "target": "CS 450"
+        },
+        {
+            "source": "MATH 357",
+            "target": "CS 450"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 450"
+        },
+        {
+            "source": "MATH 416",
+            "target": "CS 450"
+        },
+        {
+            "source": "MATH 285",
+            "target": "CS 450"
+        },
+        {
+            "source": "CS 357",
+            "target": "CS 457"
+        },
+        {
+            "source": "MATH 357",
+            "target": "CS 457"
+        },
+        {
+            "source": "CS 461",
+            "target": "CS 460"
+        },
+        {
+            "source": "ECE 422",
+            "target": "CS 460"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 461"
+        },
+        {
+            "source": "CS 341",
+            "target": "CS 461"
+        },
+        {
+            "source": "ECE 391",
+            "target": "CS 461"
+        },
+        {
+            "source": "CS 461",
+            "target": "CS 463"
+        },
+        {
+            "source": "CS 475",
+            "target": "CS 463"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 464"
+        },
+        {
+            "source": "CS 210",
+            "target": "CS 464"
+        },
+        {
+            "source": "CS 211",
+            "target": "CS 464"
+        },
+        {
+            "source": "ECE 316",
+            "target": "CS 464"
+        },
+        {
+            "source": "PHIL 316",
+            "target": "CS 464"
+        },
+        {
+            "source": "CS 361",
+            "target": "CS 464"
+        },
+        {
+            "source": "STAT 400",
+            "target": "CS 464"
+        },
+        {
+            "source": "STAT 200",
+            "target": "CS 464"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 465"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 466"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 467"
+        },
+        {
+            "source": "CS 173",
+            "target": "CS 469"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 469"
+        },
+        {
+            "source": "MATH 225",
+            "target": "CS 469"
+        },
+        {
+            "source": "MATH 257",
+            "target": "CS 469"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 469"
+        },
+        {
+            "source": "MATH 416",
+            "target": "CS 469"
+        },
+        {
+            "source": "ASRM 406",
+            "target": "CS 469"
+        },
+        {
+            "source": "BIOE 210",
+            "target": "CS 469"
+        },
+        {
+            "source": "CS 361",
+            "target": "CS 469"
+        },
+        {
+            "source": "STAT 361",
+            "target": "CS 469"
+        },
+        {
+            "source": "ECE 313",
+            "target": "CS 469"
+        },
+        {
+            "source": "MATH 362",
+            "target": "CS 469"
+        },
+        {
+            "source": "MATH 461",
+            "target": "CS 469"
+        },
+        {
+            "source": "MATH 463",
+            "target": "CS 469"
+        },
+        {
+            "source": "STAT 400",
+            "target": "CS 469"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 470"
+        },
+        {
+            "source": "CS 173",
+            "target": "CS 470"
+        },
+        {
+            "source": "CS 361",
+            "target": "CS 470"
+        },
+        {
+            "source": "STAT 361",
+            "target": "CS 470"
+        },
+        {
+            "source": "ECE 313",
+            "target": "CS 470"
+        },
+        {
+            "source": "MATH 362",
+            "target": "CS 470"
+        },
+        {
+            "source": "MATH 461",
+            "target": "CS 470"
+        },
+        {
+            "source": "MATH 463",
+            "target": "CS 470"
+        },
+        {
+            "source": "STAT 400",
+            "target": "CS 470"
+        },
+        {
+            "source": "MATH 225",
+            "target": "CS 470"
+        },
+        {
+            "source": "MATH 257",
+            "target": "CS 470"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 470"
+        },
+        {
+            "source": "MATH 416",
+            "target": "CS 470"
+        },
+        {
+            "source": "ASRM 406",
+            "target": "CS 470"
+        },
+        {
+            "source": "BIOE 210",
+            "target": "CS 470"
+        },
+        {
+            "source": "CS 374",
+            "target": "CS 473"
+        },
+        {
+            "source": "ECE 374",
+            "target": "CS 473"
+        },
+        {
+            "source": "CS 361",
+            "target": "CS 473"
+        },
+        {
+            "source": "STAT 361",
+            "target": "CS 473"
+        },
+        {
+            "source": "ECE 313",
+            "target": "CS 473"
+        },
+        {
+            "source": "MATH 362",
+            "target": "CS 473"
+        },
+        {
+            "source": "MATH 461",
+            "target": "CS 473"
+        },
+        {
+            "source": "MATH 463",
+            "target": "CS 473"
+        },
+        {
+            "source": "STAT 400",
+            "target": "CS 473"
+        },
+        {
+            "source": "CS 173",
+            "target": "CS 474"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 474"
+        },
+        {
+            "source": "CS 374",
+            "target": "CS 474"
+        },
+        {
+            "source": "ECE 374",
+            "target": "CS 474"
+        },
+        {
+            "source": "CS 374",
+            "target": "CS 475"
+        },
+        {
+            "source": "ECE 374",
+            "target": "CS 475"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 476"
+        },
+        {
+            "source": "CS 374",
+            "target": "CS 476"
+        },
+        {
+            "source": "ECE 374",
+            "target": "CS 476"
+        },
+        {
+            "source": "MATH 414",
+            "target": "CS 476"
+        },
+        {
+            "source": "CS 225",
+            "target": "CS 477"
+        },
+        {
+            "source": "CS 374",
+            "target": "CS 477"
+        },
+        {
+            "source": "ECE 374",
+            "target": "CS 477"
+        },
+        {
+            "source": "MATH 414",
+            "target": "CS 477"
+        },
+        {
+            "source": "CS 241",
+            "target": "CS 484"
+        },
+        {
+            "source": "CS 341",
+            "target": "CS 484"
+        },
+        {
+            "source": "CS 492",
+            "target": "CS 493"
+        },
+        {
+            "source": "CS 492",
+            "target": "CS 494"
+        },
+        {
+            "source": "consent of instructor",
+            "target": "CS 499"
+        },
+        {
+            "source": "CS 410",
+            "target": "CS 510"
+        },
+        {
+            "source": "CS 412",
+            "target": "CS 510"
+        },
+        {
+            "source": "CS 446",
+            "target": "CS 510"
+        },
+        {
+            "source": "ECE 449",
+            "target": "CS 510"
+        },
+        {
+            "source": "LING 406",
+            "target": "CS 510"
+        },
+        {
+            "source": "CS 411",
+            "target": "CS 511"
+        },
+        {
+            "source": "CS 412",
+            "target": "CS 512"
+        },
+        {
+            "source": "CS 412",
+            "target": "CS 514"
+        },
+        {
+            "source": "CS 446",
+            "target": "CS 514"
+        },
+        {
+            "source": "ECE 449",
+            "target": "CS 514"
+        },
+        {
+            "source": "CS 418",
+            "target": "CS 519"
+        },
+        {
+            "source": "CSE 427",
+            "target": "CS 519"
+        },
+        {
+            "source": "CS 374",
+            "target": "CS 521"
+        },
+        {
+            "source": "ECE 374",
+            "target": "CS 521"
+        },
+        {
+            "source": "CS 421",
+            "target": "CS 521"
+        },
+        {
+            "source": "CS 422",
+            "target": "CS 522"
+        },
+        {
+            "source": "CS 426",
+            "target": "CS 522"
+        },
+        {
+            "source": "CS 423",
+            "target": "CS 523"
+        },
+        {
+            "source": "CSE 423",
+            "target": "CS 523"
+        },
+        {
+            "source": "CS 425",
+            "target": "CS 523"
+        },
+        {
+            "source": "ECE 428",
+            "target": "CS 523"
+        },
+        {
+            "source": "CS 433",
+            "target": "CS 523"
+        },
+        {
+            "source": "CSE 422",
+            "target": "CS 523"
+        },
+        {
+            "source": "CS 422",
+            "target": "CS 524"
+        },
+        {
+            "source": "CS 475",
+            "target": "CS 524"
+        },
+        {
+            "source": "MATH 475",
+            "target": "CS 524"
+        },
+        {
+            "source": "CS 476",
+            "target": "CS 524"
+        },
+        {
+            "source": "CS 423",
+            "target": "CS 525"
+        },
+        {
+            "source": "CSE 423",
+            "target": "CS 525"
+        },
+        {
+            "source": "CS 425",
+            "target": "CS 525"
+        },
+        {
+            "source": "ECE 428",
+            "target": "CS 525"
+        },
+        {
+            "source": "CS 438",
+            "target": "CS 525"
+        },
+        {
+            "source": "ECE 438",
+            "target": "CS 525"
+        },
+        {
+            "source": "CS 426",
+            "target": "CS 526"
+        },
+        {
+            "source": "CS 428",
+            "target": "CS 527"
+        },
+        {
+            "source": "CSE 429",
+            "target": "CS 527"
+        },
+        {
+            "source": "CS 429",
+            "target": "CS 527"
+        },
+        {
+            "source": "CS 427",
+            "target": "CS 528"
+        },
+        {
+            "source": "CSE 426",
+            "target": "CS 528"
+        },
+        {
+            "source": "CS 433",
+            "target": "CS 533"
+        },
+        {
+            "source": "CSE 422",
+            "target": "CS 533"
+        },
+        {
+            "source": "CS 433",
+            "target": "CS 534"
+        },
+        {
+            "source": "CSE 422",
+            "target": "CS 534"
+        },
+        {
+            "source": "CS 425",
+            "target": "CS 537"
+        },
+        {
+            "source": "ECE 428",
+            "target": "CS 537"
+        },
+        {
+            "source": "CS 438",
+            "target": "CS 537"
+        },
+        {
+            "source": "ECE 438",
+            "target": "CS 537"
+        },
+        {
+            "source": "CS 438",
+            "target": "CS 538"
+        },
+        {
+            "source": "ECE 438",
+            "target": "CS 538"
+        },
+        {
+            "source": "CS 450",
+            "target": "CS 544"
+        },
+        {
+            "source": "CSE 401",
+            "target": "CS 544"
+        },
+        {
+            "source": "ECE 491",
+            "target": "CS 544"
+        },
+        {
+            "source": "MATH 450",
+            "target": "CS 544"
+        },
+        {
+            "source": "CS 473",
+            "target": "CS 544"
+        },
+        {
+            "source": "CSE 414",
+            "target": "CS 544"
+        },
+        {
+            "source": "MATH 473",
+            "target": "CS 544"
+        },
+        {
+            "source": "MATH 415",
+            "target": "CS 545"
+        },
+        {
+            "source": "CS 361",
+            "target": "CS 545"
+        },
+        {
+            "source": "STAT 361",
+            "target": "CS 545"
+        },
+        {
+            "source": "MATH 461",
+            "target": "CS 545"
+        },
+        {
+            "source": "MATH 463",
+            "target": "CS 545"
+        },
+        {
+            "source": "STAT 400",
+            "target": "CS 545"
+        },
+        {
+            "source": "CS 447",
+            "target": "CS 546"
+        },
+        {
+            "source": "CS 446",
+            "target": "CS 546"
+        },
+        {
+            "source": "ECE 449",
+            "target": "CS 546"
+        },
+        {
+            "source": "CS 440",
+            "target": "CS 548"
+        },
+        {
+            "source": "CS 446",
+            "target": "CS 548"
+        },
+        {
+            "source": "ECE 448",
+            "target": "CS 548"
+        },
+        {
+            "source": "ECE 449",
+            "target": "CS 548"
+        },
+        {
+            "source": "CS 450",
+            "target": "CS 554"
+        },
+        {
+            "source": "CSE 401",
+            "target": "CS 554"
+        },
+        {
+            "source": "ECE 491",
+            "target": "CS 554"
+        },
+        {
+            "source": "MATH 450",
+            "target": "CS 554"
+        },
+        {
+            "source": "CS 457",
+            "target": "CS 554"
+        },
+        {
+            "source": "CS 555",
+            "target": "CS 554"
+        },
+        {
+            "source": "CSE 510",
+            "target": "CS 554"
+        },
+        {
+            "source": "MATH 552",
+            "target": "CS 554"
+        },
+        {
+            "source": "CS 450",
+            "target": "CS 555"
+        },
+        {
+            "source": "CSE 401",
+            "target": "CS 555"
+        },
+        {
+            "source": "ECE 491",
+            "target": "CS 555"
+        },
+        {
+            "source": "MATH 450",
+            "target": "CS 555"
+        },
+        {
+            "source": "CS 457",
+            "target": "CS 555"
+        },
+        {
+            "source": "CS 446",
+            "target": "CS 562"
+        },
+        {
+            "source": "ECE 449",
+            "target": "CS 562"
+        },
+        {
+            "source": "CS 463",
+            "target": "CS 562"
+        },
+        {
+            "source": "ECE 424",
+            "target": "CS 562"
+        },
+        {
+            "source": "CS 461",
+            "target": "CS 563"
+        },
+        {
+            "source": "CS 463",
+            "target": "CS 563"
+        },
+        {
+            "source": "ECE 422",
+            "target": "CS 563"
+        },
+        {
+            "source": "ECE 424",
+            "target": "CS 563"
+        },
+        {
+            "source": "CS 465",
+            "target": "CS 565"
+        },
+        {
+            "source": "CS 465",
+            "target": "CS 567"
+        },
+        {
+            "source": "CS 465",
+            "target": "CS 568"
+        },
+        {
+            "source": "CS 473",
+            "target": "CS 574"
+        },
+        {
+            "source": "CSE 414",
+            "target": "CS 574"
+        },
+        {
+            "source": "MATH 473",
+            "target": "CS 574"
+        },
+        {
+            "source": "MATH 461",
+            "target": "CS 574"
+        },
+        {
+            "source": "MATH 463",
+            "target": "CS 574"
+        },
+        {
+            "source": "STAT 400",
+            "target": "CS 574"
+        },
+        {
+            "source": "CS 473",
+            "target": "CS 579"
+        },
+        {
+            "source": "CSE 414",
+            "target": "CS 579"
+        },
+        {
+            "source": "MATH 473",
+            "target": "CS 579"
+        },
+        {
+            "source": "CS 475",
+            "target": "CS 579"
+        },
+        {
+            "source": "MATH 475",
+            "target": "CS 579"
+        },
+        {
+            "source": "CS 473",
+            "target": "CS 580"
+        },
+        {
+            "source": "CS 374",
+            "target": "CS 581"
+        },
+        {
+            "source": "ECE 374",
+            "target": "CS 581"
+        },
+        {
+            "source": "CS 361",
+            "target": "CS 581"
+        },
+        {
+            "source": "STAT 361",
+            "target": "CS 581"
+        },
+        {
+            "source": "CS 446",
+            "target": "CS 582"
+        },
+        {
+            "source": "ECE 449",
+            "target": "CS 582"
+        },
+        {
+            "source": "CS 466",
+            "target": "CS 582"
+        },
+        {
+            "source": "consent of instructor",
+            "target": "CS 582"
+        },
+        {
+            "source": "CS 573",
+            "target": "CS 583"
+        },
+        {
+            "source": "CSE 515",
+            "target": "CS 583"
+        },
+        {
+            "source": "CS 374",
+            "target": "CS 588"
+        },
+        {
+            "source": "ECE 374",
+            "target": "CS 588"
+        },
+        {
+            "source": "ECE 484",
+            "target": "CS 588"
+        },
+        {
+            "source": "consent of instructor",
+            "target": "CS 597"
+        }
+    ]
+}

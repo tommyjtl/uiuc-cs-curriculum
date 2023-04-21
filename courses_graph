@@ -1,0 +1,616 @@
+digraph Courses {
+	subgraph cluster_100 {
+		rank=same
+		"CS 100" [label="CS 100"]
+		"CS 101" [label="CS 101"]
+		"CS 102" [label="CS 102"]
+		"CS 105" [label="CS 105"]
+		"CS 107" [label="CS 107"]
+		"CS 124" [label="CS 124"]
+		"CS 125" [label="CS 125"]
+		"CS 126" [label="CS 126"]
+		"CS 128" [label="CS 128"]
+		"CS 173" [label="CS 173"]
+		"CS 196" [label="CS 196"]
+		"CS 199" [label="CS 199"]
+	}
+	subgraph cluster_200 {
+		rank=same
+		"CS 210" [label="CS 210"]
+		"CS 211" [label="CS 211"]
+		"CS 222" [label="CS 222"]
+		"CS 225" [label="CS 225"]
+		"CS 233" [label="CS 233"]
+		"CS 242" [label="CS 242"]
+		"CS 265" [label="CS 265"]
+		"CS 277" [label="CS 277"]
+		"CS 296" [label="CS 296"]
+	}
+	subgraph cluster_300 {
+		rank=same
+		"CS 307" [label="CS 307"]
+		"CS 340" [label="CS 340"]
+		"CS 341" [label="CS 341"]
+		"CS 357" [label="CS 357"]
+		"CS 361" [label="CS 361"]
+		"CS 374" [label="CS 374"]
+		"CS 397" [label="CS 397"]
+		"CS 398" [label="CS 398"]
+	}
+	subgraph cluster_400 {
+		rank=same
+		"CS 400" [label="CS 400"]
+		"CS 401" [label="CS 401"]
+		"CS 402" [label="CS 402"]
+		"CS 403" [label="CS 403"]
+		"CS 407" [label="CS 407"]
+		"CS 409" [label="CS 409"]
+		"CS 410" [label="CS 410"]
+		"CS 411" [label="CS 411"]
+		"CS 412" [label="CS 412"]
+		"CS 413" [label="CS 413"]
+		"CS 414" [label="CS 414"]
+		"CS 415" [label="CS 415"]
+		"CS 416" [label="CS 416"]
+		"CS 417" [label="CS 417"]
+		"CS 418" [label="CS 418"]
+		"CS 419" [label="CS 419"]
+		"CS 420" [label="CS 420"]
+		"CS 421" [label="CS 421"]
+		"CS 422" [label="CS 422"]
+		"CS 423" [label="CS 423"]
+		"CS 424" [label="CS 424"]
+		"CS 425" [label="CS 425"]
+		"CS 426" [label="CS 426"]
+		"CS 427" [label="CS 427"]
+		"CS 428" [label="CS 428"]
+		"CS 429" [label="CS 429"]
+		"CS 431" [label="CS 431"]
+		"CS 433" [label="CS 433"]
+		"CS 434" [label="CS 434"]
+		"CS 435" [label="CS 435"]
+		"CS 436" [label="CS 436"]
+		"CS 437" [label="CS 437"]
+		"CS 438" [label="CS 438"]
+		"CS 439" [label="CS 439"]
+		"CS 440" [label="CS 440"]
+		"CS 441" [label="CS 441"]
+		"CS 442" [label="CS 442"]
+		"CS 443" [label="CS 443"]
+		"CS 444" [label="CS 444"]
+		"CS 445" [label="CS 445"]
+		"CS 446" [label="CS 446"]
+		"CS 447" [label="CS 447"]
+		"CS 448" [label="CS 448"]
+		"CS 450" [label="CS 450"]
+		"CS 457" [label="CS 457"]
+		"CS 460" [label="CS 460"]
+		"CS 461" [label="CS 461"]
+		"CS 463" [label="CS 463"]
+		"CS 464" [label="CS 464"]
+		"CS 465" [label="CS 465"]
+		"CS 466" [label="CS 466"]
+		"CS 467" [label="CS 467"]
+		"CS 468" [label="CS 468"]
+		"CS 469" [label="CS 469"]
+		"CS 470" [label="CS 470"]
+		"CS 473" [label="CS 473"]
+		"CS 474" [label="CS 474"]
+		"CS 475" [label="CS 475"]
+		"CS 476" [label="CS 476"]
+		"CS 477" [label="CS 477"]
+		"CS 481" [label="CS 481"]
+		"CS 482" [label="CS 482"]
+		"CS 483" [label="CS 483"]
+		"CS 484" [label="CS 484"]
+		"CS 491" [label="CS 491"]
+		"CS 492" [label="CS 492"]
+		"CS 493" [label="CS 493"]
+		"CS 494" [label="CS 494"]
+		"CS 497" [label="CS 497"]
+		"CS 498" [label="CS 498"]
+		"CS 499" [label="CS 499"]
+	}
+	subgraph cluster_500 {
+		rank=same
+		"CS 500" [label="CS 500"]
+		"CS 507" [label="CS 507"]
+		"CS 508" [label="CS 508"]
+		"CS 510" [label="CS 510"]
+		"CS 511" [label="CS 511"]
+		"CS 512" [label="CS 512"]
+		"CS 513" [label="CS 513"]
+		"CS 514" [label="CS 514"]
+		"CS 519" [label="CS 519"]
+		"CS 521" [label="CS 521"]
+		"CS 522" [label="CS 522"]
+		"CS 523" [label="CS 523"]
+		"CS 524" [label="CS 524"]
+		"CS 525" [label="CS 525"]
+		"CS 526" [label="CS 526"]
+		"CS 527" [label="CS 527"]
+		"CS 528" [label="CS 528"]
+		"CS 533" [label="CS 533"]
+		"CS 534" [label="CS 534"]
+		"CS 536" [label="CS 536"]
+		"CS 537" [label="CS 537"]
+		"CS 538" [label="CS 538"]
+		"CS 539" [label="CS 539"]
+		"CS 540" [label="CS 540"]
+		"CS 541" [label="CS 541"]
+		"CS 542" [label="CS 542"]
+		"CS 543" [label="CS 543"]
+		"CS 544" [label="CS 544"]
+		"CS 545" [label="CS 545"]
+		"CS 546" [label="CS 546"]
+		"CS 547" [label="CS 547"]
+		"CS 548" [label="CS 548"]
+		"CS 549" [label="CS 549"]
+		"CS 554" [label="CS 554"]
+		"CS 555" [label="CS 555"]
+		"CS 556" [label="CS 556"]
+		"CS 558" [label="CS 558"]
+		"CS 562" [label="CS 562"]
+		"CS 563" [label="CS 563"]
+		"CS 565" [label="CS 565"]
+		"CS 567" [label="CS 567"]
+		"CS 568" [label="CS 568"]
+		"CS 571" [label="CS 571"]
+		"CS 572" [label="CS 572"]
+		"CS 573" [label="CS 573"]
+		"CS 574" [label="CS 574"]
+		"CS 575" [label="CS 575"]
+		"CS 576" [label="CS 576"]
+		"CS 579" [label="CS 579"]
+		"CS 580" [label="CS 580"]
+		"CS 581" [label="CS 581"]
+		"CS 582" [label="CS 582"]
+		"CS 583" [label="CS 583"]
+		"CS 584" [label="CS 584"]
+		"CS 585" [label="CS 585"]
+		"CS 586" [label="CS 586"]
+		"CS 588" [label="CS 588"]
+		"CS 591" [label="CS 591"]
+		"CS 597" [label="CS 597"]
+		"CS 598" [label="CS 598"]
+		"CS 599" [label="CS 599"]
+	}
+	"MATH 220" -> "CS 101"
+	"MATH 221" -> "CS 101"
+	"MATH 231" -> "CS 101"
+	"MATH 241" -> "CS 101"
+	"MATH 112" -> "CS 105"
+	"MATH 112" -> "CS 124"
+	"MATH 112" -> "CS 125"
+	"CS 125" -> "CS 126"
+	"CS 124" -> "CS 128"
+	"CS 125" -> "CS 128"
+	"CS 124" -> "CS 173"
+	"CS 125" -> "CS 173"
+	"ECE 220" -> "CS 173"
+	"MATH 220" -> "CS 173"
+	"MATH 221" -> "CS 173"
+	"CS 225" -> "CS 210"
+	"CS 225" -> "CS 211"
+	"CS 128" -> "CS 222"
+	"CS 225" -> "CS 222"
+	"CS 126" -> "CS 225"
+	"CS 128" -> "CS 225"
+	"ECE 220" -> "CS 225"
+	"CS 173" -> "CS 225"
+	"CS 413" -> "CS 225"
+	"MATH 213" -> "CS 225"
+	"MATH 347" -> "CS 225"
+	"MATH 412" -> "CS 225"
+	"MATH 413" -> "CS 225"
+	"CS 125" -> "CS 233"
+	"CS 128" -> "CS 233"
+	"CS 173" -> "CS 233"
+	"MATH 213" -> "CS 233"
+	"CS 225" -> "CS 233"
+	"CS 241" -> "CS 242"
+	"STAT 207" -> "CS 277"
+	"MATH 220" -> "CS 277"
+	"MATH 221" -> "CS 277"
+	"MATH 234" -> "CS 277"
+	"CS 277" -> "CS 277"
+	"CS 225" -> "CS 277"
+	"STAT 207" -> "CS 307"
+	"MATH 225" -> "CS 307"
+	"MATH 227" -> "CS 307"
+	"MATH 257" -> "CS 307"
+	"MATH 415" -> "CS 307"
+	"MATH 416" -> "CS 307"
+	"ASRM 406" -> "CS 307"
+	"CS 225" -> "CS 340"
+	"CS 225" -> "CS 341"
+	"CS 233" -> "CS 341"
+	"CS 101" -> "CS 357"
+	"CS 105" -> "CS 357"
+	"CS 124" -> "CS 357"
+	"CS 125" -> "CS 357"
+	"ECE 220" -> "CS 357"
+	"MATH 241" -> "CS 357"
+	"MATH 225" -> "CS 357"
+	"MATH 257" -> "CS 357"
+	"MATH 415" -> "CS 357"
+	"MATH 416" -> "CS 357"
+	"ASRM 406" -> "CS 357"
+	"BIOE 210" -> "CS 357"
+	"MATH 220" -> "CS 361"
+	"MATH 221" -> "CS 361"
+	"MATH 225" -> "CS 361"
+	"MATH 257" -> "CS 361"
+	"MATH 415" -> "CS 361"
+	"MATH 416" -> "CS 361"
+	"ASRM 406" -> "CS 361"
+	"CS 173" -> "CS 374"
+	"MATH 213" -> "CS 374"
+	"CS 225" -> "CS 374"
+	"consent of instructor" -> "CS 397"
+	"CS 400" -> "CS 402"
+	"CS 401" -> "CS 403"
+	"CS 225" -> "CS 409"
+	"CS 225" -> "CS 410"
+	"CS 225" -> "CS 411"
+	"CS 225" -> "CS 412"
+	"CS 240" -> "CS 414"
+	"CS 241" -> "CS 414"
+	"CS 340" -> "CS 414"
+	"CS 341" -> "CS 414"
+	"ECE 391" -> "CS 414"
+	"CS 225" -> "CS 415"
+	"CS 225" -> "CS 416"
+	"CS 225" -> "CS 417"
+	"CS 225" -> "CS 418"
+	"MATH 225" -> "CS 418"
+	"MATH 257" -> "CS 418"
+	"MATH 415" -> "CS 418"
+	"MATH 416" -> "CS 418"
+	"ASRM 406" -> "CS 418"
+	"BIOE 210" -> "CS 418"
+	"MATH 241" -> "CS 418"
+	"CS 418" -> "CS 419"
+	"CSE 427" -> "CS 419"
+	"CS 225" -> "CS 420"
+	"CS 233" -> "CS 421"
+	"CS 240" -> "CS 421"
+	"CS 340" -> "CS 421"
+	"CS 374" -> "CS 421"
+	"ECE 374" -> "CS 421"
+	"MATH 225" -> "CS 421"
+	"MATH 257" -> "CS 421"
+	"MATH 415" -> "CS 421"
+	"MATH 416" -> "CS 421"
+	"ASRM 406" -> "CS 421"
+	"BIOE 210" -> "CS 421"
+	"CS 421" -> "CS 422"
+	"CS 241" -> "CS 423"
+	"CS 341" -> "CS 423"
+	"ECE 391" -> "CS 423"
+	"CS 241" -> "CS 424"
+	"CS 341" -> "CS 424"
+	"ECE 391" -> "CS 424"
+	"CS 240" -> "CS 425"
+	"CS 241" -> "CS 425"
+	"CS 340" -> "CS 425"
+	"CS 341" -> "CS 425"
+	"ECE 391" -> "CS 425"
+	"CS 421" -> "CS 426"
+	"CS 222" -> "CS 427"
+	"CS 240" -> "CS 427"
+	"CS 241" -> "CS 427"
+	"CS 340" -> "CS 427"
+	"CS 341" -> "CS 427"
+	"ECE 391" -> "CS 427"
+	"CS 427" -> "CS 428"
+	"CSE 426" -> "CS 428"
+	"CS 427" -> "CS 429"
+	"CSE 426" -> "CS 429"
+	"CS 241" -> "CS 431"
+	"CS 341" -> "CS 431"
+	"ECE 391" -> "CS 431"
+	"CS 233" -> "CS 433"
+	"CS 240" -> "CS 435"
+	"CS 241" -> "CS 435"
+	"CS 340" -> "CS 435"
+	"CS 341" -> "CS 435"
+	"ECE 391" -> "CS 435"
+	"CS 240" -> "CS 436"
+	"CS 241" -> "CS 436"
+	"CS 340" -> "CS 436"
+	"CS 341" -> "CS 436"
+	"ECE 391" -> "CS 436"
+	"CS 241" -> "CS 437"
+	"CS 341" -> "CS 437"
+	"CS 241" -> "CS 438"
+	"CS 341" -> "CS 438"
+	"ECE 391" -> "CS 438"
+	"CS 361" -> "CS 438"
+	"STAT 361" -> "CS 438"
+	"ECE 313" -> "CS 438"
+	"MATH 362" -> "CS 438"
+	"MATH 461" -> "CS 438"
+	"MATH 463" -> "CS 438"
+	"STAT 400" -> "CS 438"
+	"CS 225" -> "CS 440"
+	"CS 361" -> "CS 440"
+	"STAT 361" -> "CS 440"
+	"ECE 313" -> "CS 440"
+	"MATH 362" -> "CS 440"
+	"MATH 461" -> "CS 440"
+	"MATH 463" -> "CS 440"
+	"STAT 400" -> "CS 440"
+	"BIOE 310" -> "CS 440"
+	"CS 225" -> "CS 441"
+	"CS 361" -> "CS 441"
+	"CS 225" -> "CS 442"
+	"CS 440" -> "CS 442"
+	"ECE 448" -> "CS 442"
+	"CS 441" -> "CS 442"
+	"CS 446" -> "CS 442"
+	"ECE 449" -> "CS 442"
+	"MATH 225" -> "CS 442"
+	"MATH 257" -> "CS 442"
+	"MATH 415" -> "CS 442"
+	"MATH 416" -> "CS 442"
+	"ASRM 406" -> "CS 442"
+	"BIOE 210" -> "CS 442"
+	"CS 225" -> "CS 443"
+	"MATH 241" -> "CS 443"
+	"MATH 225" -> "CS 443"
+	"MATH 257" -> "CS 443"
+	"MATH 415" -> "CS 443"
+	"MATH 416" -> "CS 443"
+	"ASRM 406" -> "CS 443"
+	"BIOE 210" -> "CS 443"
+	"CS 361" -> "CS 443"
+	"STAT 361" -> "CS 443"
+	"ECE 313" -> "CS 443"
+	"MATH 362" -> "CS 443"
+	"MATH 461" -> "CS 443"
+	"MATH 463" -> "CS 443"
+	"STAT 400" -> "CS 443"
+	"MATH 241" -> "CS 444"
+	"MATH 225" -> "CS 444"
+	"MATH 257" -> "CS 444"
+	"MATH 415" -> "CS 444"
+	"MATH 416" -> "CS 444"
+	"ASRM 406" -> "CS 444"
+	"BIOE 210" -> "CS 444"
+	"CS 225" -> "CS 444"
+	"CS 361" -> "CS 444"
+	"ECE 313" -> "CS 444"
+	"MATH 461" -> "CS 444"
+	"STAT 400" -> "CS 444"
+	"CS 225" -> "CS 445"
+	"MATH 225" -> "CS 445"
+	"MATH 231" -> "CS 445"
+	"CS 225" -> "CS 446"
+	"MATH 225" -> "CS 446"
+	"MATH 257" -> "CS 446"
+	"MATH 415" -> "CS 446"
+	"MATH 416" -> "CS 446"
+	"ASRM 406" -> "CS 446"
+	"BIOE 210" -> "CS 446"
+	"CS 361" -> "CS 446"
+	"ECE 313" -> "CS 446"
+	"MATH 461" -> "CS 446"
+	"STAT 400" -> "CS 446"
+	"CS 374" -> "CS 447"
+	"CS 241" -> "CS 448"
+	"CS 341" -> "CS 448"
+	"ECE 391" -> "CS 448"
+	"MATH 225" -> "CS 448"
+	"MATH 257" -> "CS 448"
+	"MATH 415" -> "CS 448"
+	"MATH 416" -> "CS 448"
+	"ASRM 406" -> "CS 448"
+	"BIOE 210" -> "CS 448"
+	"CS 101" -> "CS 450"
+	"CS 124" -> "CS 450"
+	"CS 125" -> "CS 450"
+	"CS 357" -> "CS 450"
+	"MATH 257" -> "CS 450"
+	"MATH 357" -> "CS 450"
+	"MATH 415" -> "CS 450"
+	"MATH 416" -> "CS 450"
+	"MATH 285" -> "CS 450"
+	"CS 357" -> "CS 457"
+	"MATH 357" -> "CS 457"
+	"CS 461" -> "CS 460"
+	"ECE 422" -> "CS 460"
+	"CS 241" -> "CS 461"
+	"CS 341" -> "CS 461"
+	"ECE 391" -> "CS 461"
+	"CS 461" -> "CS 463"
+	"CS 475" -> "CS 463"
+	"CS 225" -> "CS 464"
+	"CS 210" -> "CS 464"
+	"CS 211" -> "CS 464"
+	"ECE 316" -> "CS 464"
+	"PHIL 316" -> "CS 464"
+	"CS 361" -> "CS 464"
+	"STAT 400" -> "CS 464"
+	"STAT 200" -> "CS 464"
+	"CS 225" -> "CS 465"
+	"CS 225" -> "CS 466"
+	"CS 225" -> "CS 467"
+	"CS 173" -> "CS 469"
+	"CS 225" -> "CS 469"
+	"MATH 225" -> "CS 469"
+	"MATH 257" -> "CS 469"
+	"MATH 415" -> "CS 469"
+	"MATH 416" -> "CS 469"
+	"ASRM 406" -> "CS 469"
+	"BIOE 210" -> "CS 469"
+	"CS 361" -> "CS 469"
+	"STAT 361" -> "CS 469"
+	"ECE 313" -> "CS 469"
+	"MATH 362" -> "CS 469"
+	"MATH 461" -> "CS 469"
+	"MATH 463" -> "CS 469"
+	"STAT 400" -> "CS 469"
+	"CS 225" -> "CS 470"
+	"CS 173" -> "CS 470"
+	"CS 361" -> "CS 470"
+	"STAT 361" -> "CS 470"
+	"ECE 313" -> "CS 470"
+	"MATH 362" -> "CS 470"
+	"MATH 461" -> "CS 470"
+	"MATH 463" -> "CS 470"
+	"STAT 400" -> "CS 470"
+	"MATH 225" -> "CS 470"
+	"MATH 257" -> "CS 470"
+	"MATH 415" -> "CS 470"
+	"MATH 416" -> "CS 470"
+	"ASRM 406" -> "CS 470"
+	"BIOE 210" -> "CS 470"
+	"CS 374" -> "CS 473"
+	"ECE 374" -> "CS 473"
+	"CS 361" -> "CS 473"
+	"STAT 361" -> "CS 473"
+	"ECE 313" -> "CS 473"
+	"MATH 362" -> "CS 473"
+	"MATH 461" -> "CS 473"
+	"MATH 463" -> "CS 473"
+	"STAT 400" -> "CS 473"
+	"CS 173" -> "CS 474"
+	"CS 225" -> "CS 474"
+	"CS 374" -> "CS 474"
+	"ECE 374" -> "CS 474"
+	"CS 374" -> "CS 475"
+	"ECE 374" -> "CS 475"
+	"CS 225" -> "CS 476"
+	"CS 374" -> "CS 476"
+	"ECE 374" -> "CS 476"
+	"MATH 414" -> "CS 476"
+	"CS 225" -> "CS 477"
+	"CS 374" -> "CS 477"
+	"ECE 374" -> "CS 477"
+	"MATH 414" -> "CS 477"
+	"CS 241" -> "CS 484"
+	"CS 341" -> "CS 484"
+	"CS 492" -> "CS 493"
+	"CS 492" -> "CS 494"
+	"consent of instructor" -> "CS 499"
+	"CS 410" -> "CS 510"
+	"CS 412" -> "CS 510"
+	"CS 446" -> "CS 510"
+	"ECE 449" -> "CS 510"
+	"LING 406" -> "CS 510"
+	"CS 411" -> "CS 511"
+	"CS 412" -> "CS 512"
+	"CS 412" -> "CS 514"
+	"CS 446" -> "CS 514"
+	"ECE 449" -> "CS 514"
+	"CS 418" -> "CS 519"
+	"CSE 427" -> "CS 519"
+	"CS 374" -> "CS 521"
+	"ECE 374" -> "CS 521"
+	"CS 421" -> "CS 521"
+	"CS 422" -> "CS 522"
+	"CS 426" -> "CS 522"
+	"CS 423" -> "CS 523"
+	"CSE 423" -> "CS 523"
+	"CS 425" -> "CS 523"
+	"ECE 428" -> "CS 523"
+	"CS 433" -> "CS 523"
+	"CSE 422" -> "CS 523"
+	"CS 422" -> "CS 524"
+	"CS 475" -> "CS 524"
+	"MATH 475" -> "CS 524"
+	"CS 476" -> "CS 524"
+	"CS 423" -> "CS 525"
+	"CSE 423" -> "CS 525"
+	"CS 425" -> "CS 525"
+	"ECE 428" -> "CS 525"
+	"CS 438" -> "CS 525"
+	"ECE 438" -> "CS 525"
+	"CS 426" -> "CS 526"
+	"CS 428" -> "CS 527"
+	"CSE 429" -> "CS 527"
+	"CS 429" -> "CS 527"
+	"CS 427" -> "CS 528"
+	"CSE 426" -> "CS 528"
+	"CS 433" -> "CS 533"
+	"CSE 422" -> "CS 533"
+	"CS 433" -> "CS 534"
+	"CSE 422" -> "CS 534"
+	"CS 425" -> "CS 537"
+	"ECE 428" -> "CS 537"
+	"CS 438" -> "CS 537"
+	"ECE 438" -> "CS 537"
+	"CS 438" -> "CS 538"
+	"ECE 438" -> "CS 538"
+	"CS 450" -> "CS 544"
+	"CSE 401" -> "CS 544"
+	"ECE 491" -> "CS 544"
+	"MATH 450" -> "CS 544"
+	"CS 473" -> "CS 544"
+	"CSE 414" -> "CS 544"
+	"MATH 473" -> "CS 544"
+	"MATH 415" -> "CS 545"
+	"CS 361" -> "CS 545"
+	"STAT 361" -> "CS 545"
+	"MATH 461" -> "CS 545"
+	"MATH 463" -> "CS 545"
+	"STAT 400" -> "CS 545"
+	"CS 447" -> "CS 546"
+	"CS 446" -> "CS 546"
+	"ECE 449" -> "CS 546"
+	"CS 440" -> "CS 548"
+	"CS 446" -> "CS 548"
+	"ECE 448" -> "CS 548"
+	"ECE 449" -> "CS 548"
+	"CS 450" -> "CS 554"
+	"CSE 401" -> "CS 554"
+	"ECE 491" -> "CS 554"
+	"MATH 450" -> "CS 554"
+	"CS 457" -> "CS 554"
+	"CS 555" -> "CS 554"
+	"CSE 510" -> "CS 554"
+	"MATH 552" -> "CS 554"
+	"CS 450" -> "CS 555"
+	"CSE 401" -> "CS 555"
+	"ECE 491" -> "CS 555"
+	"MATH 450" -> "CS 555"
+	"CS 457" -> "CS 555"
+	"CS 446" -> "CS 562"
+	"ECE 449" -> "CS 562"
+	"CS 463" -> "CS 562"
+	"ECE 424" -> "CS 562"
+	"CS 461" -> "CS 563"
+	"CS 463" -> "CS 563"
+	"ECE 422" -> "CS 563"
+	"ECE 424" -> "CS 563"
+	"CS 465" -> "CS 565"
+	"CS 465" -> "CS 567"
+	"CS 465" -> "CS 568"
+	"CS 473" -> "CS 574"
+	"CSE 414" -> "CS 574"
+	"MATH 473" -> "CS 574"
+	"MATH 461" -> "CS 574"
+	"MATH 463" -> "CS 574"
+	"STAT 400" -> "CS 574"
+	"CS 473" -> "CS 579"
+	"CSE 414" -> "CS 579"
+	"MATH 473" -> "CS 579"
+	"CS 475" -> "CS 579"
+	"MATH 475" -> "CS 579"
+	"CS 473" -> "CS 580"
+	"CS 374" -> "CS 581"
+	"ECE 374" -> "CS 581"
+	"CS 361" -> "CS 581"
+	"STAT 361" -> "CS 581"
+	"CS 446" -> "CS 582"
+	"ECE 449" -> "CS 582"
+	"CS 466" -> "CS 582"
+	"consent of instructor" -> "CS 582"
+	"CS 573" -> "CS 583"
+	"CSE 515" -> "CS 583"
+	"CS 374" -> "CS 588"
+	"ECE 374" -> "CS 588"
+	"ECE 484" -> "CS 588"
+	"consent of instructor" -> "CS 597"
+}

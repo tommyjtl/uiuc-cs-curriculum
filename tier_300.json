@@ -1,0 +1,160 @@
+{
+    "CS 307": {
+        "course_code": "307",
+        "course_name": "Modeling and Learning in Data Science",
+        "course_hour": "4 Hours",
+        "course_description": "Introduction to the use of classical approaches in data modeling and machine learning in the context of solving data-centric problems. A broad coverage of fundamental models is presented, including linear models, unsupervised learning, supervised learning, and deep learning. A significant emphasis is placed on the application of the models in Python and the interpretability of the results. ",
+        "course_prerequisites": {
+            "raw_text": "STAT 207; one of MATH 225, MATH 227, MATH 257, MATH 415, MATH 416, ASRM 406.",
+            "prerequisites": [
+                [
+                    "STAT 207"
+                ],
+                [
+                    "MATH 225"
+                ],
+                [
+                    "MATH 227"
+                ],
+                [
+                    "MATH 257"
+                ],
+                [
+                    "MATH 415"
+                ],
+                [
+                    "MATH 416"
+                ],
+                [
+                    "ASRM 406"
+                ]
+            ]
+        }
+    },
+    "CS 340": {
+        "course_code": "340",
+        "course_name": "Introduction to Computer Systems",
+        "course_hour": "3 Hours",
+        "course_description": "Basics of computer systems. Number representations, assembly/machine language, abstract models of processors (fetch/execute, memory hierarchy), processes/process control, simple memory management, file I/O and directories, network programming, usage of cloud services. Credit is not given for both CS 340 and CS 240. ",
+        "course_prerequisites": {
+            "raw_text": "CS 225.",
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
+        }
+    },
+    "CS 341": {
+        "course_code": "341",
+        "course_name": "System Programming",
+        "course_hour": "4 Hours",
+        "course_description": "Basics of system programming, including POSIX processes, process control, inter-process communication, synchronization, signals, simple memory management, file I/O and directories, shell programming, socket network programming, RPC programming in distributed systems, basic security mechanisms, and standard tools for systems programming such as debugging tools. Credit is not given for both CS 341 and either CS 241 or ECE 391. ",
+        "course_prerequisites": {
+            "raw_text": "CS 225 and CS 233.",
+            "prerequisites": [
+                [
+                    "CS 225"
+                ],
+                [
+                    "CS 233"
+                ]
+            ]
+        }
+    },
+    "CS 357": {
+        "course_code": "357",
+        "course_name": "Numerical Methods I",
+        "course_hour": "3 Hours",
+        "course_description": "Fundamentals of numerical methods for students in science and engineering; floating-point computation, systems of linear equations, approximation of functions and integrals, the single nonlinear equation, and the numerical solution of ordinary differential equations; various applications in science and engineering; programming exercises and use of high quality mathematical library routines. Same as MATH 357. Credit is not given towards graduation for CS 357 if credit for CS 450 has been earned. (Counts for advanced hours in LAS). ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 101, CS 105, CS 124, CS 125 or ECE 220; MATH 241; one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210.",
+            "prerequisites": [
+                [
+                    "CS 101",
+                    "CS 105",
+                    "CS 124",
+                    "CS 125",
+                    "ECE 220"
+                ],
+                [
+                    "MATH 241"
+                ],
+                [
+                    "MATH 225",
+                    "MATH 257",
+                    "MATH 415",
+                    "MATH 416",
+                    "ASRM 406",
+                    "BIOE 210"
+                ]
+            ]
+        }
+    },
+    "CS 361": {
+        "course_code": "361",
+        "course_name": "Probability & Statistics for Computer Science",
+        "course_hour": "3 Hours",
+        "course_description": "Introduction to probability theory and statistics with applications to computer science. Topics include: visualizing datasets, summarizing data, basic descriptive statistics, conditional probability, independence, Bayes theorem, random variables, joint and conditional distributions, expectation, variance and covariance, central limit theorem. Markov inequality, Chebyshev inequality, law of large numbers, Markov chains, simulation, the PageRank algorithm, populations and sampling, sample mean, standard error, maximum likelihood estimation, Bayes estimation, hypothesis testing, confidence intervals, linear regression, principal component analysis, classification, and decision trees. Same as STAT 361. Credit is not given for both CS 361 and ECE 313. ",
+        "course_prerequisites": {
+            "raw_text": "MATH 220 or MATH 221; credit or concurrent registration in one of MATH 225, MATH 257, MATH 415, MATH 416 or ASRM 406. For majors only.",
+            "prerequisites": [
+                [
+                    "MATH 220",
+                    "MATH 221"
+                ],
+                [
+                    "MATH 225",
+                    "MATH 257",
+                    "MATH 415",
+                    "MATH 416",
+                    "ASRM 406"
+                ]
+            ]
+        }
+    },
+    "CS 374": {
+        "course_code": "374",
+        "course_name": "Introduction to Algorithms & Models of Computation",
+        "course_hour": "4 Hours",
+        "course_description": "Analysis of algorithms, major paradigms of algorithm design including recursive algorithms, divide-and-conquer algorithms, dynamic programming, greedy algorithms, and graph algorithms. Formal models of computation including finite automata and Turing machines. Limitations of computation arising from fundamental notions of algorithm and from complexity-theoretic constraints. Reductions, undecidability and NP-completeness. Same as ECE 374. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 173, MATH 213; CS 225.",
+            "prerequisites": [
+                [
+                    "CS 173"
+                ],
+                [
+                    "MATH 213"
+                ],
+                [
+                    "CS 225"
+                ]
+            ]
+        }
+    },
+    "CS 397": {
+        "course_code": "397",
+        "course_name": "Individual Study",
+        "course_hour": "1 to 3 Hours",
+        "course_description": "May be repeated. ",
+        "course_prerequisites": {
+            "raw_text": "Consent of instructor.",
+            "prerequisites": [
+                [
+                    "consent of instructor"
+                ]
+            ]
+        }
+    },
+    "CS 398": {
+        "course_code": "398",
+        "course_name": "Special Topics",
+        "course_hour": "1 to 4 Hours",
+        "course_description": "Subject offerings of new and developing areas of knowledge in computer science intended to augment the existing curriculum. See Class Schedule or departmental course information for topics and prerequisites. May be repeated in the same or separate terms if topics vary.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    }
+}

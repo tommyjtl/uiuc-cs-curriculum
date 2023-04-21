@@ -1,0 +1,869 @@
+{
+    "CS 500": {
+        "course_code": "500",
+        "course_name": "Current Topics in Computing Education Research",
+        "course_hour": "4 Hours",
+        "course_description": "Current research topics and theories in Computers and Education with an emphasis on learning theories such as constructivism, behaviorism, cognitivism, knowledge-in-pieces, test-potentiated learning, and transfer of learning. These theories will be applied to understanding how students learn computing topics such as programming and theoretical computing. These topics will be applied through the design of ethically responsible educational research studies. The course will culminate in students writing a research proposal or conference-style research paper based upon pilot data. 4 graduate hours. No professional credit. May be repeated if topics vary. Credit towards a degree from multiple offerings of this course is not given if those offerings have significant overlap, as determined by the CS department.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 507": {
+        "course_code": "507",
+        "course_name": "Topics in Cryptography",
+        "course_hour": "4 Hours",
+        "course_description": "Modern cryptography helps realize a variety of tasks: from computations on and proofs about secret data, to verifiably offloading computation to untrusted clients, to making programs unintelligible while preserving functionality, to testing untrusted quantum devices. Covers a selection of such cutting-edge topics in cryptography. We will understand how any adversary that counters the security of modern protocols can be transformed into an adversary that contradicts basic mathematical assumptions. We will understand key ideas in recent cryptography research and identify new directions and problems for the future. 4 graduate hours. No professional credit. May be repeated, up to 8 hours in a single term, to a total of 16 graduate hours, if topics vary. Credit is not given towards a degree from multiple offerings of this course if those offerings have significant overlap, as determined by the CS department. ",
+        "course_prerequisites": {
+            "raw_text": "Offerings in separate semesters may specify additional prerequisites each term, depending on the specific topic offered. See section information for additional details.",
+            "prerequisites": []
+        }
+    },
+    "CS 508": {
+        "course_code": "508",
+        "course_name": "Manycore Parallel Algorithms",
+        "course_hour": "4 Hours",
+        "course_description": "Same as ECE 508. See ECE 508.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 510": {
+        "course_code": "510",
+        "course_name": "Advanced Information Retrieval",
+        "course_hour": "4 Hours",
+        "course_description": "Advanced concepts, models, and algorithms in information retrieval and major recent developments in the field, including historical milestones in information retrieval research, evaluation methodology, vector space retrieval model, probabilistic retrieval models, learning to rank algorithms, probabilistic topic models, information retrieval systems, text analytics, and topics of research frontiers in information retrieval. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 410, CS 412, CS 446, ECE 449 or LING 406.",
+            "prerequisites": [
+                [
+                    "CS 410",
+                    "CS 412",
+                    "CS 446",
+                    "ECE 449",
+                    "LING 406"
+                ]
+            ]
+        }
+    },
+    "CS 511": {
+        "course_code": "511",
+        "course_name": "Advanced Data Management",
+        "course_hour": "4 Hours",
+        "course_description": "Advanced concepts in data management and information system design and implementation, and recent developments in the field. 1) Relational roots, objects and extensibility, query languages, data indexing, query processing, transaction processing, benchmarks, and 2) semi-structured data and unstructured data, information extraction, information integration, web search and mining, and other emerging directions in the field. ",
+        "course_prerequisites": {
+            "raw_text": "CS 411.",
+            "prerequisites": [
+                [
+                    "CS 411"
+                ]
+            ]
+        }
+    },
+    "CS 512": {
+        "course_code": "512",
+        "course_name": "Data Mining Principles",
+        "course_hour": "4 Hours",
+        "course_description": "An advanced course on principles and algorithms of data mining. Data cleaning and integration; descriptive and predictive mining; mining frequent, sequential, and structured patterns; clustering, outlier analysis and fraud detection; stream data, web, text, and biomedical data mining; security and privacy in data mining; research frontiers. ",
+        "course_prerequisites": {
+            "raw_text": "CS 412.",
+            "prerequisites": [
+                [
+                    "CS 412"
+                ]
+            ]
+        }
+    },
+    "CS 513": {
+        "course_code": "513",
+        "course_name": "Theory & Practice of Data Cleaning",
+        "course_hour": "4 Hours",
+        "course_description": "Same as IS 537. See IS 537.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 514": {
+        "course_code": "514",
+        "course_name": "Advanced Topics in Network Science",
+        "course_hour": "4 Hours",
+        "course_description": "We shall discuss classic and recent research in network analysis. Advanced topics include individual decision-making models, game theory, mechanism design, social choice, social signal design, diffusion of behavior on a network, choice architecture, network models, network mining algorithms and applications. 4 graduate hours. No professional credit. May be repeated if topics vary. Credit is not given towards a degree from multiple offerings of this course, if those offerings have significant overlap, as determined by the CS department. ",
+        "course_prerequisites": {
+            "raw_text": "CS 412; one of CS 446 or ECE 449. Additional prerequisites or corequisites may be specified each term. See section information.",
+            "prerequisites": [
+                [
+                    "CS 412"
+                ],
+                [
+                    "CS 446",
+                    "ECE 449"
+                ]
+            ]
+        }
+    },
+    "CS 519": {
+        "course_code": "519",
+        "course_name": "Scientific Visualization",
+        "course_hour": "4 Hours",
+        "course_description": "Visualization techniques useful in analysis of engineering and scientific data. Physical models; methods of computational science; two- and three-dimensional data types; visual representation schemes for scalar, vector, and tensor data; isosurface and volume visualization methods; visual monitoring; interactive steering. Same as CSE 527. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "CS 418 or CSE 427.",
+            "prerequisites": [
+                [
+                    "CS 418",
+                    "CSE 427"
+                ]
+            ]
+        }
+    },
+    "CS 521": {
+        "course_code": "521",
+        "course_name": "Advanced Topics in Programming Systems",
+        "course_hour": "4 Hours",
+        "course_description": "Advanced topics in building and verifying software systems, selected from areas of current research such as: model checking and automated verification, testing and automated test generation, program synthesis, runtime verification, machine learning and its applications in the design of verified systems, formal analysis of machine learning algorithms, principles of programming languages and type systems. 4 graduate hours. No professional credit. May be repeated if topics vary. Credit is not given towards a degree from multiple offerings of this course if those offerings have significant overlap, as determined by the CS department. ",
+        "course_prerequisites": {
+            "raw_text": "CS 374 or ECE 374; CS 421. Additional prerequisites or corequisites may be specified each term. See section information.",
+            "prerequisites": [
+                [
+                    "CS 374",
+                    "ECE 374"
+                ],
+                [
+                    "CS 421"
+                ]
+            ]
+        }
+    },
+    "CS 522": {
+        "course_code": "522",
+        "course_name": "Programming Language Semantics",
+        "course_hour": "4 Hours",
+        "course_description": "Theory of programming languages including functional programming, meta-circular interpreters, typed, untyped and polymorphic lambda-calculi, and denotational semantics. ",
+        "course_prerequisites": {
+            "raw_text": "CS 422 and CS 426.",
+            "prerequisites": [
+                [
+                    "CS 422"
+                ],
+                [
+                    "CS 426"
+                ]
+            ]
+        }
+    },
+    "CS 523": {
+        "course_code": "523",
+        "course_name": "Advanced Operating Systems",
+        "course_hour": "4 Hours",
+        "course_description": "Advanced concepts in operating system design and coverage of recent research directions. Resource management for parallel and distributed systems. Interaction between operating system design and computer architectures. Process management, virtual memory, interprocess communication, context switching, parallel and distributed file system designs, persistent objects, process and data migration, load balancing, security, protection. Term projects. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 423 or CSE 423; one of CS 425 or ECE 428; and one of CS 433 or CSE 422.",
+            "prerequisites": [
+                [
+                    "CS 423",
+                    "CSE 423"
+                ],
+                [
+                    "CS 425",
+                    "ECE 428"
+                ],
+                [
+                    "CS 433",
+                    "CSE 422"
+                ]
+            ]
+        }
+    },
+    "CS 524": {
+        "course_code": "524",
+        "course_name": "Concurrent Progrmg Languages",
+        "course_hour": "4 Hours",
+        "course_description": "Theory of concurrency and concurrent programming languages. Formal models of concurrent computation such as process algebras, nets, and actors; high level concurrent programming languages and their operational semantics; methods for reasoning about correctness and complexity of concurrent programs. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "CS 422; one of CS 475, MATH 475 or CS 476.",
+            "prerequisites": [
+                [
+                    "CS 422"
+                ],
+                [
+                    "CS 475",
+                    "MATH 475",
+                    "CS 476"
+                ]
+            ]
+        }
+    },
+    "CS 525": {
+        "course_code": "525",
+        "course_name": "Advanced Distributed Systems",
+        "course_hour": "4 Hours",
+        "course_description": "Peer-to-peer systems, sensor networks, and fundamental theoretical distributed computing. Review of classical work in each area, and application of design methodologies to explore overlaps across them. Emphasis on protocol design, systems issues, and theory. Reading selections are roughly two-third classical to one-third contemporary. Students write critiques, make presentations, and create a conference paper in a systematic manner. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 423, CSE 423, CS 425, ECE 428, CS 438 or ECE 438.",
+            "prerequisites": [
+                [
+                    "CS 423",
+                    "CSE 423",
+                    "CS 425",
+                    "ECE 428",
+                    "CS 438",
+                    "ECE 438"
+                ]
+            ]
+        }
+    },
+    "CS 526": {
+        "course_code": "526",
+        "course_name": "Advanced Compiler Construction",
+        "course_hour": "4 Hours",
+        "course_description": "Incremental and interactive compiling, error correction, code optimization, models of code generators. ",
+        "course_prerequisites": {
+            "raw_text": "CS 426.",
+            "prerequisites": [
+                [
+                    "CS 426"
+                ]
+            ]
+        }
+    },
+    "CS 527": {
+        "course_code": "527",
+        "course_name": "Topics in Software Engineering",
+        "course_hour": "4 Hours",
+        "course_description": "Fault-tolerant software, software architecture, software patterns, multi-media software, and knowledge-based approaches to software engineering. Case studies. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "CS 428, CSE 429 or CS 429.",
+            "prerequisites": [
+                [
+                    "CS 428",
+                    "CSE 429",
+                    "CS 429"
+                ]
+            ]
+        }
+    },
+    "CS 528": {
+        "course_code": "528",
+        "course_name": "Obj-Oriented Progrmg & Design",
+        "course_hour": "4 Hours",
+        "course_description": "Principles of object-oriented design; design patterns; use and design of frameworks; reflection, refractoring, use of unit tests as specifications. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "CS 427 or CSE 426.",
+            "prerequisites": [
+                [
+                    "CS 427",
+                    "CSE 426"
+                ]
+            ]
+        }
+    },
+    "CS 533": {
+        "course_code": "533",
+        "course_name": "Parallel Computer Architecture",
+        "course_hour": "4 Hours",
+        "course_description": "Theoretical aspects of parallel and pipeline computation; time and processor bounds on classes of computations; data alignment network speed and cost bounds; conflict-free access memories; overall computer system ideas. Same as CSE 522. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "CS 433 or CSE 422.",
+            "prerequisites": [
+                [
+                    "CS 433",
+                    "CSE 422"
+                ]
+            ]
+        }
+    },
+    "CS 534": {
+        "course_code": "534",
+        "course_name": "Advanced Topics in Computer Architecture",
+        "course_hour": "4 Hours",
+        "course_description": "Current topics in computer architecture, selected from areas of current research such as: energy efficiency, processing in memory, cloud computing, 3-D architectures, security and privacy, hardware and software resiliency, cross-stack design, heterogeneous platforms, approximate computing, mobile computing, machine learning accelerators, and novel computing technologies. 4 graduate hours. No professional credit. May be repeated, if topics vary. Credit is not given towards a degree from multiple offerings of this course, if those offerings have significant overlap, as determined by the CS department. ",
+        "course_prerequisites": {
+            "raw_text": "CS 433 or CSE 422. Additional prerequisites or co-requisites may be specified each term. See Class Schedule information.",
+            "prerequisites": [
+                [
+                    "CS 433",
+                    "CSE 422"
+                ]
+            ]
+        }
+    },
+    "CS 536": {
+        "course_code": "536",
+        "course_name": "Fault-Tolerant Dig Syst Design",
+        "course_hour": "4 Hours",
+        "course_description": "Same as ECE 542. See ECE 542.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 537": {
+        "course_code": "537",
+        "course_name": "Advanced Topics in Internet of Things (IoT)",
+        "course_hour": "4 Hours",
+        "course_description": "Advanced topics in Internet of Things (IoT) algorithms, protocols, architectures, systems, and infrastructures, selected from areas of current research such as: IoT sensors representations and compression, streaming and caching of IoT data, IoT analytics and feature learning, IoT-edge-cloud computing infrastructures, resource optimization for multi-modal IoT systems, applications and human perception of IoT. Students will read and discuss recent research papers and conduct a semester-long research project. 4 graduate hours. No professional credit. May be repeated, if topics vary. Credit towards a degree from multiple offerings of this course is not given if those offerings have significant overlap, as determined by the CS department. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 425 or ECE 428; one of CS 438 or ECE 438. Additional prerequisites may be specified each term. See section information.",
+            "prerequisites": [
+                [
+                    "CS 425",
+                    "ECE 428"
+                ],
+                [
+                    "CS 438",
+                    "ECE 438"
+                ]
+            ]
+        }
+    },
+    "CS 538": {
+        "course_code": "538",
+        "course_name": "Advanced Computer Networks",
+        "course_hour": "4 Hours",
+        "course_description": "Advanced concepts in computer networks, including congestion control, quality of service, naming, routing, wireless networks, Internet architecture, measurement, network security, and selected recent research directions. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "CS 438 or ECE 438.",
+            "prerequisites": [
+                [
+                    "CS 438",
+                    "ECE 438"
+                ]
+            ]
+        }
+    },
+    "CS 539": {
+        "course_code": "539",
+        "course_name": "Distributed Algorithms",
+        "course_hour": "4 Hours",
+        "course_description": "Same as ECE 526. See ECE 526.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 540": {
+        "course_code": "540",
+        "course_name": "Deep Learning Theory",
+        "course_hour": "4 Hours",
+        "course_description": "A rigorous mathematical course covering foundational analyses of the approximation, optimization, and generalization properties of Deep Neural Networks. Topics include: constructive and non-constructive approximations with one hidden layer; benefits of depth; optimization in the NTK regime; maximum margin optimization outside the NTK regime; Rademacher complexity, VC dimensino, and covering number bounds for ReLU networks. Evaluation is primarily based on homeworks, with a smaller project component. The course goal is to prepare students perform their own research in the field. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "Basic linear algebra, probability, proof-writing, and statistics required. Real analysis recommended.",
+            "prerequisites": []
+        }
+    },
+    "CS 541": {
+        "course_code": "541",
+        "course_name": "Computer Systems Analysis",
+        "course_hour": "4 Hours",
+        "course_description": "Same as ECE 541. See ECE 541.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 542": {
+        "course_code": "542",
+        "course_name": "Statistical Reinforcement Learning",
+        "course_hour": "4 Hours",
+        "course_description": "Theory of reinforcement learning, with a focus on sample complexity analyses. Specific topics include MDP basics, finite-sample analyses of online (i.e., exploration) and offline (i.e., batch) RL with a tabular representation, finite-sample analyses of online and offline RL with function approximation, state abstraction theory, off-policy evaluation (importance sampling), and policy gradient. The course goal is to provide a comprehensive understanding of the statistical properties of RL under various settings (e.g., online vs offline), preparing the students for doing research in the area. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "Calculus, linear algebra, probability and statistics, and basic concepts of machine learning. Familiarity with (at least one of) the following topics is highly recommended: stochastic processes, numerical analysis, and theoretical computer science.",
+            "prerequisites": []
+        }
+    },
+    "CS 543": {
+        "course_code": "543",
+        "course_name": "Computer Vision",
+        "course_hour": "4 Hours",
+        "course_description": "Same as ECE 549. See ECE 549.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 544": {
+        "course_code": "544",
+        "course_name": "Optimiz in Computer Vision",
+        "course_hour": "4 Hours",
+        "course_description": "Applications of continuous and discrete optimization to problems in computer vision and machine learning, with particular emphasis on large-scale algorithms and effective approximations: gradient-based learning; Newton's method and variants, applied to structure from motion problems; the augmented Lagrangian method and variants; interior-point methods; SMO and other specialized algorithms for support vector machines; flows and cuts as examples of primal-dual methods; dynamics programming, hidden Markov models, and parsing: 0-1 quadratic forms, max-cut, and Markov random-fields solutions. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 450, CSE 401, ECE 491, or MATH 450; one of CS 473, CSE 414 or MATH 473.",
+            "prerequisites": [
+                [
+                    "CS 450",
+                    "CSE 401",
+                    "ECE 491",
+                    "MATH 450"
+                ],
+                [
+                    "CS 473",
+                    "CSE 414",
+                    "MATH 473"
+                ]
+            ]
+        }
+    },
+    "CS 545": {
+        "course_code": "545",
+        "course_name": "Machine Learning for Signal Processing",
+        "course_hour": "4 Hours",
+        "course_description": "Fundamentals of machine learning and signal processing as they pertain to the development of machines that can understand complex real-world signals, such as speech, images, movies, music, biological and mechanical readings, etc. Hands-on examples of how to decompose, analyze, classify, detect and consolidate signals, and examine various commonplace operations such as finding faces from camera feeds, organizing personal music collections, designing speech dialog systems and understanding movie content. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "MATH 415; one of CS 361, STAT 361, MATH 461, MATH 463 or STAT 400.",
+            "prerequisites": [
+                [
+                    "MATH 415"
+                ],
+                [
+                    "CS 361",
+                    "STAT 361",
+                    "MATH 461",
+                    "MATH 463",
+                    "STAT 400"
+                ]
+            ]
+        }
+    },
+    "CS 546": {
+        "course_code": "546",
+        "course_name": "Advanced Topics in Natural Language Processing",
+        "course_hour": "4 Hours",
+        "course_description": "Advanced topics in natural language processing, ranging from general techniques such as deep learning for NLP to specific topics such as information extraction, knowledge acquisition, dialogue systems, language grounding, and natural language generation. Review of classic as well as state-of-the-art techniques and remaining challenges, and exploration of recent proposals for meeting these challenges. Intended for graduate students doing research in natural language processing. 4 graduate hours. No professional credit. May be repeated in separate terms up to 16 hours, if topics vary. Credit towards a degree from multiple offerings of this course is not given if those offerings have significant overlap, as determined by the CS department. ",
+        "course_prerequisites": {
+            "raw_text": "CS 447 and one of CS 446 or ECE 449, or equivalent background.",
+            "prerequisites": [
+                [
+                    "CS 447",
+                    "CS 446",
+                    "ECE 449"
+                ]
+            ]
+        }
+    },
+    "CS 547": {
+        "course_code": "547",
+        "course_name": "Deep Learning",
+        "course_hour": "4 Hours",
+        "course_description": "Same as IE 534. See IE 534.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 548": {
+        "course_code": "548",
+        "course_name": "Models of Cognitive Processes",
+        "course_hour": "4 Hours",
+        "course_description": "Formal models and concepts in automated cognition; integrating machine learning and prior knowledge; current approaches and detailed analyses of the role of reasoning in the learning process; computational complexity and fundamental tradeoffs between expressiveness and tractability; implications for state-of-the-art artificial intelligence areas such as automated planning, the semantic web, relational learning, structured prediction, latent models, structure learning, theory formation, etc.; philosophical and psychological aspects of integrating analytic and empirical evidence. Same as ECE 548. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 440, CS 446, ECE 448 or ECE 449.",
+            "prerequisites": [
+                [
+                    "CS 440",
+                    "CS 446",
+                    "ECE 448",
+                    "ECE 449"
+                ]
+            ]
+        }
+    },
+    "CS 549": {
+        "course_code": "549",
+        "course_name": "Seminar in Cognitive Science",
+        "course_hour": "2 or 4 Hours",
+        "course_description": "Same as PSYC 514, ANTH 514, EPSY 551, LING 570, and PHIL 514. See PSYC 514.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 554": {
+        "course_code": "554",
+        "course_name": "Parallel Numerical Algorithms",
+        "course_hour": "4 Hours",
+        "course_description": "Numerical algorithms for parallel computers: parallel algorithms in numerical linear algebra (dense and sparse solvers for linear systems and the algebraic eigenvalue problem), numerical handling of ordinary and partial differential equations, and numerical optimization techniques. Same as CSE 512. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 450, CSE 401, ECE 491, MATH 450, CS 457, CS 555, CSE 510 or MATH 552.",
+            "prerequisites": [
+                [
+                    "CS 450",
+                    "CSE 401",
+                    "ECE 491",
+                    "MATH 450",
+                    "CS 457",
+                    "CS 555",
+                    "CSE 510",
+                    "MATH 552"
+                ]
+            ]
+        }
+    },
+    "CS 555": {
+        "course_code": "555",
+        "course_name": "Numerical Methods for PDEs",
+        "course_hour": "4 Hours",
+        "course_description": "Numerical techniques for initial and boundary value problems in partial differential equations. Finite difference and finite element discretization techniques, direct and iterative solution methods for discrete problems, and programming techniques and usage of software packages. Same as CSE 510 and MATH 552. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "CS 450, CSE 401, ECE 491, MATH 450 or CS 457.",
+            "prerequisites": [
+                [
+                    "CS 450",
+                    "CSE 401",
+                    "ECE 491",
+                    "MATH 450",
+                    "CS 457"
+                ]
+            ]
+        }
+    },
+    "CS 556": {
+        "course_code": "556",
+        "course_name": "Iterative & Multigrid Methods",
+        "course_hour": "4 Hours",
+        "course_description": "Comprehensive treatment of algebraic and multigrid iterative methods to solve systems of equations, primarily linear equations arising from discretization of partial differential equations. Same as CSE 511.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 558": {
+        "course_code": "558",
+        "course_name": "Topics in Numerical Analysis",
+        "course_hour": "4 Hours",
+        "course_description": "Advanced topics in numerical analysis selected from areas of current research. Same as CSE 513. May be repeated. ",
+        "course_prerequisites": {
+            "raw_text": "As specified for each topic offering, see Schedule or departmental course description.",
+            "prerequisites": [
+                []
+            ]
+        }
+    },
+    "CS 562": {
+        "course_code": "562",
+        "course_name": "Advanced Topics in Security, Privacy, and Machine Learning",
+        "course_hour": "4 Hours",
+        "course_description": "Advanced topics in security and privacy problems in machine learning systems, selected from areas of current research such as: adversarial machine learning, differential privacy, game theory enabled defenses, robust learning methods, machine learning based cybercrime analysis, network intrusion detection, and malware analysis, and machine learning interpretation techniques. 4 graduate hours. No professional credit. May be repeated if topics vary. Credit is not given towards a degree from multiple offerings of this course if those offerings have significant overlap, as determined by the CS department. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 446 or ECE 449 and one of CS 463 or ECE 424, or equivalent courses, by consent of instructor. Additional prerequisites or corequisites may be specified each term. See section information.",
+            "prerequisites": [
+                [
+                    "CS 446",
+                    "ECE 449",
+                    "CS 463",
+                    "ECE 424"
+                ]
+            ]
+        }
+    },
+    "CS 563": {
+        "course_code": "563",
+        "course_name": "Advanced Computer Security",
+        "course_hour": "4 Hours",
+        "course_description": "Current research trends in computer and network security. Privacy, tamper-resistance, unwanted traffic, monitoring and surveillance, and critical infrastructure protection. Subtopics will vary depending upon current research trends. Students work in teams in close coordination with the course instructor to develop one of the topics in depth by carrying out background research and an exploratory project. Same as ECE 524. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 461, CS 463, ECE 422 or ECE 424.",
+            "prerequisites": [
+                [
+                    "CS 461",
+                    "CS 463",
+                    "ECE 422",
+                    "ECE 424"
+                ]
+            ]
+        }
+    },
+    "CS 565": {
+        "course_code": "565",
+        "course_name": "Human-Computer Interaction",
+        "course_hour": "4 Hours",
+        "course_description": "In-depth coverage of advanced topics in human-computer interaction (HCI). Applied models of human performance and attention, design tools for creative design tasks, interruptions and peripheral displays, gestures, and bimanual input, and usability evaluation techniques. Students complete a research-oriented term project of their choosing. ",
+        "course_prerequisites": {
+            "raw_text": "CS 465.",
+            "prerequisites": [
+                [
+                    "CS 465"
+                ]
+            ]
+        }
+    },
+    "CS 567": {
+        "course_code": "567",
+        "course_name": "Social Signals and Social Media",
+        "course_hour": "4 Hours",
+        "course_description": "Online social interactions occur in many arenas important to society and human well-being, but are mediated through algorithmic interventions that alter the users expectations in these social spaces. This class explores the presentation of self, the presentation of collectives, the presentation of news, and social dynamics in these online spaces--and how algorithmic intervention shapes them from the perspective of social signaling theory. Topics covered include: the evolution of algorithmic matchmaking (as in online resume/interviews and dating sites), why people share misinformation, the mitigation of trolling, ethics, and bias in social media systems. Upon completion of this course, students will have an up-to-date understanding of the design social media interfaces with incentive structures from social signaling theory. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "CS 465 or equivalent or permission of instructor. Prioritize PhD students, then others.",
+            "prerequisites": [
+                [
+                    "CS 465"
+                ]
+            ]
+        }
+    },
+    "CS 568": {
+        "course_code": "568",
+        "course_name": "User-Centered Machine Learning",
+        "course_hour": "4 Hours",
+        "course_description": "Introduces guidelines, processes, and systems for designing effective user experiences powered by machine learning models. Topics include design tradeoffs unique to data-driven products and services such as automation versus control, precision versus recall, and personalization versus privacy. Readings from human computer-interaction, product design, cognitive science, machine learning, computer vision, and natural language processing frame in-class design exercises. Students work in teams on a multi-week research project creating or auditing data-driven experiences. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "CS 465 or equivalent course work.",
+            "prerequisites": [
+                [
+                    "CS 465"
+                ]
+            ]
+        }
+    },
+    "CS 571": {
+        "course_code": "571",
+        "course_name": "Combinatorial Mathematics",
+        "course_hour": "4 Hours",
+        "course_description": "Same as MATH 580. See MATH 580.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 572": {
+        "course_code": "572",
+        "course_name": "Extremal Graph Theory",
+        "course_hour": "4 Hours",
+        "course_description": "Same as MATH 581. See MATH 581.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 573": {
+        "course_code": "573",
+        "course_name": "Algorithms",
+        "course_hour": "4 Hours",
+        "course_description": "NP-completeness, design and analysis techniques, approximation algorithms, randomized algorithms, combinatorial optimization, linear programming. Intended for graduate students in Computer Science. Same as CSE 515. 4 graduate hours. No professional credit.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 574": {
+        "course_code": "574",
+        "course_name": "Randomized Algorithms",
+        "course_hour": "4 Hours",
+        "course_description": "Basic and advanced concepts in the design and analysis of randomized algorithms. Sampling; concentration inequalities such as Chernoff-Hoeffding bounds; probabilistic method; random walks, dimension reduction; entropy; martingales and Azuma's inequality; derandomization. Randomized algorithms for sorting and searching; graphs; geometric problems. Basics of pseudorandomness and randomized complexity classes. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 473, CSE 414, or MATH 473; one of MATH 461, MATH 463 or STAT 400.",
+            "prerequisites": [
+                [
+                    "CS 473",
+                    "CSE 414",
+                    "MATH 473"
+                ],
+                [
+                    "MATH 461",
+                    "MATH 463",
+                    "STAT 400"
+                ]
+            ]
+        }
+    },
+    "CS 575": {
+        "course_code": "575",
+        "course_name": "Methods of Combinatorics",
+        "course_hour": "4 Hours",
+        "course_description": "Same as MATH 584. See MATH 584.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 576": {
+        "course_code": "576",
+        "course_name": "Topics in Automated Deduction",
+        "course_hour": "2 to 4 Hours",
+        "course_description": "Advanced topics in computer-aided methods for formal deduction, selected from areas of current research, such as: resolution theorem proving strategies, special relations, equational reasoning, unification theory, rewrite systems, mathematical induction, program derivation, hybrid inference systems, and programming with logic. May be repeated in separate terms. ",
+        "course_prerequisites": {
+            "raw_text": "As specified for each topic offering, see Schedule or departmental course description.",
+            "prerequisites": [
+                []
+            ]
+        }
+    },
+    "CS 579": {
+        "course_code": "579",
+        "course_name": "Computational Complexity",
+        "course_hour": "4 Hours",
+        "course_description": "Turing machines; determinism and non-determinism; time and space hierarchy theorems; speed-up and tape compression; Blum axioms; structure of complexity classes NP, P, NL, L, and PSPACE; complete problems; randomness and complexity classes RP, RL, and BPP; alternation, polynomial-time hierarchy; circuit complexity, parallel complexity, NC, and RNC; relativized computational complexity; time-space trade-offs. Same as ECE 579. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 473, CSE 414, MATH 473, CS 475 or MATH 475.",
+            "prerequisites": [
+                [
+                    "CS 473",
+                    "CSE 414",
+                    "MATH 473",
+                    "CS 475",
+                    "MATH 475"
+                ]
+            ]
+        }
+    },
+    "CS 580": {
+        "course_code": "580",
+        "course_name": "Topics in Algorithmic Game Theory",
+        "course_hour": "4 Hours",
+        "course_description": "A theoretical CS course covering advances in algorithmic game theory. This includes study of strategic, computational, learning, dynamic, and fairness aspects of games and markets (organizations that involves rational and strategic agents). In particular, topics will include computation and complexity of equilibria, mechanism design, fair-division, dynamics in games and markets, price-of-anarchy etc.. These topics arise from applications such as online marketplaces (like Lyft, Uber, eBay, sponsored search, TaskRabbit), social networks, recommendation systems, kidney exchange, spectrum auction, etc., and thereby will prepare students for related research and/or industry jobs. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "CS 473.",
+            "prerequisites": [
+                [
+                    "CS 473"
+                ]
+            ]
+        }
+    },
+    "CS 581": {
+        "course_code": "581",
+        "course_name": "Algorithmic Genomic Biology",
+        "course_hour": "4 Hours",
+        "course_description": "Gives each student enough background and training in the area of algorithmic genomic biology so that each will be able to do research in this area, and publish papers. The main focus of the course is phylogeny (evolutionary tree) estimation, multiple sequence alignment, and genome-scale phylogenetics, which are problems that present very interesting challenges from a computational and statistical standpoint. Time permitting, we will also discuss computational problems in microbiome analysis, protein function and structure prediction, genome assembly, and even historical linguistics. Students will learn the mathematical and computational foundations in these areas, read the current literature, and do a team research project. The course is designed for doctoral students in computer science, computer engineering, bioengineering, mathematics, and statistics, and does not depend on any prior background in biology. The technical material will depend on discrete algorithms, graph theory, simulations, and probabilistic analysis of algorithms. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "One of CS 374 or ECE 374 and one of CS 361 or STAT 361, or consent of instructor.",
+            "prerequisites": [
+                [
+                    "CS 374",
+                    "ECE 374",
+                    "CS 361",
+                    "STAT 361"
+                ]
+            ]
+        }
+    },
+    "CS 582": {
+        "course_code": "582",
+        "course_name": "Machine Learning for Bioinformatics",
+        "course_hour": "4 Hours",
+        "course_description": "This graduate course on bioinformatics introduces a selection of topics in computational biology and bioinformatics, with special emphasis on current problems in regulatory genomics and systems biology. Computational approaches discussed will focus on Machine Learning techniques such as Bayesian inference, graphical models, supervised learning and network analysis. Bioinformatics topics will be introduced through lectures by instructor and research paper presentations by students, and include regulatory sequence analysis, cistromics, epigenomics, regulatory network reconstruction, non-coding variant interpretation, and protein structure and function prediction. A research project involving real data analysis with techniques related to course content is mandatory and will help prepare students for bioinformatics research. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "CS 446 or ECE 449; Credit or concurrent enrollment in CS 466; or consent of instructor.",
+            "prerequisites": [
+                [
+                    "CS 446",
+                    "ECE 449"
+                ],
+                [
+                    "CS 466"
+                ],
+                [
+                    "consent of instructor"
+                ]
+            ]
+        }
+    },
+    "CS 583": {
+        "course_code": "583",
+        "course_name": "Approximation Algorithms",
+        "course_hour": "4 Hours",
+        "course_description": "Approximation algorithms for NP-hard problems. Basic and advanced techniques in approximation algorithm design: combinatorial algorithms; mathematical programming methods including linear and semi-definite programming, local search methods, and others. Algorithms for graphs and networks, constraint satisfaction, packing and scheduling. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "CS 573, CSE 515 or consent of instructor.",
+            "prerequisites": [
+                [
+                    "CS 573",
+                    "CSE 515"
+                ]
+            ]
+        }
+    },
+    "CS 584": {
+        "course_code": "584",
+        "course_name": "Embedded System Verification",
+        "course_hour": "4 Hours",
+        "course_description": "Same as ECE 584. See ECE 584.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 585": {
+        "course_code": "585",
+        "course_name": "Hardware Verification",
+        "course_hour": "4 Hours",
+        "course_description": "Same as ECE 519. See ECE 519.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 586": {
+        "course_code": "586",
+        "course_name": "Combinatorial Optimization",
+        "course_hour": "4 Hours",
+        "course_description": "Same as IE 519. See IE 519.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 588": {
+        "course_code": "588",
+        "course_name": "Autonomous Vehicle System Engineering",
+        "course_hour": "4 Hours",
+        "course_description": "Will introduce students to the computational principles involved in autonomous vehicles, with practical labwork on an actual vehicle. Sensing topics will include vision, lidar and sonar sensing, including state-of-the-art methods for detection, classification, and segmentation. Bayesian filtering methods will be covered in the context of both SLAM and visual tracking. Planning and control topics will cover vehicle dynamics models, state-lattice planning, sampling-based kinodynamic planning, optimal control and trajectory optimization, and some reinforcement learning. Evaluation will involve ambitious challenge projects implemented on a physical vehicle. 4 graduate hours. No professional credit. ",
+        "course_prerequisites": {
+            "raw_text": "CS 374, ECE 374, ECE 484, or equivalent.",
+            "prerequisites": [
+                [
+                    "CS 374",
+                    "ECE 374",
+                    "ECE 484"
+                ]
+            ]
+        }
+    },
+    "CS 591": {
+        "course_code": "591",
+        "course_name": "Advanced Seminar",
+        "course_hour": "0 to 4 Hours",
+        "course_description": "Seminar on topics of current interest as announced in the Class Schedule. Approved for S/U grading only. May be repeated in the same or separate terms if topics vary. ",
+        "course_prerequisites": {
+            "raw_text": "As specified for each topic offering, see Class Schedule or departmental course description.",
+            "prerequisites": [
+                []
+            ]
+        }
+    },
+    "CS 597": {
+        "course_code": "597",
+        "course_name": "Individual Study",
+        "course_hour": "2 to 16 Hours",
+        "course_description": "Individual study or reading in a subject not covered in normal course offerings. May be repeated. ",
+        "course_prerequisites": {
+            "raw_text": "Consent of instructor.",
+            "prerequisites": [
+                [
+                    "consent of instructor"
+                ]
+            ]
+        }
+    },
+    "CS 598": {
+        "course_code": "598",
+        "course_name": "Special Topics",
+        "course_hour": "2 to 4 Hours",
+        "course_description": "Subject offerings of new and developing areas of knowledge in computer science intended to augment the existing curriculum. See Class Schedule or departmental course information for topics and prerequisites. May be repeated in the same or separate terms if topics vary.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 599": {
+        "course_code": "599",
+        "course_name": "Thesis Research",
+        "course_hour": "0 to 16 Hours",
+        "course_description": "Approved for S/U grading only. May be repeated.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "100": {
+    "CS 100": {
         "course_code": "100",
         "course_name": "Computer Science Orientation",
         "course_hour": "1 Hour",
@@ -9,17 +9,24 @@
             "prerequisites": []
         }
     },
-    "101": {
+    "CS 101": {
         "course_code": "101",
         "course_name": "Intro Computing: Engrg & Sci",
         "course_hour": "3 Hours",
         "course_description": "Fundamental principles, concepts, and methods of computing, with emphasis on applications in the physical sciences and engineering. Basic problem solving and programming techniques; fundamental algorithms and data structures; use of computers in solving engineering and scientific problems. Intended for engineering and science majors. ",
         "course_prerequisites": {
             "raw_text": "One of MATH 220 or MATH 221 or MATH 231 or MATH 241. This course satisfies the General Education Criteria for:Quantitative Reasoning II",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "MATH 220",
+                    "MATH 221",
+                    "MATH 231",
+                    "MATH 241"
+                ]
+            ]
         }
     },
-    "102": {
+    "CS 102": {
         "course_code": "102",
         "course_name": "Little Bits to Big Ideas",
         "course_hour": "4 Hours",
@@ -29,17 +36,21 @@
             "prerequisites": []
         }
     },
-    "105": {
+    "CS 105": {
         "course_code": "105",
         "course_name": "Intro Computing: Non-Tech",
         "course_hour": "3 Hours",
         "course_description": "Computing as an essential tool of academic and professional activities. Functions and interrelationships of computer system components: hardware, systems and applications software, and networks. Widely used application packages such as spreadsheets and databases. Concepts and practice of programming for the solution of simple problems in different application areas. Intended for non-science and non-engineering majors. ",
         "course_prerequisites": {
             "raw_text": "MATH 112. This course satisfies the General Education Criteria for:Quantitative Reasoning I",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "MATH 112"
+                ]
+            ]
         }
     },
-    "107": {
+    "CS 107": {
         "course_code": "107",
         "course_name": "Data Science Discovery",
         "course_hour": "4 Hours",
@@ -49,47 +60,64 @@
             "prerequisites": []
         }
     },
-    "124": {
+    "CS 124": {
         "course_code": "124",
         "course_name": "Introduction to Computer Science I",
         "course_hour": "3 Hours",
         "course_description": "Basic concepts in computing and fundamental techniques for solving computational problems. Intended as a first course for computer science majors and others with a deep interest in computing. Credit is not given for both CS 124 and CS 125. ",
         "course_prerequisites": {
             "raw_text": "Three years of high school mathematics or MATH 112.This course satisfies the General Education Criteria for:Quantitative Reasoning I",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "MATH 112"
+                ]
+            ]
         }
     },
-    "125": {
+    "CS 125": {
         "course_code": "125",
         "course_name": "Introduction to Computer Science",
         "course_hour": "4 Hours",
         "course_description": "Basic concepts in computing and fundamental techniques for solving computational problems. Intended as a first course for computer science majors and others with a deep interest in computing. Credit is not given for both CS 125 and CS 124. ",
         "course_prerequisites": {
             "raw_text": "Three years of high school mathematics or MATH 112. This course satisfies the General Education Criteria for:Quantitative Reasoning I",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "MATH 112"
+                ]
+            ]
         }
     },
-    "126": {
+    "CS 126": {
         "course_code": "126",
         "course_name": "Software Design Studio",
         "course_hour": "3 Hours",
         "course_description": "Fundamental principles and techniques of software development. Design, documentation, testing, and debugging software, with a significant emphasis on code review. Credit is not given for both CS 242 and CS 126. ",
         "course_prerequisites": {
             "raw_text": "CS 125. For majors only.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 125"
+                ]
+            ]
         }
     },
-    "128": {
+    "CS 128": {
         "course_code": "128",
         "course_name": "Introduction to Computer Science II",
         "course_hour": "3 Hours",
         "course_description": "Continuation of CS 124. More advanced concepts in computing and techniques and approaches for solving computational problems. ",
         "course_prerequisites": {
             "raw_text": "CS 124 or CS 125.This course satisfies the General Education Criteria for:Quantitative Reasoning II",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 124",
+                    "CS 125"
+                ]
+            ]
         }
     },
-    "173": {
+    "CS 173": {
         "course_code": "173",
         "course_name": "Discrete Structures",
         "course_hour": "3 Hours",
@@ -97,12 +125,19 @@
         "course_prerequisites": {
             "raw_text": "One of CS 124, CS 125, ECE 220; one of MATH 220, MATH 221.",
             "prerequisites": [
-                "One of CS 124, CS 125, ECE 220",
-                "one of MATH 220, MATH 221."
+                [
+                    "CS 124",
+                    "CS 125",
+                    "ECE 220"
+                ],
+                [
+                    "MATH 220",
+                    "MATH 221"
+                ]
             ]
         }
     },
-    "196": {
+    "CS 196": {
         "course_code": "196",
         "course_name": "First-Year Student Honors",
         "course_hour": "1 Hour",
@@ -112,7 +147,7 @@
             "prerequisites": []
         }
     },
-    "199": {
+    "CS 199": {
         "course_code": "199",
         "course_name": "Undergraduate Open Seminar in Computer Science",
         "course_hour": "0 to 5 Hours",
@@ -122,27 +157,35 @@
             "prerequisites": []
         }
     },
-    "210": {
+    "CS 210": {
         "course_code": "210",
         "course_name": "Ethical & Professional Issues",
         "course_hour": "2 Hours",
         "course_description": "Ethics for the computing profession. Ethical decision-making; licensing; intellectual property, freedom of information, and privacy. Credit is not given for both CS 210 and either CS 211 or ECE 316. ",
         "course_prerequisites": {
             "raw_text": "CS 225. Junior standing required.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "211": {
+    "CS 211": {
         "course_code": "211",
         "course_name": "Ethical and Professional Conduct",
         "course_hour": "3 Hours",
         "course_description": "Navigating the complex ethical and professional landscape of the computing professional: privacy, intellectual property, cybersecurity, and freedom of speech. Hands-on exercises, assignments, and discussions in which students analyze current events from perspectives in both philosophical and professional ethics. Writing professionally and technically in several writing assignments requiring peer review, workshops, and multiple rounds of editing and revising. Credit is not given for both CS 211 and CS 210 or ECE 316. ",
         "course_prerequisites": {
             "raw_text": "CS 225.This course satisfies the General Education Criteria for:Advanced Composition",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "222": {
+    "CS 222": {
         "course_code": "222",
         "course_name": "Software Design Lab",
         "course_hour": "1 Hour",
@@ -150,12 +193,16 @@
         "course_prerequisites": {
             "raw_text": "CS 128; credit or concurrent registration in CS 225. Restricted to majors in Computer Science undergraduate curricula only.",
             "prerequisites": [
-                "CS 128",
-                "credit or concurrent registration in CS 225. Restricted to majors in Computer Science undergraduate curricula only."
+                [
+                    "CS 128"
+                ],
+                [
+                    "CS 225"
+                ]
             ]
         }
     },
-    "225": {
+    "CS 225": {
         "course_code": "225",
         "course_name": "Data Structures",
         "course_hour": "4 Hours",
@@ -163,12 +210,23 @@
         "course_prerequisites": {
             "raw_text": "CS 126 or CS 128 or ECE 220; One of CS 173, CS 413, MATH 213, MATH 347, MATH 412, or MATH 413. This course satisfies the General Education Criteria for:Quantitative Reasoning II",
             "prerequisites": [
-                "CS 126 or CS 128 or ECE 220",
-                "One of CS 173, CS 413, MATH 213, MATH 347, MATH 412, or MATH 413. This course satisfies the General Education Criteria for:Quantitative Reasoning II"
+                [
+                    "CS 126",
+                    "CS 128",
+                    "ECE 220"
+                ],
+                [
+                    "CS 173",
+                    "CS 413",
+                    "MATH 213",
+                    "MATH 347",
+                    "MATH 412",
+                    "MATH 413"
+                ]
             ]
         }
     },
-    "233": {
+    "CS 233": {
         "course_code": "233",
         "course_name": "Computer Architecture",
         "course_hour": "4 Hours",
@@ -176,23 +234,35 @@
         "course_prerequisites": {
             "raw_text": "CS 125 or CS 128; CS 173 or MATH 213; credit or concurrent enrollment in CS 225.",
             "prerequisites": [
-                "CS 125 or CS 128",
-                "CS 173 or MATH 213",
-                "credit or concurrent enrollment in CS 225."
+                [
+                    "CS 125",
+                    "CS 128"
+                ],
+                [
+                    "CS 173",
+                    "MATH 213"
+                ],
+                [
+                    "CS 225"
+                ]
             ]
         }
     },
-    "242": {
+    "CS 242": {
         "course_code": "242",
         "course_name": "Programming Studio",
         "course_hour": "3 Hours",
         "course_description": "Intensive programming lab intended to strengthen skills in programming. ",
         "course_prerequisites": {
             "raw_text": "CS 241.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 241"
+                ]
+            ]
         }
     },
-    "265": {
+    "CS 265": {
         "course_code": "265",
         "course_name": "Innovation Illinois: From Accessible Design to Supercomputing Cultures",
         "course_hour": "3 Hours",
@@ -202,7 +272,7 @@
             "prerequisites": []
         }
     },
-    "277": {
+    "CS 277": {
         "course_code": "277",
         "course_name": "Algorithms and Data Structures for Data Science",
         "course_hour": "4 Hours",
@@ -210,12 +280,28 @@
         "course_prerequisites": {
             "raw_text": "STAT 207; one of MATH 220, MATH 221, MATH 234. CS 277 cannot be taken concurrently with CS 225.",
             "prerequisites": [
-                "STAT 207",
-                "one of MATH 220, MATH 221, MATH 234. CS 277 cannot be taken concurrently with CS 225."
+                [
+                    "STAT 207"
+                ],
+                [
+                    "MATH 220"
+                ],
+                [
+                    "MATH 221"
+                ],
+                [
+                    "MATH 234"
+                ],
+                [
+                    "CS 277"
+                ],
+                [
+                    "CS 225"
+                ]
             ]
         }
     },
-    "296": {
+    "CS 296": {
         "course_code": "296",
         "course_name": "Honors Course",
         "course_hour": "1 Hour",
@@ -225,7 +311,7 @@
             "prerequisites": []
         }
     },
-    "307": {
+    "CS 307": {
         "course_code": "307",
         "course_name": "Modeling and Learning in Data Science",
         "course_hour": "4 Hours",
@@ -233,32 +319,62 @@
         "course_prerequisites": {
             "raw_text": "STAT 207; one of MATH 225, MATH 227, MATH 257, MATH 415, MATH 416, ASRM 406.",
             "prerequisites": [
-                "STAT 207",
-                "one of MATH 225, MATH 227, MATH 257, MATH 415, MATH 416, ASRM 406."
+                [
+                    "STAT 207"
+                ],
+                [
+                    "MATH 225"
+                ],
+                [
+                    "MATH 227"
+                ],
+                [
+                    "MATH 257"
+                ],
+                [
+                    "MATH 415"
+                ],
+                [
+                    "MATH 416"
+                ],
+                [
+                    "ASRM 406"
+                ]
             ]
         }
     },
-    "340": {
+    "CS 340": {
         "course_code": "340",
         "course_name": "Introduction to Computer Systems",
         "course_hour": "3 Hours",
         "course_description": "Basics of computer systems. Number representations, assembly/machine language, abstract models of processors (fetch/execute, memory hierarchy), processes/process control, simple memory management, file I/O and directories, network programming, usage of cloud services. Credit is not given for both CS 340 and CS 240. ",
         "course_prerequisites": {
             "raw_text": "CS 225.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "341": {
+    "CS 341": {
         "course_code": "341",
         "course_name": "System Programming",
         "course_hour": "4 Hours",
         "course_description": "Basics of system programming, including POSIX processes, process control, inter-process communication, synchronization, signals, simple memory management, file I/O and directories, shell programming, socket network programming, RPC programming in distributed systems, basic security mechanisms, and standard tools for systems programming such as debugging tools. Credit is not given for both CS 341 and either CS 241 or ECE 391. ",
         "course_prerequisites": {
             "raw_text": "CS 225 and CS 233.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ],
+                [
+                    "CS 233"
+                ]
+            ]
         }
     },
-    "357": {
+    "CS 357": {
         "course_code": "357",
         "course_name": "Numerical Methods I",
         "course_hour": "3 Hours",
@@ -266,13 +382,28 @@
         "course_prerequisites": {
             "raw_text": "One of CS 101, CS 105, CS 124, CS 125 or ECE 220; MATH 241; one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210.",
             "prerequisites": [
-                "One of CS 101, CS 105, CS 124, CS 125 or ECE 220",
-                "MATH 241",
-                "one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210."
+                [
+                    "CS 101",
+                    "CS 105",
+                    "CS 124",
+                    "CS 125",
+                    "ECE 220"
+                ],
+                [
+                    "MATH 241"
+                ],
+                [
+                    "MATH 225",
+                    "MATH 257",
+                    "MATH 415",
+                    "MATH 416",
+                    "ASRM 406",
+                    "BIOE 210"
+                ]
             ]
         }
     },
-    "361": {
+    "CS 361": {
         "course_code": "361",
         "course_name": "Probability & Statistics for Computer Science",
         "course_hour": "3 Hours",
@@ -280,12 +411,21 @@
         "course_prerequisites": {
             "raw_text": "MATH 220 or MATH 221; credit or concurrent registration in one of MATH 225, MATH 257, MATH 415, MATH 416 or ASRM 406. For majors only.",
             "prerequisites": [
-                "MATH 220 or MATH 221",
-                "credit or concurrent registration in one of MATH 225, MATH 257, MATH 415, MATH 416 or ASRM 406. For majors only."
+                [
+                    "MATH 220",
+                    "MATH 221"
+                ],
+                [
+                    "MATH 225",
+                    "MATH 257",
+                    "MATH 415",
+                    "MATH 416",
+                    "ASRM 406"
+                ]
             ]
         }
     },
-    "374": {
+    "CS 374": {
         "course_code": "374",
         "course_name": "Introduction to Algorithms & Models of Computation",
         "course_hour": "4 Hours",
@@ -293,22 +433,33 @@
         "course_prerequisites": {
             "raw_text": "One of CS 173, MATH 213; CS 225.",
             "prerequisites": [
-                "One of CS 173, MATH 213",
-                "CS 225."
+                [
+                    "CS 173"
+                ],
+                [
+                    "MATH 213"
+                ],
+                [
+                    "CS 225"
+                ]
             ]
         }
     },
-    "397": {
+    "CS 397": {
         "course_code": "397",
         "course_name": "Individual Study",
         "course_hour": "1 to 3 Hours",
         "course_description": "May be repeated. ",
         "course_prerequisites": {
             "raw_text": "Consent of instructor.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "consent of instructor"
+                ]
+            ]
         }
     },
-    "398": {
+    "CS 398": {
         "course_code": "398",
         "course_name": "Special Topics",
         "course_hour": "1 to 4 Hours",
@@ -318,47 +469,59 @@
             "prerequisites": []
         }
     },
-    "400": {
+    "CS 400": {
         "course_code": "400",
         "course_name": "Accelerated Fundamentals of Computing I",
         "course_hour": "3 Hours",
         "course_description": "The first class in a sequence of two classes that introduces students to the basic concepts in computing with an emphasis on the fundamental techniques for solving computational problems. Topics include: core programming concepts (variables, data types, conditional expressions, loops, functions), basic data structures, searching and sorting algorithms, and data exploration and visualization. No prior programming experience is required. No undergraduate credit. 3 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "Current enrollment in the Illinois Computing Accelerator for Non-specialists (iCAN) program or consent of instructor. Restricted to post-baccalaureate students with a non-computing background.",
-            "prerequisites": []
+            "prerequisites": [
+                []
+            ]
         }
     },
-    "401": {
+    "CS 401": {
         "course_code": "401",
         "course_name": "Accelerated Fundamentals of Algorithms I",
         "course_hour": "3 Hours",
         "course_description": "The first class in a sequence of two classes that introduces students to the theoretical foundations of computer science. Topics include counting, sets, functions, decision trees, recursion, binary numbers, basic graph theory, depth first search and breadth first search, algorithms for computing shortest paths, data structures like stacks and queues, big O notation and asymptotic analysis, complexity classes like P and NP, and reductions. No undergraduate credit. 3 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "Current enrollment in the Illinois Computing Accelerator for Non-specialists (iCAN) program or consent of instructor. Restricted to post- baccalaureate students with a non-computing background.",
-            "prerequisites": []
+            "prerequisites": [
+                []
+            ]
         }
     },
-    "402": {
+    "CS 402": {
         "course_code": "402",
         "course_name": "Accelerated Fundamentals of Computing II",
         "course_hour": "3 Hours",
         "course_description": "Provides an accelerated introduction to class-based program design and the design of abstractions that support the design of reusable software and libraries. It reviews typical object-oriented concepts such as information hiding, encapsulation, polymorphism, inheritance, composition, and common design patterns. The course will also covers exception handling, database programming, and concurrent programming. No undergraduate credit. 3 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 400 or consent of instructor. Current enrollment in the Illinois Computing Accelerator for Non-specialists (iCAN) program or consent of instructor. Restricted to post-baccalaureate students with a non-computing background.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 400"
+                ]
+            ]
         }
     },
-    "403": {
+    "CS 403": {
         "course_code": "403",
         "course_name": "Accelerated Fundamentals of Algorithms II",
         "course_hour": "3 Hours",
         "course_description": "The second class in a sequence of two classes that introduces students to the theoretical foundations of computer science. Topics include major paradigms of algorithm design divide and conquer, greedy, recursive, and dynamic programming; solving recurrences and analysis of divide and conquer algorithms; graph algorithms; formal models of computations like finite state automata and Turing machines; reductions. No undergraduate credit. 3 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 401 or consent of instructor. Current enrollment in the Illinois Computing Accelerator for Non-specialists (iCAN) program or consent of instructor. Restricted to post-baccalaureate students with a non-computing background.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 401"
+                ]
+            ]
         }
     },
-    "407": {
+    "CS 407": {
         "course_code": "407",
         "course_name": "Cryptography",
         "course_hour": "3 or 4 Hours",
@@ -368,47 +531,63 @@
             "prerequisites": []
         }
     },
-    "409": {
+    "CS 409": {
         "course_code": "409",
         "course_name": "The Art of Web Programming",
         "course_hour": "3 or 4 Hours",
         "course_description": "Client- and server-side technologies that enable modern Web applications. Topics include the building blocks of the Web (browsers, HTML, CSS, JavaScript) and data exchange (HTTP, AJAX, JSON, REST). Assignments expose students to full-stack web development, and JavaScript frameworks that scaffold MVC architectures and event-driven, asynchronous programming. The course culminates in a final project, where students work in teams to design and develop an original, database-backed web application. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 225.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "410": {
+    "CS 410": {
         "course_code": "410",
         "course_name": "Text Information Systems",
         "course_hour": "3 or 4 Hours",
         "course_description": "Theory, design, and implementation of text-based information systems. Text analysis, retrieval models (e.g., Boolean, vector space, probabilistic), text categorization, text filtering, clustering, retrieval system design and implementation, and applications to web information management. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 225.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "411": {
+    "CS 411": {
         "course_code": "411",
         "course_name": "Database Systems",
         "course_hour": "3 or 4 Hours",
         "course_description": "Examination of the logical organization of databases: the entity-relationship model; the hierarchical, network, and relational data models and their languages. Functional dependencies and normal forms. Design, implementation, and optimization of query languages; security and integrity; concurrency control, and distributed database systems. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 225.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "412": {
+    "CS 412": {
         "course_code": "412",
         "course_name": "Introduction to Data Mining",
         "course_hour": "3 or 4 Hours",
         "course_description": "Concepts, techniques, and systems of data warehousing and data mining. Design and implementation of data warehouse and on-line analytical processing (OLAP) systems; data mining concepts, methods, systems, implementations, and applications. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 225.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "413": {
+    "CS 413": {
         "course_code": "413",
         "course_name": "Intro to Combinatorics",
         "course_hour": "3 or 4 Hours",
@@ -418,47 +597,67 @@
             "prerequisites": []
         }
     },
-    "414": {
+    "CS 414": {
         "course_code": "414",
         "course_name": "Multimedia Systems",
         "course_hour": "3 or 4 Hours",
         "course_description": "Organization and structure of modern multimedia systems; audio and video encoding; quality of service concepts; scheduling algorithms for multimedia within OS and networks multimedia protocols over high-speed networks; synchronization schemes, user-interface design; multimedia teleservices. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "One of CS 240, CS 241, CS 340, CS 341 or ECE 391.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 240",
+                    "CS 241",
+                    "CS 340",
+                    "CS 341",
+                    "ECE 391"
+                ]
+            ]
         }
     },
-    "415": {
+    "CS 415": {
         "course_code": "415",
         "course_name": "Game Development",
         "course_hour": "3 or 4 Hours",
         "course_description": "A team and project-based course on the technical aspects of video game development and game engine internals: geometric modeling, game physics and AI, shader programming, real-time physically based rendering, and software engineering practices within the game industry. The central focus of the course is the development of a game by teams of 3 to 5 students. The course strongly emphasizes code development using a modern game engine. Students will gain skills necessary to develop games and to develop game engines. 3 undergraduate hours. 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 225.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "416": {
+    "CS 416": {
         "course_code": "416",
         "course_name": "Data Visualization",
         "course_hour": "3 or 4 Hours",
         "course_description": "Elements of databases, computer graphics and perceptual psychology combined to utilize the human visual system to improve user understanding of large datasets. Topics include appropriate and effective selection and construction of charts, organization of dashboards, and design for user engagement and interaction. 3 undergraduate hours. 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 225.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "417": {
+    "CS 417": {
         "course_code": "417",
         "course_name": "Virtual Reality",
         "course_hour": "3 or 4 Hours",
         "course_description": "Provides both a deep understanding of the fundamentals of virtual reality (VR) and practical experience implementing VR systems. Topics covered include visual and audio display technology, tracking, human perception and psychophysics, building user interfaces for VR, and analyzing VR experiences. 3 undergraduate hours. 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 225.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "418": {
+    "CS 418": {
         "course_code": "418",
         "course_name": "Interactive Computer Graphics",
         "course_hour": "3 or 4 Hours",
@@ -466,33 +665,53 @@
         "course_prerequisites": {
             "raw_text": "CS 225; One of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406, or BIOE 210; MATH 241.",
             "prerequisites": [
-                "CS 225",
-                "One of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406, or BIOE 210",
-                "MATH 241."
+                [
+                    "CS 225"
+                ],
+                [
+                    "MATH 225",
+                    "MATH 257",
+                    "MATH 415",
+                    "MATH 416",
+                    "ASRM 406",
+                    "BIOE 210"
+                ],
+                [
+                    "MATH 241"
+                ]
             ]
         }
     },
-    "419": {
+    "CS 419": {
         "course_code": "419",
         "course_name": "Production Computer Graphics",
         "course_hour": "3 or 4 Hours",
         "course_description": "Advanced methods for representing, displaying, and rendering two-, three-, and four-dimensional scenes. General algebraic curves and surfaces, splines, Gaussian and bump-function representation, fractals, particle systems, constructive solid geometry methods, lighting models, radiosity, advanced ray-tracing methods, surface texturing animation techniques, data visualization methods. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 418 or CSE 427.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 418",
+                    "CSE 427"
+                ]
+            ]
         }
     },
-    "420": {
+    "CS 420": {
         "course_code": "420",
         "course_name": "Parallel Progrmg: Sci & Engrg",
         "course_hour": "3 or 4 Hours",
         "course_description": "Fundamental issues in design and development of parallel programs for various types of parallel computers. Various programming models according to both machine type and application area. Cost models, debugging, and performance evaluation of parallel programs with actual application examples. Same as CSE 402 and ECE 492. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 225.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "421": {
+    "CS 421": {
         "course_code": "421",
         "course_name": "Programming Languages & Compilers",
         "course_hour": "3 or 4 Hours",
@@ -500,113 +719,194 @@
         "course_prerequisites": {
             "raw_text": "One of CS 233, CS 240 or CS 340; CS 374 or ECE 374; one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406, BIOE 210.",
             "prerequisites": [
-                "One of CS 233, CS 240 or CS 340",
-                "CS 374 or ECE 374",
-                "one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406, BIOE 210."
+                [
+                    "CS 233",
+                    "CS 240",
+                    "CS 340"
+                ],
+                [
+                    "CS 374",
+                    "ECE 374"
+                ],
+                [
+                    "MATH 225"
+                ],
+                [
+                    "MATH 257"
+                ],
+                [
+                    "MATH 415"
+                ],
+                [
+                    "MATH 416"
+                ],
+                [
+                    "ASRM 406"
+                ],
+                [
+                    "BIOE 210"
+                ]
             ]
         }
     },
-    "422": {
+    "CS 422": {
         "course_code": "422",
         "course_name": "Programming Language Design",
         "course_hour": "3 or 4 Hours",
         "course_description": "Exploration of major language design paradigms using imperative and functional programming as unifying themes. Tools include both practical language processor construction and theoretical models. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 421.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 421"
+                ]
+            ]
         }
     },
-    "423": {
+    "CS 423": {
         "course_code": "423",
         "course_name": "Operating Systems Design",
         "course_hour": "3 or 4 Hours",
         "course_description": "Organization and structure of modern operating systems and concurrent programming concepts. Deadlock, virtual memory, processor scheduling, and disk systems. Performance, security, and protection. Same as CSE 423. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "One of CS 241, CS 341, or ECE 391.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 241",
+                    "CS 341",
+                    "ECE 391"
+                ]
+            ]
         }
     },
-    "424": {
+    "CS 424": {
         "course_code": "424",
         "course_name": "Real-Time Systems",
         "course_hour": "3 or 4 Hours",
         "course_description": "Supervisory control aspects of Cyber Physical Systems (CPS): fundamentals of reliability analysis, real-time scheduling, simple feedback control, software fault tolerance architecture, wireless networking and energy saving, principles of safety critical system engineering. Student groups design and demonstrate supervisory control architecture for a robot. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "One of CS 241, CS 341 or ECE 391.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 241",
+                    "CS 341",
+                    "ECE 391"
+                ]
+            ]
         }
     },
-    "425": {
+    "CS 425": {
         "course_code": "425",
         "course_name": "Distributed Systems",
         "course_hour": "3 or 4 Hours",
         "course_description": "Protocols, specification techniques, global states and their determination, reliable broadcast, transactions and commitment, security, and real-time systems. Same as ECE 428. 3 or 4 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "Credit or concurrent enrollment in one of CS 240, CS 241, CS 340, CS 341 or ECE 391.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 240",
+                    "CS 241",
+                    "CS 340",
+                    "CS 341",
+                    "ECE 391"
+                ]
+            ]
         }
     },
-    "426": {
+    "CS 426": {
         "course_code": "426",
         "course_name": "Compiler Construction",
         "course_hour": "3 or 4 Hours",
         "course_description": "Compiler structure, syntax analysis, syntax-directed translation, automatically constructed recognizers, semantic analysis, code generation, intermediate language, optimization techniques. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "Credit or concurrent enrollment in CS 421.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 421"
+                ]
+            ]
         }
     },
-    "427": {
+    "CS 427": {
         "course_code": "427",
         "course_name": "Software Engineering I",
         "course_hour": "3 or 4 Hours",
         "course_description": "Software process, analysis and design. Software development paradigms, system engineering, function-based analysis and design, and object-oriented analysis and design. Course will use team-projects for hands-on exercises. Same as CSE 426. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "One of CS 222, CS 240, CS 241, CS 340, CS 341 or ECE 391.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 222",
+                    "CS 240",
+                    "CS 241",
+                    "CS 340",
+                    "CS 341",
+                    "ECE 391"
+                ]
+            ]
         }
     },
-    "428": {
+    "CS 428": {
         "course_code": "428",
         "course_name": "Software Engineering II",
         "course_hour": "3 or 4 Hours",
         "course_description": "Continuation of CS 427. Software development, management, and maintenance. Project and configuration management, collaborative development models, software quality assurance, interoperability domain engineering and software reuse, and software re-engineering. Same as CSE 429. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 427 or CSE 426.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 427",
+                    "CSE 426"
+                ]
+            ]
         }
     },
-    "429": {
+    "CS 429": {
         "course_code": "429",
         "course_name": "Software Engineering II, ACP",
         "course_hour": "3 Hours",
         "course_description": "Continuation of CS 427. Identical to CS 428 except for the additional writing component. See CS 428. 3 undergraduate hours. 3 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 427 or CSE 426.This course satisfies the General Education Criteria for:Advanced Composition",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 427",
+                    "CSE 426"
+                ]
+            ]
         }
     },
-    "431": {
+    "CS 431": {
         "course_code": "431",
         "course_name": "Embedded Systems",
         "course_hour": "3 or 4 Hours",
         "course_description": "A survey of sampled data systems and embedded architecture; key concepts in common embedded system applications; signal processing and control; embedded microprocessor and device interface; time-critical I/O handling; data communications; real-time operating systems and techniques for the development and analysis of embedded real-time software; hands-on laboratory projects. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "One of CS 241, CS 341 or ECE 391. Students must register for one lab and one lecture section.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 241",
+                    "CS 341",
+                    "ECE 391"
+                ]
+            ]
         }
     },
-    "433": {
+    "CS 433": {
         "course_code": "433",
         "course_name": "Computer System Organization",
         "course_hour": "3 or 4 Hours",
         "course_description": "Computer hardware design and analysis and interface with software. Advanced processor design, including superscalar, out-of-order issue, branch prediction, and speculation. Memory hierarchy design, including advanced cache optimizations, main memory, and virtual memory. Principles of multiprocessor design, including shared-memory, cache coherence, synchronization, and consistency. Other advanced topics depending on time; e.g., GPUs and accelerators, warehouse computers and data centers, security. Same as CSE 422. 3 undergraduate hours. 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 233.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 233"
+                ]
+            ]
         }
     },
-    "434": {
+    "CS 434": {
         "course_code": "434",
         "course_name": "Mobile Computing & Application",
         "course_hour": "3 or 4 Hours",
@@ -616,37 +916,58 @@
             "prerequisites": []
         }
     },
-    "435": {
+    "CS 435": {
         "course_code": "435",
         "course_name": "Cloud Networking",
         "course_hour": "3 or 4 Hours",
         "course_description": "Provides a foundational view of computer networks with a focus on enabling modern large-scale cloud computing. The first part of this course studies the principles upon which the Internet and other networks are built, and how those principles translate into deployed protocols. The second part covers how those principles are applied in network infrastructure for modern clouds, enabling deployment of virtual networks on shared infrastructure, efficient transfer of big data and low latency communication, and federation of applications across countries and continents. 3 undergraduate hours. 4 graduate hours. Credit is not given for both CS 435 and CS 438/ECE 438. ",
         "course_prerequisites": {
             "raw_text": "One of CS 240, CS 241, CS 340, CS 341 or ECE 391.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 240",
+                    "CS 241",
+                    "CS 340",
+                    "CS 341",
+                    "ECE 391"
+                ]
+            ]
         }
     },
-    "436": {
+    "CS 436": {
         "course_code": "436",
         "course_name": "Computer Networking Laboratory",
         "course_hour": "3 or 4 Hours",
         "course_description": "Design, application, analysis, and deployment of communication protocols and system software behind modern cloud/compute/network infrastructures. Students learn the internals of modern system infrastructures, including operating system networking kernels, cloud application service code, and firewall and router configuration. Students will gain experience with widely-used and production-grade code and systems, such as Cisco IOS, the Linux networking stack, and Amazon Web Services. This class links theory with practice to prepare students to confidently carry out tasks they will commonly encounter in industry, such as building an enterprise network, deploying a large-scale cloud service, or implementing a new network protocol. Same as ECE 435. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "One of CS 240, CS 241, CS 340, CS 341 or ECE 391.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 240",
+                    "CS 241",
+                    "CS 340",
+                    "CS 341",
+                    "ECE 391"
+                ]
+            ]
         }
     },
-    "437": {
+    "CS 437": {
         "course_code": "437",
         "course_name": "Topics in Internet of Things",
         "course_hour": "3 or 4 Hours",
         "course_description": "Topics of networked embedded computing technology, known as the Internet of Things, in application, distributed, human-centric, or social contexts. The tight coupling between people, networking protocols, computing elements, and physical things in IoT systems presents unique challenges for data collection, processing in constrained computation and communication environments. Introduces general principles of IoT systems and protocol, offers broad foundations for IoT services, and allows specialization to pursue an in-depth understanding of selected IoT aspects or subtopics. 3 undergraduate hours. 4 graduate hours. May be repeated if topics vary. Credit towards a degree from multiple offerings of this course is not given if those offerings have significant overlap, as determined by the CS department. ",
         "course_prerequisites": {
             "raw_text": "CS 241 or CS 341. Additional prerequisites may be specified each term. See section information.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 241",
+                    "CS 341"
+                ]
+            ]
         }
     },
-    "438": {
+    "CS 438": {
         "course_code": "438",
         "course_name": "Communication Networks",
         "course_hour": "3 or 4 Hours",
@@ -654,12 +975,24 @@
         "course_prerequisites": {
             "raw_text": "One of CS 241, CS 341 or ECE 391; strongly recommend one of CS 361, STAT 361, ECE 313, MATH 362, MATH 461, MATH 463 or STAT 400.",
             "prerequisites": [
-                "One of CS 241, CS 341 or ECE 391",
-                "strongly recommend one of CS 361, STAT 361, ECE 313, MATH 362, MATH 461, MATH 463 or STAT 400."
+                [
+                    "CS 241",
+                    "CS 341",
+                    "ECE 391"
+                ],
+                [
+                    "CS 361",
+                    "STAT 361",
+                    "ECE 313",
+                    "MATH 362",
+                    "MATH 461",
+                    "MATH 463",
+                    "STAT 400"
+                ]
             ]
         }
     },
-    "439": {
+    "CS 439": {
         "course_code": "439",
         "course_name": "Wireless Networks",
         "course_hour": "3 or 4 Hours",
@@ -669,7 +1002,7 @@
             "prerequisites": []
         }
     },
-    "440": {
+    "CS 440": {
         "course_code": "440",
         "course_name": "Artificial Intelligence",
         "course_hour": "3 or 4 Hours",
@@ -677,22 +1010,40 @@
         "course_prerequisites": {
             "raw_text": "CS 225; one of CS 361, STAT 361, ECE 313, MATH 362, MATH 461, MATH 463, STAT 400 or BIOE 310.",
             "prerequisites": [
-                "CS 225",
-                "one of CS 361, STAT 361, ECE 313, MATH 362, MATH 461, MATH 463, STAT 400 or BIOE 310."
+                [
+                    "CS 225"
+                ],
+                [
+                    "CS 361",
+                    "STAT 361",
+                    "ECE 313",
+                    "MATH 362",
+                    "MATH 461",
+                    "MATH 463",
+                    "STAT 400",
+                    "BIOE 310"
+                ]
             ]
         }
     },
-    "441": {
+    "CS 441": {
         "course_code": "441",
         "course_name": "Applied Machine Learning",
         "course_hour": "3 or 4 Hours",
         "course_description": "Techniques of machine learning to various signal problems: regression, including linear regression, multiple regression, regression forest and nearest neighbors regression; classification with various methods, including logistic regression, support vector machines, nearest neighbors, simple boosting and decision forests; clustering with various methods, including basic agglomerative clustering and k-means; resampling methods, including cross-validation and the bootstrap; model selection methods, including AIC, stepwise selection and the lasso; hidden Markov models; model estimation in the presence of missing variables; and neural networks, including deep networks. The course will focus on tool-oriented and problem-oriented exposition. Application areas include computer vision, natural language, interpreting accelerometer data, and understanding audio data. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 225 and CS 361.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ],
+                [
+                    "CS 361"
+                ]
+            ]
         }
     },
-    "442": {
+    "CS 442": {
         "course_code": "442",
         "course_name": "Trustworthy Machine Learning",
         "course_hour": "3 or 4 Hours",
@@ -700,13 +1051,28 @@
         "course_prerequisites": {
             "raw_text": "CS 225; one of CS 440, ECE 448, CS 441, CS 446 or ECE 449; one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210.",
             "prerequisites": [
-                "CS 225",
-                "one of CS 440, ECE 448, CS 441, CS 446 or ECE 449",
-                "one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210."
+                [
+                    "CS 225"
+                ],
+                [
+                    "CS 440",
+                    "ECE 448",
+                    "CS 441",
+                    "CS 446",
+                    "ECE 449"
+                ],
+                [
+                    "MATH 225",
+                    "MATH 257",
+                    "MATH 415",
+                    "MATH 416",
+                    "ASRM 406",
+                    "BIOE 210"
+                ]
             ]
         }
     },
-    "443": {
+    "CS 443": {
         "course_code": "443",
         "course_name": "Reinforcement Learning",
         "course_hour": "3 or 4 Hours",
@@ -714,14 +1080,33 @@
         "course_prerequisites": {
             "raw_text": "CS 225; MATH 241; one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210; one of CS 361, STAT 361, ECE 313, MATH 362, MATH 461, MATH 463 or STAT 400.",
             "prerequisites": [
-                "CS 225",
-                "MATH 241",
-                "one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210",
-                "one of CS 361, STAT 361, ECE 313, MATH 362, MATH 461, MATH 463 or STAT 400."
+                [
+                    "CS 225"
+                ],
+                [
+                    "MATH 241"
+                ],
+                [
+                    "MATH 225",
+                    "MATH 257",
+                    "MATH 415",
+                    "MATH 416",
+                    "ASRM 406",
+                    "BIOE 210"
+                ],
+                [
+                    "CS 361",
+                    "STAT 361",
+                    "ECE 313",
+                    "MATH 362",
+                    "MATH 461",
+                    "MATH 463",
+                    "STAT 400"
+                ]
             ]
         }
     },
-    "444": {
+    "CS 444": {
         "course_code": "444",
         "course_name": "Deep Learning for Computer Vision",
         "course_hour": "3 or 4 Hours",
@@ -729,24 +1114,50 @@
         "course_prerequisites": {
             "raw_text": "MATH 241; one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406, or BIOE 210; CS 225 or equivalent; one of CS 361, ECE 313, MATH 461 or STAT 400. No previous exposure to machine learning is required.",
             "prerequisites": [
-                "MATH 241",
-                "one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406, or BIOE 210",
-                "CS 225 or equivalent",
-                "one of CS 361, ECE 313, MATH 461 or STAT 400. No previous exposure to machine learning is required."
+                [
+                    "MATH 241"
+                ],
+                [
+                    "MATH 225",
+                    "MATH 257",
+                    "MATH 415",
+                    "MATH 416",
+                    "ASRM 406",
+                    "BIOE 210"
+                ],
+                [
+                    "CS 225"
+                ],
+                [
+                    "CS 361",
+                    "ECE 313",
+                    "MATH 461",
+                    "STAT 400"
+                ]
             ]
         }
     },
-    "445": {
+    "CS 445": {
         "course_code": "445",
         "course_name": "Computational Photography",
         "course_hour": "3 or 4 Hours",
         "course_description": "Computer vision techniques to enhance, manipulate, and create media from photo collections, such as panoramic stitching, face morphing, texture synthesis, blending, and 3D reconstruction. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 225, MATH 225, and MATH 231.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ],
+                [
+                    "MATH 225"
+                ],
+                [
+                    "MATH 231"
+                ]
+            ]
         }
     },
-    "446": {
+    "CS 446": {
         "course_code": "446",
         "course_name": "Machine Learning",
         "course_hour": "3 or 4 Hours",
@@ -754,23 +1165,41 @@
         "course_prerequisites": {
             "raw_text": "CS 225; One of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210; One of CS 361, ECE 313, MATH 461 or STAT 400.",
             "prerequisites": [
-                "CS 225",
-                "One of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210",
-                "One of CS 361, ECE 313, MATH 461 or STAT 400."
+                [
+                    "CS 225"
+                ],
+                [
+                    "MATH 225",
+                    "MATH 257",
+                    "MATH 415",
+                    "MATH 416",
+                    "ASRM 406",
+                    "BIOE 210"
+                ],
+                [
+                    "CS 361",
+                    "ECE 313",
+                    "MATH 461",
+                    "STAT 400"
+                ]
             ]
         }
     },
-    "447": {
+    "CS 447": {
         "course_code": "447",
         "course_name": "Natural Language Processing",
         "course_hour": "3 or 4 Hours",
         "course_description": "Part-of-speech tagging, parsing, semantic analysis and machine translation. Relevant linguistics concepts from morphology (word formation) and lexical semantics (the meaning of words) to syntax (sentence structure) and compositional semantics (the meaning of sentences). 3 undergraduate hours. 3 or 4 graduate hours. Credit is not given for both CS 447 and LING 406. ",
         "course_prerequisites": {
             "raw_text": "CS 374.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 374"
+                ]
+            ]
         }
     },
-    "448": {
+    "CS 448": {
         "course_code": "448",
         "course_name": "Audio Computing Laboratory",
         "course_hour": "3 or 4 Hours",
@@ -778,12 +1207,23 @@
         "course_prerequisites": {
             "raw_text": "One of CS 241, CS 341, or ECE 391; one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406, or BIOE 210.",
             "prerequisites": [
-                "One of CS 241, CS 341, or ECE 391",
-                "one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406, or BIOE 210."
+                [
+                    "CS 241",
+                    "CS 341",
+                    "ECE 391"
+                ],
+                [
+                    "MATH 225",
+                    "MATH 257",
+                    "MATH 415",
+                    "MATH 416",
+                    "ASRM 406",
+                    "BIOE 210"
+                ]
             ]
         }
     },
-    "450": {
+    "CS 450": {
         "course_code": "450",
         "course_name": "Numerical Analysis",
         "course_hour": "3 or 4 Hours",
@@ -791,93 +1231,151 @@
         "course_prerequisites": {
             "raw_text": "One of CS 101, CS 124 or CS 125; one of CS 357, MATH 257, MATH 357, MATH 415, or MATH 416; MATH 285.",
             "prerequisites": [
-                "One of CS 101, CS 124 or CS 125",
-                "one of CS 357, MATH 257, MATH 357, MATH 415, or MATH 416",
-                "MATH 285."
+                [
+                    "CS 101",
+                    "CS 124",
+                    "CS 125"
+                ],
+                [
+                    "CS 357",
+                    "MATH 257",
+                    "MATH 357",
+                    "MATH 415",
+                    "MATH 416"
+                ],
+                [
+                    "MATH 285"
+                ]
             ]
         }
     },
-    "457": {
+    "CS 457": {
         "course_code": "457",
         "course_name": "Numerical Methods II",
         "course_hour": "3 Hours",
         "course_description": "Continuation of CS 357. Orthogonalization methods for least squares, Krylov subspace methods, non-linear equations and optimization in multiple dimensions, initial and boundary value problems for ordinary and partial differential equations. 3 undergraduate hours. No graduate credit. Credit is not given toward graduation for both CS 457 and CS 450. ",
         "course_prerequisites": {
             "raw_text": "CS 357 or MATH 357.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 357",
+                    "MATH 357"
+                ]
+            ]
         }
     },
-    "460": {
+    "CS 460": {
         "course_code": "460",
         "course_name": "Security Laboratory",
         "course_hour": "3 or 4 Hours",
         "course_description": "Operating systems security: access control, least privilege mechanism and malware techniques. Network security: firewalls, sniffing, tunnels, intrusion detection, AAA and worm structure. System security: forensics security architectures, and attack/defend exercises. Complements CS 461 via hands-on project. Same as ECE 419. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 461 or ECE 422.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 461",
+                    "ECE 422"
+                ]
+            ]
         }
     },
-    "461": {
+    "CS 461": {
         "course_code": "461",
         "course_name": "Computer Security I",
         "course_hour": "4 Hours",
         "course_description": "Fundamental principles of computer and communications security and information assurance: ethics, privacy, notions of threat, vulnerabilities, and risk in systems, information warfare, malicious software, data secrecy and integrity issues, network security, trusted computing, mandatory and discretionary access controls, certification and accreditation of systems against security standards. Security mechanisms: authentication, auditing, intrusion detection, access control, cryptography, security protocols, key distribution. Same as ECE 422. 4 undergraduate hours. 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "One of CS 241, CS 341, or ECE 391.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 241",
+                    "CS 341",
+                    "ECE 391"
+                ]
+            ]
         }
     },
-    "463": {
+    "CS 463": {
         "course_code": "463",
         "course_name": "Computer Security II",
         "course_hour": "3 or 4 Hours",
         "course_description": "Program security, trusted base, privacy, anonymity, non-interference, information flow, confinement, advanced auditing, forensics, intrusion detection, key management and distribution, policy composition and analysis, formal approaches to specification and verification of secure systems and protocols, and topics in applied cryptography. Same as ECE 424. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 461. Recommended: CS 475.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 461"
+                ],
+                [
+                    "CS 475"
+                ]
+            ]
         }
     },
-    "464": {
+    "CS 464": {
         "course_code": "464",
         "course_name": "Topics in Societal and Ethical Impacts of Computer Technology",
         "course_hour": "3 Hours",
         "course_description": "Topics selected from key current areas of impact of computer technology on aspects of society and ethics such as: freedom versus the rule of law in cyberspace; social discourse; privacy; livelihoods and automation; fairness; security; political change; business models; technology divide. 3 undergraduate hours. No graduate credit. May be repeated if topics vary. Credit is not given towards a degree from multiple offerings of this course, if those offerings have significant overlap, as determined by the CS department. ",
         "course_prerequisites": {
             "raw_text": "CS 225. One of CS 210 or CS 211 or ECE 316 or PHIL 316. One of CS 361 or STAT 400 or STAT 200. Restricted to students with senior standing.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225",
+                    "CS 210",
+                    "CS 211",
+                    "ECE 316",
+                    "PHIL 316",
+                    "CS 361",
+                    "STAT 400",
+                    "STAT 200"
+                ]
+            ]
         }
     },
-    "465": {
+    "CS 465": {
         "course_code": "465",
         "course_name": "User Interface Design",
         "course_hour": "4 Hours",
         "course_description": "A project-focused course covering fundamental principles of user interface design, implementation, and evaluation. Small teams work on a term-long project that involves: analysis of the problem domain, user skills, and tasks; iterative prototyping of interfaces to address user needs; conducting several forms of evaluation such as cognitive walkthroughs and usability tests; implementation of the final prototype. Non-technical majors may enroll as non-programmers who participate in all aspects of the projects with the possible exception of implementation. 4 undergraduate hours. 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 225.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "466": {
+    "CS 466": {
         "course_code": "466",
         "course_name": "Introduction to Bioinformatics",
         "course_hour": "3 or 4 Hours",
         "course_description": "Algorithmic approaches in bioinformatics: (i) biological problems that can be solved computationally (e.g., discovering genes, and interactions among different genes and proteins); (ii) algorithmic techniques with wide applicability in solving these problems (e.g., dynamic programming and probabilistic methods); (iii) practical issues in translating the basic algorithmic ideas into accurate and efficient tools that biologists may use. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 225.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "467": {
+    "CS 467": {
         "course_code": "467",
         "course_name": "Social Visualization",
         "course_hour": "3 or 4 Hours",
         "course_description": "Visualizing social interaction in networked spaces: investigation of patterns in networked communications systems such as messaging (email, instant messaging), social networking sites and collaborative sites; social network theory and visualizations; exploration of how to move beyond existing visualization techniques; visualizing the network identity over compilations of online data. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 225.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
         }
     },
-    "468": {
+    "CS 468": {
         "course_code": "468",
         "course_name": "Tech and Advertising Campaigns",
         "course_hour": "3 Hours",
@@ -887,7 +1385,7 @@
             "prerequisites": []
         }
     },
-    "469": {
+    "CS 469": {
         "course_code": "469",
         "course_name": "Computational Advertising Infrastructure",
         "course_hour": "3 or 4 Hours",
@@ -895,14 +1393,33 @@
         "course_prerequisites": {
             "raw_text": "CS 173; CS 225; one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210; one of CS 361, STAT 361, ECE 313, MATH 362, MATH 461, MATH 463 or STAT 400.",
             "prerequisites": [
-                "CS 173",
-                "CS 225",
-                "one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406 or BIOE 210",
-                "one of CS 361, STAT 361, ECE 313, MATH 362, MATH 461, MATH 463 or STAT 400."
+                [
+                    "CS 173"
+                ],
+                [
+                    "CS 225"
+                ],
+                [
+                    "MATH 225",
+                    "MATH 257",
+                    "MATH 415",
+                    "MATH 416",
+                    "ASRM 406",
+                    "BIOE 210"
+                ],
+                [
+                    "CS 361",
+                    "STAT 361",
+                    "ECE 313",
+                    "MATH 362",
+                    "MATH 461",
+                    "MATH 463",
+                    "STAT 400"
+                ]
             ]
         }
     },
-    "470": {
+    "CS 470": {
         "course_code": "470",
         "course_name": "Social and Information Networks",
         "course_hour": "3 or 4 Hours",
@@ -910,24 +1427,55 @@
         "course_prerequisites": {
             "raw_text": "CS 225; CS 173; one of CS 361, STAT 361, ECE 313, MATH 362, MATH 461, MATH 463 or STAT 400; one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406, or BIOE 210.",
             "prerequisites": [
-                "CS 225",
-                "CS 173",
-                "one of CS 361, STAT 361, ECE 313, MATH 362, MATH 461, MATH 463 or STAT 400",
-                "one of MATH 225, MATH 257, MATH 415, MATH 416, ASRM 406, or BIOE 210."
+                [
+                    "CS 225"
+                ],
+                [
+                    "CS 173"
+                ],
+                [
+                    "CS 361",
+                    "STAT 361",
+                    "ECE 313",
+                    "MATH 362",
+                    "MATH 461",
+                    "MATH 463",
+                    "STAT 400"
+                ],
+                [
+                    "MATH 225",
+                    "MATH 257",
+                    "MATH 415",
+                    "MATH 416",
+                    "ASRM 406",
+                    "BIOE 210"
+                ]
             ]
         }
     },
-    "473": {
+    "CS 473": {
         "course_code": "473",
         "course_name": "Algorithms",
         "course_hour": "4 Hours",
         "course_description": "Design and analysis techniques, approximation algorithms, randomized algorithms and amortized analysis, and advanced topics such as network flow, linear programming, and dynamic data structures, among others. Same as CSE 414 and MATH 473. 4 undergraduate hours. 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 374 or ECE 374, and one of CS 361, STAT 361, ECE 313, MATH 362, MATH 461, MATH 463 or STAT 400.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 374",
+                    "ECE 374",
+                    "CS 361",
+                    "STAT 361",
+                    "ECE 313",
+                    "MATH 362",
+                    "MATH 461",
+                    "MATH 463",
+                    "STAT 400"
+                ]
+            ]
         }
     },
-    "474": {
+    "CS 474": {
         "course_code": "474",
         "course_name": "Logic in Computer Science",
         "course_hour": "3 or 4 Hours",
@@ -935,23 +1483,35 @@
         "course_prerequisites": {
             "raw_text": "CS 173; CS 225; one of CS 374 or ECE 374.",
             "prerequisites": [
-                "CS 173",
-                "CS 225",
-                "one of CS 374 or ECE 374."
+                [
+                    "CS 173"
+                ],
+                [
+                    "CS 225"
+                ],
+                [
+                    "CS 374",
+                    "ECE 374"
+                ]
             ]
         }
     },
-    "475": {
+    "CS 475": {
         "course_code": "475",
         "course_name": "Formal Models of Computation",
         "course_hour": "3 or 4 Hours",
         "course_description": "Finite automata and regular languages; pushdown automata and context-free languages; Turing machines and recursively enumerable sets; linear-bounded automata and context-sensitive languages; computability and the halting problem; undecidable problems; recursive functions; Chomsky hierarchy; computational complexity. Same as MATH 475. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 374 or ECE 374.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 374",
+                    "ECE 374"
+                ]
+            ]
         }
     },
-    "476": {
+    "CS 476": {
         "course_code": "476",
         "course_name": "Program Verification",
         "course_hour": "3 or 4 Hours",
@@ -959,12 +1519,18 @@
         "course_prerequisites": {
             "raw_text": "CS 225; one of CS 374, ECE 374 or MATH 414.",
             "prerequisites": [
-                "CS 225",
-                "one of CS 374, ECE 374 or MATH 414."
+                [
+                    "CS 225"
+                ],
+                [
+                    "CS 374",
+                    "ECE 374",
+                    "MATH 414"
+                ]
             ]
         }
     },
-    "477": {
+    "CS 477": {
         "course_code": "477",
         "course_name": "Formal Software Development Methods",
         "course_hour": "3 or 4 Hours",
@@ -972,12 +1538,18 @@
         "course_prerequisites": {
             "raw_text": "CS 225; one of CS 374, ECE 374 or MATH 414.",
             "prerequisites": [
-                "CS 225",
-                "one of CS 374, ECE 374 or MATH 414."
+                [
+                    "CS 225"
+                ],
+                [
+                    "CS 374",
+                    "ECE 374",
+                    "MATH 414"
+                ]
             ]
         }
     },
-    "481": {
+    "CS 481": {
         "course_code": "481",
         "course_name": "Advanced Topics in Stochastic Processes & Applications",
         "course_hour": "3 or 4 Hours",
@@ -987,7 +1559,7 @@
             "prerequisites": []
         }
     },
-    "482": {
+    "CS 482": {
         "course_code": "482",
         "course_name": "Simulation",
         "course_hour": "3 or 4 Hours",
@@ -997,7 +1569,7 @@
             "prerequisites": []
         }
     },
-    "483": {
+    "CS 483": {
         "course_code": "483",
         "course_name": "Applied Parallel Programming",
         "course_hour": "4 Hours",
@@ -1007,27 +1579,34 @@
             "prerequisites": []
         }
     },
-    "484": {
+    "CS 484": {
         "course_code": "484",
         "course_name": "Parallel Programming",
         "course_hour": "3 or 4 Hours",
         "course_description": "Techniques for the programming of all classes of parallel computers and devices including shared memory and distributed memory multiprocessors, SIMD processors and co-processors, and special purpose devices. Key concepts in parallel programming such as reactive and transformational programming, speculation, speedup, isoefficiency, and load balancing. Synchronization primitives, libraries and languages for parallel programming such as OpenMP and MPI, performance monitoring, program tuning, analysis and programming of numerical and symbolic parallel algorithms. 3 undergraduate hours. 3 or 4 graduate hours. ",
         "course_prerequisites": {
             "raw_text": "CS 241 or CS 341.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 241",
+                    "CS 341"
+                ]
+            ]
         }
     },
-    "491": {
+    "CS 491": {
         "course_code": "491",
         "course_name": "Seminar",
         "course_hour": "0 to 4 Hours",
         "course_description": "Seminar on topics of current interest as announced in the Class Schedule. 0 to 4 undergraduate hours. 0 to 4 graduate hours. Approved for S/U grading only. May be repeated in the same or separate terms if topics vary to a maximum of 4 hours. ",
         "course_prerequisites": {
             "raw_text": "As specified for each topic offering, see Class Schedule or departmental course description.",
-            "prerequisites": []
+            "prerequisites": [
+                []
+            ]
         }
     },
-    "492": {
+    "CS 492": {
         "course_code": "492",
         "course_name": "Senior Project I",
         "course_hour": "3 Hours",
@@ -1037,27 +1616,35 @@
             "prerequisites": []
         }
     },
-    "493": {
+    "CS 493": {
         "course_code": "493",
         "course_name": "Senior Project II, ACP",
         "course_hour": "3 Hours",
         "course_description": "Continuation of CS 492. Identical to CS 494 except for an additional writing component. See CS 494. 3 undergraduate hours. No graduate credit. Credit is not given for both CS 493 and a project course in another engineering department for the same project. ",
         "course_prerequisites": {
             "raw_text": "CS 492.This course satisfies the General Education Criteria for:Advanced Composition",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 492"
+                ]
+            ]
         }
     },
-    "494": {
+    "CS 494": {
         "course_code": "494",
         "course_name": "Senior Project II",
         "course_hour": "3 Hours",
         "course_description": "Continuation of CS 492. 3 undergraduate hours. No graduate credit. Credit is not given for both CS 494 and a project course in another engineering department for the same project. ",
         "course_prerequisites": {
             "raw_text": "CS 492.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 492"
+                ]
+            ]
         }
     },
-    "497": {
+    "CS 497": {
         "course_code": "497",
         "course_name": "CS Team Project",
         "course_hour": "1 to 3 Hours",
@@ -1065,12 +1652,11 @@
         "course_prerequisites": {
             "raw_text": "For majors only; junior or senior standing required.",
             "prerequisites": [
-                "For majors only",
-                "junior or senior standing required."
+                []
             ]
         }
     },
-    "498": {
+    "CS 498": {
         "course_code": "498",
         "course_name": "Special Topics",
         "course_hour": "1 to 4 Hours",
@@ -1080,17 +1666,21 @@
             "prerequisites": []
         }
     },
-    "499": {
+    "CS 499": {
         "course_code": "499",
         "course_name": "Senior Thesis",
         "course_hour": "3 Hours",
         "course_description": "Research and thesis development experience in computer science under guidance of a faculty member. Literature search, oral presentation, analysis and implementation, paper preparation, and completion of a written thesis. 3 undergraduate hours. No graduate credit. May be repeated to a maximum of 6 hours. ",
         "course_prerequisites": {
             "raw_text": "Consent of instructor.This course satisfies the General Education Criteria for:Advanced Composition",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "consent of instructor"
+                ]
+            ]
         }
     },
-    "500": {
+    "CS 500": {
         "course_code": "500",
         "course_name": "Current Topics in Computing Education Research",
         "course_hour": "4 Hours",
@@ -1100,7 +1690,7 @@
             "prerequisites": []
         }
     },
-    "507": {
+    "CS 507": {
         "course_code": "507",
         "course_name": "Topics in Cryptography",
         "course_hour": "4 Hours",
@@ -1110,7 +1700,7 @@
             "prerequisites": []
         }
     },
-    "508": {
+    "CS 508": {
         "course_code": "508",
         "course_name": "Manycore Parallel Algorithms",
         "course_hour": "4 Hours",
@@ -1120,37 +1710,53 @@
             "prerequisites": []
         }
     },
-    "510": {
+    "CS 510": {
         "course_code": "510",
         "course_name": "Advanced Information Retrieval",
         "course_hour": "4 Hours",
         "course_description": "Advanced concepts, models, and algorithms in information retrieval and major recent developments in the field, including historical milestones in information retrieval research, evaluation methodology, vector space retrieval model, probabilistic retrieval models, learning to rank algorithms, probabilistic topic models, information retrieval systems, text analytics, and topics of research frontiers in information retrieval. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "One of CS 410, CS 412, CS 446, ECE 449 or LING 406.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 410",
+                    "CS 412",
+                    "CS 446",
+                    "ECE 449",
+                    "LING 406"
+                ]
+            ]
         }
     },
-    "511": {
+    "CS 511": {
         "course_code": "511",
         "course_name": "Advanced Data Management",
         "course_hour": "4 Hours",
         "course_description": "Advanced concepts in data management and information system design and implementation, and recent developments in the field. 1) Relational roots, objects and extensibility, query languages, data indexing, query processing, transaction processing, benchmarks, and 2) semi-structured data and unstructured data, information extraction, information integration, web search and mining, and other emerging directions in the field. ",
         "course_prerequisites": {
             "raw_text": "CS 411.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 411"
+                ]
+            ]
         }
     },
-    "512": {
+    "CS 512": {
         "course_code": "512",
         "course_name": "Data Mining Principles",
         "course_hour": "4 Hours",
         "course_description": "An advanced course on principles and algorithms of data mining. Data cleaning and integration; descriptive and predictive mining; mining frequent, sequential, and structured patterns; clustering, outlier analysis and fraud detection; stream data, web, text, and biomedical data mining; security and privacy in data mining; research frontiers. ",
         "course_prerequisites": {
             "raw_text": "CS 412.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 412"
+                ]
+            ]
         }
     },
-    "513": {
+    "CS 513": {
         "course_code": "513",
         "course_name": "Theory & Practice of Data Cleaning",
         "course_hour": "4 Hours",
@@ -1160,7 +1766,7 @@
             "prerequisites": []
         }
     },
-    "514": {
+    "CS 514": {
         "course_code": "514",
         "course_name": "Advanced Topics in Network Science",
         "course_hour": "4 Hours",
@@ -1168,22 +1774,32 @@
         "course_prerequisites": {
             "raw_text": "CS 412; one of CS 446 or ECE 449. Additional prerequisites or corequisites may be specified each term. See section information.",
             "prerequisites": [
-                "CS 412",
-                "one of CS 446 or ECE 449. Additional prerequisites or corequisites may be specified each term. See section information."
+                [
+                    "CS 412"
+                ],
+                [
+                    "CS 446",
+                    "ECE 449"
+                ]
             ]
         }
     },
-    "519": {
+    "CS 519": {
         "course_code": "519",
         "course_name": "Scientific Visualization",
         "course_hour": "4 Hours",
         "course_description": "Visualization techniques useful in analysis of engineering and scientific data. Physical models; methods of computational science; two- and three-dimensional data types; visual representation schemes for scalar, vector, and tensor data; isosurface and volume visualization methods; visual monitoring; interactive steering. Same as CSE 527. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "CS 418 or CSE 427.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 418",
+                    "CSE 427"
+                ]
+            ]
         }
     },
-    "521": {
+    "CS 521": {
         "course_code": "521",
         "course_name": "Advanced Topics in Programming Systems",
         "course_hour": "4 Hours",
@@ -1191,22 +1807,34 @@
         "course_prerequisites": {
             "raw_text": "CS 374 or ECE 374; CS 421. Additional prerequisites or corequisites may be specified each term. See section information.",
             "prerequisites": [
-                "CS 374 or ECE 374",
-                "CS 421. Additional prerequisites or corequisites may be specified each term. See section information."
+                [
+                    "CS 374",
+                    "ECE 374"
+                ],
+                [
+                    "CS 421"
+                ]
             ]
         }
     },
-    "522": {
+    "CS 522": {
         "course_code": "522",
         "course_name": "Programming Language Semantics",
         "course_hour": "4 Hours",
         "course_description": "Theory of programming languages including functional programming, meta-circular interpreters, typed, untyped and polymorphic lambda-calculi, and denotational semantics. ",
         "course_prerequisites": {
             "raw_text": "CS 422 and CS 426.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 422"
+                ],
+                [
+                    "CS 426"
+                ]
+            ]
         }
     },
-    "523": {
+    "CS 523": {
         "course_code": "523",
         "course_name": "Advanced Operating Systems",
         "course_hour": "4 Hours",
@@ -1214,13 +1842,22 @@
         "course_prerequisites": {
             "raw_text": "One of CS 423 or CSE 423; one of CS 425 or ECE 428; and one of CS 433 or CSE 422.",
             "prerequisites": [
-                "One of CS 423 or CSE 423",
-                "one of CS 425 or ECE 428",
-                "and one of CS 433 or CSE 422."
+                [
+                    "CS 423",
+                    "CSE 423"
+                ],
+                [
+                    "CS 425",
+                    "ECE 428"
+                ],
+                [
+                    "CS 433",
+                    "CSE 422"
+                ]
             ]
         }
     },
-    "524": {
+    "CS 524": {
         "course_code": "524",
         "course_name": "Concurrent Progrmg Languages",
         "course_hour": "4 Hours",
@@ -1228,72 +1865,112 @@
         "course_prerequisites": {
             "raw_text": "CS 422; one of CS 475, MATH 475 or CS 476.",
             "prerequisites": [
-                "CS 422",
-                "one of CS 475, MATH 475 or CS 476."
+                [
+                    "CS 422"
+                ],
+                [
+                    "CS 475",
+                    "MATH 475",
+                    "CS 476"
+                ]
             ]
         }
     },
-    "525": {
+    "CS 525": {
         "course_code": "525",
         "course_name": "Advanced Distributed Systems",
         "course_hour": "4 Hours",
         "course_description": "Peer-to-peer systems, sensor networks, and fundamental theoretical distributed computing. Review of classical work in each area, and application of design methodologies to explore overlaps across them. Emphasis on protocol design, systems issues, and theory. Reading selections are roughly two-third classical to one-third contemporary. Students write critiques, make presentations, and create a conference paper in a systematic manner. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "One of CS 423, CSE 423, CS 425, ECE 428, CS 438 or ECE 438.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 423",
+                    "CSE 423",
+                    "CS 425",
+                    "ECE 428",
+                    "CS 438",
+                    "ECE 438"
+                ]
+            ]
         }
     },
-    "526": {
+    "CS 526": {
         "course_code": "526",
         "course_name": "Advanced Compiler Construction",
         "course_hour": "4 Hours",
         "course_description": "Incremental and interactive compiling, error correction, code optimization, models of code generators. ",
         "course_prerequisites": {
             "raw_text": "CS 426.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 426"
+                ]
+            ]
         }
     },
-    "527": {
+    "CS 527": {
         "course_code": "527",
         "course_name": "Topics in Software Engineering",
         "course_hour": "4 Hours",
         "course_description": "Fault-tolerant software, software architecture, software patterns, multi-media software, and knowledge-based approaches to software engineering. Case studies. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "CS 428, CSE 429 or CS 429.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 428",
+                    "CSE 429",
+                    "CS 429"
+                ]
+            ]
         }
     },
-    "528": {
+    "CS 528": {
         "course_code": "528",
         "course_name": "Obj-Oriented Progrmg & Design",
         "course_hour": "4 Hours",
         "course_description": "Principles of object-oriented design; design patterns; use and design of frameworks; reflection, refractoring, use of unit tests as specifications. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "CS 427 or CSE 426.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 427",
+                    "CSE 426"
+                ]
+            ]
         }
     },
-    "533": {
+    "CS 533": {
         "course_code": "533",
         "course_name": "Parallel Computer Architecture",
         "course_hour": "4 Hours",
         "course_description": "Theoretical aspects of parallel and pipeline computation; time and processor bounds on classes of computations; data alignment network speed and cost bounds; conflict-free access memories; overall computer system ideas. Same as CSE 522. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "CS 433 or CSE 422.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 433",
+                    "CSE 422"
+                ]
+            ]
         }
     },
-    "534": {
+    "CS 534": {
         "course_code": "534",
         "course_name": "Advanced Topics in Computer Architecture",
         "course_hour": "4 Hours",
         "course_description": "Current topics in computer architecture, selected from areas of current research such as: energy efficiency, processing in memory, cloud computing, 3-D architectures, security and privacy, hardware and software resiliency, cross-stack design, heterogeneous platforms, approximate computing, mobile computing, machine learning accelerators, and novel computing technologies. 4 graduate hours. No professional credit. May be repeated, if topics vary. Credit is not given towards a degree from multiple offerings of this course, if those offerings have significant overlap, as determined by the CS department. ",
         "course_prerequisites": {
             "raw_text": "CS 433 or CSE 422. Additional prerequisites or co-requisites may be specified each term. See Class Schedule information.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 433",
+                    "CSE 422"
+                ]
+            ]
         }
     },
-    "536": {
+    "CS 536": {
         "course_code": "536",
         "course_name": "Fault-Tolerant Dig Syst Design",
         "course_hour": "4 Hours",
@@ -1303,7 +1980,7 @@
             "prerequisites": []
         }
     },
-    "537": {
+    "CS 537": {
         "course_code": "537",
         "course_name": "Advanced Topics in Internet of Things (IoT)",
         "course_hour": "4 Hours",
@@ -1311,22 +1988,33 @@
         "course_prerequisites": {
             "raw_text": "One of CS 425 or ECE 428; one of CS 438 or ECE 438. Additional prerequisites may be specified each term. See section information.",
             "prerequisites": [
-                "One of CS 425 or ECE 428",
-                "one of CS 438 or ECE 438. Additional prerequisites may be specified each term. See section information."
+                [
+                    "CS 425",
+                    "ECE 428"
+                ],
+                [
+                    "CS 438",
+                    "ECE 438"
+                ]
             ]
         }
     },
-    "538": {
+    "CS 538": {
         "course_code": "538",
         "course_name": "Advanced Computer Networks",
         "course_hour": "4 Hours",
         "course_description": "Advanced concepts in computer networks, including congestion control, quality of service, naming, routing, wireless networks, Internet architecture, measurement, network security, and selected recent research directions. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "CS 438 or ECE 438.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 438",
+                    "ECE 438"
+                ]
+            ]
         }
     },
-    "539": {
+    "CS 539": {
         "course_code": "539",
         "course_name": "Distributed Algorithms",
         "course_hour": "4 Hours",
@@ -1336,7 +2024,7 @@
             "prerequisites": []
         }
     },
-    "540": {
+    "CS 540": {
         "course_code": "540",
         "course_name": "Deep Learning Theory",
         "course_hour": "4 Hours",
@@ -1346,7 +2034,7 @@
             "prerequisites": []
         }
     },
-    "541": {
+    "CS 541": {
         "course_code": "541",
         "course_name": "Computer Systems Analysis",
         "course_hour": "4 Hours",
@@ -1356,7 +2044,7 @@
             "prerequisites": []
         }
     },
-    "542": {
+    "CS 542": {
         "course_code": "542",
         "course_name": "Statistical Reinforcement Learning",
         "course_hour": "4 Hours",
@@ -1366,7 +2054,7 @@
             "prerequisites": []
         }
     },
-    "543": {
+    "CS 543": {
         "course_code": "543",
         "course_name": "Computer Vision",
         "course_hour": "4 Hours",
@@ -1376,7 +2064,7 @@
             "prerequisites": []
         }
     },
-    "544": {
+    "CS 544": {
         "course_code": "544",
         "course_name": "Optimiz in Computer Vision",
         "course_hour": "4 Hours",
@@ -1384,12 +2072,21 @@
         "course_prerequisites": {
             "raw_text": "One of CS 450, CSE 401, ECE 491, or MATH 450; one of CS 473, CSE 414 or MATH 473.",
             "prerequisites": [
-                "One of CS 450, CSE 401, ECE 491, or MATH 450",
-                "one of CS 473, CSE 414 or MATH 473."
+                [
+                    "CS 450",
+                    "CSE 401",
+                    "ECE 491",
+                    "MATH 450"
+                ],
+                [
+                    "CS 473",
+                    "CSE 414",
+                    "MATH 473"
+                ]
             ]
         }
     },
-    "545": {
+    "CS 545": {
         "course_code": "545",
         "course_name": "Machine Learning for Signal Processing",
         "course_hour": "4 Hours",
@@ -1397,22 +2094,36 @@
         "course_prerequisites": {
             "raw_text": "MATH 415; one of CS 361, STAT 361, MATH 461, MATH 463 or STAT 400.",
             "prerequisites": [
-                "MATH 415",
-                "one of CS 361, STAT 361, MATH 461, MATH 463 or STAT 400."
+                [
+                    "MATH 415"
+                ],
+                [
+                    "CS 361",
+                    "STAT 361",
+                    "MATH 461",
+                    "MATH 463",
+                    "STAT 400"
+                ]
             ]
         }
     },
-    "546": {
+    "CS 546": {
         "course_code": "546",
         "course_name": "Advanced Topics in Natural Language Processing",
         "course_hour": "4 Hours",
         "course_description": "Advanced topics in natural language processing, ranging from general techniques such as deep learning for NLP to specific topics such as information extraction, knowledge acquisition, dialogue systems, language grounding, and natural language generation. Review of classic as well as state-of-the-art techniques and remaining challenges, and exploration of recent proposals for meeting these challenges. Intended for graduate students doing research in natural language processing. 4 graduate hours. No professional credit. May be repeated in separate terms up to 16 hours, if topics vary. Credit towards a degree from multiple offerings of this course is not given if those offerings have significant overlap, as determined by the CS department. ",
         "course_prerequisites": {
             "raw_text": "CS 447 and one of CS 446 or ECE 449, or equivalent background.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 447",
+                    "CS 446",
+                    "ECE 449"
+                ]
+            ]
         }
     },
-    "547": {
+    "CS 547": {
         "course_code": "547",
         "course_name": "Deep Learning",
         "course_hour": "4 Hours",
@@ -1422,17 +2133,24 @@
             "prerequisites": []
         }
     },
-    "548": {
+    "CS 548": {
         "course_code": "548",
         "course_name": "Models of Cognitive Processes",
         "course_hour": "4 Hours",
         "course_description": "Formal models and concepts in automated cognition; integrating machine learning and prior knowledge; current approaches and detailed analyses of the role of reasoning in the learning process; computational complexity and fundamental tradeoffs between expressiveness and tractability; implications for state-of-the-art artificial intelligence areas such as automated planning, the semantic web, relational learning, structured prediction, latent models, structure learning, theory formation, etc.; philosophical and psychological aspects of integrating analytic and empirical evidence. Same as ECE 548. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "One of CS 440, CS 446, ECE 448 or ECE 449.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 440",
+                    "CS 446",
+                    "ECE 448",
+                    "ECE 449"
+                ]
+            ]
         }
     },
-    "549": {
+    "CS 549": {
         "course_code": "549",
         "course_name": "Seminar in Cognitive Science",
         "course_hour": "2 or 4 Hours",
@@ -1442,27 +2160,46 @@
             "prerequisites": []
         }
     },
-    "554": {
+    "CS 554": {
         "course_code": "554",
         "course_name": "Parallel Numerical Algorithms",
         "course_hour": "4 Hours",
         "course_description": "Numerical algorithms for parallel computers: parallel algorithms in numerical linear algebra (dense and sparse solvers for linear systems and the algebraic eigenvalue problem), numerical handling of ordinary and partial differential equations, and numerical optimization techniques. Same as CSE 512. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "One of CS 450, CSE 401, ECE 491, MATH 450, CS 457, CS 555, CSE 510 or MATH 552.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 450",
+                    "CSE 401",
+                    "ECE 491",
+                    "MATH 450",
+                    "CS 457",
+                    "CS 555",
+                    "CSE 510",
+                    "MATH 552"
+                ]
+            ]
         }
     },
-    "555": {
+    "CS 555": {
         "course_code": "555",
         "course_name": "Numerical Methods for PDEs",
         "course_hour": "4 Hours",
         "course_description": "Numerical techniques for initial and boundary value problems in partial differential equations. Finite difference and finite element discretization techniques, direct and iterative solution methods for discrete problems, and programming techniques and usage of software packages. Same as CSE 510 and MATH 552. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "CS 450, CSE 401, ECE 491, MATH 450 or CS 457.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 450",
+                    "CSE 401",
+                    "ECE 491",
+                    "MATH 450",
+                    "CS 457"
+                ]
+            ]
         }
     },
-    "556": {
+    "CS 556": {
         "course_code": "556",
         "course_name": "Iterative & Multigrid Methods",
         "course_hour": "4 Hours",
@@ -1472,67 +2209,95 @@
             "prerequisites": []
         }
     },
-    "558": {
+    "CS 558": {
         "course_code": "558",
         "course_name": "Topics in Numerical Analysis",
         "course_hour": "4 Hours",
         "course_description": "Advanced topics in numerical analysis selected from areas of current research. Same as CSE 513. May be repeated. ",
         "course_prerequisites": {
             "raw_text": "As specified for each topic offering, see Schedule or departmental course description.",
-            "prerequisites": []
+            "prerequisites": [
+                []
+            ]
         }
     },
-    "562": {
+    "CS 562": {
         "course_code": "562",
         "course_name": "Advanced Topics in Security, Privacy, and Machine Learning",
         "course_hour": "4 Hours",
         "course_description": "Advanced topics in security and privacy problems in machine learning systems, selected from areas of current research such as: adversarial machine learning, differential privacy, game theory enabled defenses, robust learning methods, machine learning based cybercrime analysis, network intrusion detection, and malware analysis, and machine learning interpretation techniques. 4 graduate hours. No professional credit. May be repeated if topics vary. Credit is not given towards a degree from multiple offerings of this course if those offerings have significant overlap, as determined by the CS department. ",
         "course_prerequisites": {
             "raw_text": "One of CS 446 or ECE 449 and one of CS 463 or ECE 424, or equivalent courses, by consent of instructor. Additional prerequisites or corequisites may be specified each term. See section information.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 446",
+                    "ECE 449",
+                    "CS 463",
+                    "ECE 424"
+                ]
+            ]
         }
     },
-    "563": {
+    "CS 563": {
         "course_code": "563",
         "course_name": "Advanced Computer Security",
         "course_hour": "4 Hours",
         "course_description": "Current research trends in computer and network security. Privacy, tamper-resistance, unwanted traffic, monitoring and surveillance, and critical infrastructure protection. Subtopics will vary depending upon current research trends. Students work in teams in close coordination with the course instructor to develop one of the topics in depth by carrying out background research and an exploratory project. Same as ECE 524. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "One of CS 461, CS 463, ECE 422 or ECE 424.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 461",
+                    "CS 463",
+                    "ECE 422",
+                    "ECE 424"
+                ]
+            ]
         }
     },
-    "565": {
+    "CS 565": {
         "course_code": "565",
         "course_name": "Human-Computer Interaction",
         "course_hour": "4 Hours",
         "course_description": "In-depth coverage of advanced topics in human-computer interaction (HCI). Applied models of human performance and attention, design tools for creative design tasks, interruptions and peripheral displays, gestures, and bimanual input, and usability evaluation techniques. Students complete a research-oriented term project of their choosing. ",
         "course_prerequisites": {
             "raw_text": "CS 465.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 465"
+                ]
+            ]
         }
     },
-    "567": {
+    "CS 567": {
         "course_code": "567",
         "course_name": "Social Signals and Social Media",
         "course_hour": "4 Hours",
         "course_description": "Online social interactions occur in many arenas important to society and human well-being, but are mediated through algorithmic interventions that alter the users expectations in these social spaces. This class explores the presentation of self, the presentation of collectives, the presentation of news, and social dynamics in these online spaces--and how algorithmic intervention shapes them from the perspective of social signaling theory. Topics covered include: the evolution of algorithmic matchmaking (as in online resume/interviews and dating sites), why people share misinformation, the mitigation of trolling, ethics, and bias in social media systems. Upon completion of this course, students will have an up-to-date understanding of the design social media interfaces with incentive structures from social signaling theory. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "CS 465 or equivalent or permission of instructor. Prioritize PhD students, then others.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 465"
+                ]
+            ]
         }
     },
-    "568": {
+    "CS 568": {
         "course_code": "568",
         "course_name": "User-Centered Machine Learning",
         "course_hour": "4 Hours",
         "course_description": "Introduces guidelines, processes, and systems for designing effective user experiences powered by machine learning models. Topics include design tradeoffs unique to data-driven products and services such as automation versus control, precision versus recall, and personalization versus privacy. Readings from human computer-interaction, product design, cognitive science, machine learning, computer vision, and natural language processing frame in-class design exercises. Students work in teams on a multi-week research project creating or auditing data-driven experiences. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "CS 465 or equivalent course work.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 465"
+                ]
+            ]
         }
     },
-    "571": {
+    "CS 571": {
         "course_code": "571",
         "course_name": "Combinatorial Mathematics",
         "course_hour": "4 Hours",
@@ -1542,7 +2307,7 @@
             "prerequisites": []
         }
     },
-    "572": {
+    "CS 572": {
         "course_code": "572",
         "course_name": "Extremal Graph Theory",
         "course_hour": "4 Hours",
@@ -1552,7 +2317,7 @@
             "prerequisites": []
         }
     },
-    "573": {
+    "CS 573": {
         "course_code": "573",
         "course_name": "Algorithms",
         "course_hour": "4 Hours",
@@ -1562,7 +2327,7 @@
             "prerequisites": []
         }
     },
-    "574": {
+    "CS 574": {
         "course_code": "574",
         "course_name": "Randomized Algorithms",
         "course_hour": "4 Hours",
@@ -1570,12 +2335,20 @@
         "course_prerequisites": {
             "raw_text": "One of CS 473, CSE 414, or MATH 473; one of MATH 461, MATH 463 or STAT 400.",
             "prerequisites": [
-                "One of CS 473, CSE 414, or MATH 473",
-                "one of MATH 461, MATH 463 or STAT 400."
+                [
+                    "CS 473",
+                    "CSE 414",
+                    "MATH 473"
+                ],
+                [
+                    "MATH 461",
+                    "MATH 463",
+                    "STAT 400"
+                ]
             ]
         }
     },
-    "575": {
+    "CS 575": {
         "course_code": "575",
         "course_name": "Methods of Combinatorics",
         "course_hour": "4 Hours",
@@ -1585,47 +2358,68 @@
             "prerequisites": []
         }
     },
-    "576": {
+    "CS 576": {
         "course_code": "576",
         "course_name": "Topics in Automated Deduction",
         "course_hour": "2 to 4 Hours",
         "course_description": "Advanced topics in computer-aided methods for formal deduction, selected from areas of current research, such as: resolution theorem proving strategies, special relations, equational reasoning, unification theory, rewrite systems, mathematical induction, program derivation, hybrid inference systems, and programming with logic. May be repeated in separate terms. ",
         "course_prerequisites": {
             "raw_text": "As specified for each topic offering, see Schedule or departmental course description.",
-            "prerequisites": []
+            "prerequisites": [
+                []
+            ]
         }
     },
-    "579": {
+    "CS 579": {
         "course_code": "579",
         "course_name": "Computational Complexity",
         "course_hour": "4 Hours",
         "course_description": "Turing machines; determinism and non-determinism; time and space hierarchy theorems; speed-up and tape compression; Blum axioms; structure of complexity classes NP, P, NL, L, and PSPACE; complete problems; randomness and complexity classes RP, RL, and BPP; alternation, polynomial-time hierarchy; circuit complexity, parallel complexity, NC, and RNC; relativized computational complexity; time-space trade-offs. Same as ECE 579. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "One of CS 473, CSE 414, MATH 473, CS 475 or MATH 475.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 473",
+                    "CSE 414",
+                    "MATH 473",
+                    "CS 475",
+                    "MATH 475"
+                ]
+            ]
         }
     },
-    "580": {
+    "CS 580": {
         "course_code": "580",
         "course_name": "Topics in Algorithmic Game Theory",
         "course_hour": "4 Hours",
         "course_description": "A theoretical CS course covering advances in algorithmic game theory. This includes study of strategic, computational, learning, dynamic, and fairness aspects of games and markets (organizations that involves rational and strategic agents). In particular, topics will include computation and complexity of equilibria, mechanism design, fair-division, dynamics in games and markets, price-of-anarchy etc.. These topics arise from applications such as online marketplaces (like Lyft, Uber, eBay, sponsored search, TaskRabbit), social networks, recommendation systems, kidney exchange, spectrum auction, etc., and thereby will prepare students for related research and/or industry jobs. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "CS 473.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 473"
+                ]
+            ]
         }
     },
-    "581": {
+    "CS 581": {
         "course_code": "581",
         "course_name": "Algorithmic Genomic Biology",
         "course_hour": "4 Hours",
         "course_description": "Gives each student enough background and training in the area of algorithmic genomic biology so that each will be able to do research in this area, and publish papers. The main focus of the course is phylogeny (evolutionary tree) estimation, multiple sequence alignment, and genome-scale phylogenetics, which are problems that present very interesting challenges from a computational and statistical standpoint. Time permitting, we will also discuss computational problems in microbiome analysis, protein function and structure prediction, genome assembly, and even historical linguistics. Students will learn the mathematical and computational foundations in these areas, read the current literature, and do a team research project. The course is designed for doctoral students in computer science, computer engineering, bioengineering, mathematics, and statistics, and does not depend on any prior background in biology. The technical material will depend on discrete algorithms, graph theory, simulations, and probabilistic analysis of algorithms. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "One of CS 374 or ECE 374 and one of CS 361 or STAT 361, or consent of instructor.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 374",
+                    "ECE 374",
+                    "CS 361",
+                    "STAT 361"
+                ]
+            ]
         }
     },
-    "582": {
+    "CS 582": {
         "course_code": "582",
         "course_name": "Machine Learning for Bioinformatics",
         "course_hour": "4 Hours",
@@ -1633,23 +2427,35 @@
         "course_prerequisites": {
             "raw_text": "CS 446 or ECE 449; Credit or concurrent enrollment in CS 466; or consent of instructor.",
             "prerequisites": [
-                "CS 446 or ECE 449",
-                "Credit or concurrent enrollment in CS 466",
-                "or consent of instructor."
+                [
+                    "CS 446",
+                    "ECE 449"
+                ],
+                [
+                    "CS 466"
+                ],
+                [
+                    "consent of instructor"
+                ]
             ]
         }
     },
-    "583": {
+    "CS 583": {
         "course_code": "583",
         "course_name": "Approximation Algorithms",
         "course_hour": "4 Hours",
         "course_description": "Approximation algorithms for NP-hard problems. Basic and advanced techniques in approximation algorithm design: combinatorial algorithms; mathematical programming methods including linear and semi-definite programming, local search methods, and others. Algorithms for graphs and networks, constraint satisfaction, packing and scheduling. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "CS 573, CSE 515 or consent of instructor.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 573",
+                    "CSE 515"
+                ]
+            ]
         }
     },
-    "584": {
+    "CS 584": {
         "course_code": "584",
         "course_name": "Embedded System Verification",
         "course_hour": "4 Hours",
@@ -1659,7 +2465,7 @@
             "prerequisites": []
         }
     },
-    "585": {
+    "CS 585": {
         "course_code": "585",
         "course_name": "Hardware Verification",
         "course_hour": "4 Hours",
@@ -1669,7 +2475,7 @@
             "prerequisites": []
         }
     },
-    "586": {
+    "CS 586": {
         "course_code": "586",
         "course_name": "Combinatorial Optimization",
         "course_hour": "4 Hours",
@@ -1679,37 +2485,49 @@
             "prerequisites": []
         }
     },
-    "588": {
+    "CS 588": {
         "course_code": "588",
         "course_name": "Autonomous Vehicle System Engineering",
         "course_hour": "4 Hours",
         "course_description": "Will introduce students to the computational principles involved in autonomous vehicles, with practical labwork on an actual vehicle. Sensing topics will include vision, lidar and sonar sensing, including state-of-the-art methods for detection, classification, and segmentation. Bayesian filtering methods will be covered in the context of both SLAM and visual tracking. Planning and control topics will cover vehicle dynamics models, state-lattice planning, sampling-based kinodynamic planning, optimal control and trajectory optimization, and some reinforcement learning. Evaluation will involve ambitious challenge projects implemented on a physical vehicle. 4 graduate hours. No professional credit. ",
         "course_prerequisites": {
             "raw_text": "CS 374, ECE 374, ECE 484, or equivalent.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "CS 374",
+                    "ECE 374",
+                    "ECE 484"
+                ]
+            ]
         }
     },
-    "591": {
+    "CS 591": {
         "course_code": "591",
         "course_name": "Advanced Seminar",
         "course_hour": "0 to 4 Hours",
         "course_description": "Seminar on topics of current interest as announced in the Class Schedule. Approved for S/U grading only. May be repeated in the same or separate terms if topics vary. ",
         "course_prerequisites": {
             "raw_text": "As specified for each topic offering, see Class Schedule or departmental course description.",
-            "prerequisites": []
+            "prerequisites": [
+                []
+            ]
         }
     },
-    "597": {
+    "CS 597": {
         "course_code": "597",
         "course_name": "Individual Study",
         "course_hour": "2 to 16 Hours",
         "course_description": "Individual study or reading in a subject not covered in normal course offerings. May be repeated. ",
         "course_prerequisites": {
             "raw_text": "Consent of instructor.",
-            "prerequisites": []
+            "prerequisites": [
+                [
+                    "consent of instructor"
+                ]
+            ]
         }
     },
-    "598": {
+    "CS 598": {
         "course_code": "598",
         "course_name": "Special Topics",
         "course_hour": "2 to 4 Hours",
@@ -1719,7 +2537,7 @@
             "prerequisites": []
         }
     },
-    "599": {
+    "CS 599": {
         "course_code": "599",
         "course_name": "Thesis Research",
         "course_hour": "0 to 16 Hours",

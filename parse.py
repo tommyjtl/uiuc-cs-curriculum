@@ -3,6 +3,32 @@ from bs4 import BeautifulSoup
 import requests
 import unidecode
 import json
+import re
+def reformat_prerequisites(raw_text):
+    # Split the raw text by ";" to separate different groups
+    semicolon_conditions = raw_text.split(';')
+    reformatted_prerequisites = []
+
+    for condition in semicolon_conditions:
+        # Normalize the "one of" phrases
+        condition = condition.replace("One of", "").replace("one of", "").strip()
+        # Extract all course codes in the condition
+        course_codes = re.findall(r'([A-Z]+ \d+)', condition)
+        # If "or" is present, split by "or" and add courses in a single group
+        if ' or ' in condition:
+            reformatted_prerequisites.append(course_codes)
+        # If "or" is not present and there are multiple courses, add each course as a separate group
+        elif len(course_codes) > 1:
+            for code in course_codes:
+                reformatted_prerequisites.append([code])
+        # If there is only one course code, add it as a separate group
+        elif course_codes:
+            reformatted_prerequisites.append(course_codes)
+        # If the condition is "consent of instructor", add it as a separate group
+        elif 'consent of instructor' in condition.lower():
+            reformatted_prerequisites.append(['consent of instructor'])
+
+    return reformatted_prerequisites
 
 #   ___ _        _   _
 #  | __| |___ __| |_(_)_ _____ ___
@@ -68,13 +94,14 @@ for c in courseblocks:
     else:
         course_description = extracted_descrption.split("Prerequisite:")[0]
 
-    cs_courses[course_code] = {
-        "course_code": course_code, "course_name": course_name,
+    cs_courses["CS " + course_code] = {
+        "course_code": course_code, 
+        "course_name": course_name,
         "course_hour": course_hour,
         "course_description": course_description,
         "course_prerequisites": {
             "raw_text": course_prerequisites.strip(),
-            "prerequisites": prerequisites
+            "prerequisites": reformat_prerequisites(course_prerequisites.strip())
         }
     }
 

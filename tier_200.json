@@ -1,0 +1,156 @@
+{
+    "CS 210": {
+        "course_code": "210",
+        "course_name": "Ethical & Professional Issues",
+        "course_hour": "2 Hours",
+        "course_description": "Ethics for the computing profession. Ethical decision-making; licensing; intellectual property, freedom of information, and privacy. Credit is not given for both CS 210 and either CS 211 or ECE 316. ",
+        "course_prerequisites": {
+            "raw_text": "CS 225. Junior standing required.",
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
+        }
+    },
+    "CS 211": {
+        "course_code": "211",
+        "course_name": "Ethical and Professional Conduct",
+        "course_hour": "3 Hours",
+        "course_description": "Navigating the complex ethical and professional landscape of the computing professional: privacy, intellectual property, cybersecurity, and freedom of speech. Hands-on exercises, assignments, and discussions in which students analyze current events from perspectives in both philosophical and professional ethics. Writing professionally and technically in several writing assignments requiring peer review, workshops, and multiple rounds of editing and revising. Credit is not given for both CS 211 and CS 210 or ECE 316. ",
+        "course_prerequisites": {
+            "raw_text": "CS 225.This course satisfies the General Education Criteria for:Advanced Composition",
+            "prerequisites": [
+                [
+                    "CS 225"
+                ]
+            ]
+        }
+    },
+    "CS 222": {
+        "course_code": "222",
+        "course_name": "Software Design Lab",
+        "course_hour": "1 Hour",
+        "course_description": "Design and implementation of novel software solutions. Problem identification and definition; idea generation and evaluation; and software implementation, testing, and deployment. Emphasizes software development best practices--including framework selection, code review, documentation, appropriate library usage, project management, continuous integration and testing, and teamwork. ",
+        "course_prerequisites": {
+            "raw_text": "CS 128; credit or concurrent registration in CS 225. Restricted to majors in Computer Science undergraduate curricula only.",
+            "prerequisites": [
+                [
+                    "CS 128"
+                ],
+                [
+                    "CS 225"
+                ]
+            ]
+        }
+    },
+    "CS 225": {
+        "course_code": "225",
+        "course_name": "Data Structures",
+        "course_hour": "4 Hours",
+        "course_description": "Data abstractions: elementary data structures (lists, stacks, queues, and trees) and their implementation using an object-oriented programming language. Solutions to a variety of computational problems such as search on graphs and trees. Elementary analysis of algorithms. Credit is not given for CS 277 if credit for CS 225 has been earned. ",
+        "course_prerequisites": {
+            "raw_text": "CS 126 or CS 128 or ECE 220; One of CS 173, CS 413, MATH 213, MATH 347, MATH 412, or MATH 413. This course satisfies the General Education Criteria for:Quantitative Reasoning II",
+            "prerequisites": [
+                [
+                    "CS 126",
+                    "CS 128",
+                    "ECE 220"
+                ],
+                [
+                    "CS 173",
+                    "CS 413",
+                    "MATH 213",
+                    "MATH 347",
+                    "MATH 412",
+                    "MATH 413"
+                ]
+            ]
+        }
+    },
+    "CS 233": {
+        "course_code": "233",
+        "course_name": "Computer Architecture",
+        "course_hour": "4 Hours",
+        "course_description": "Fundamentals of computer architecture: digital logic design, working up from the logic gate level to understand the function of a simple computer; machine-level programming to understand implementation of high-level languages; performance models of modern computer architectures to enable performance optimization of software; hardware primitives for parallelism and security. ",
+        "course_prerequisites": {
+            "raw_text": "CS 125 or CS 128; CS 173 or MATH 213; credit or concurrent enrollment in CS 225.",
+            "prerequisites": [
+                [
+                    "CS 125",
+                    "CS 128"
+                ],
+                [
+                    "CS 173",
+                    "MATH 213"
+                ],
+                [
+                    "CS 225"
+                ]
+            ]
+        }
+    },
+    "CS 242": {
+        "course_code": "242",
+        "course_name": "Programming Studio",
+        "course_hour": "3 Hours",
+        "course_description": "Intensive programming lab intended to strengthen skills in programming. ",
+        "course_prerequisites": {
+            "raw_text": "CS 241.",
+            "prerequisites": [
+                [
+                    "CS 241"
+                ]
+            ]
+        }
+    },
+    "CS 265": {
+        "course_code": "265",
+        "course_name": "Innovation Illinois: From Accessible Design to Supercomputing Cultures",
+        "course_hour": "3 Hours",
+        "course_description": "Same as IS 265 and MACS 265. See MACS 265.",
+        "course_prerequisites": {
+            "raw_text": "",
+            "prerequisites": []
+        }
+    },
+    "CS 277": {
+        "course_code": "277",
+        "course_name": "Algorithms and Data Structures for Data Science",
+        "course_hour": "4 Hours",
+        "course_description": "Introduction to elementary concepts in algorithms and classical data structures with a focus on their applications in Data Science. Topics include algorithm analysis (ex: Big-O notation), elementary data structures (ex: lists, stacks, queues, trees, and graphs), basics of discrete algorithm design principles (ex: greedy, divide and conquer, dynamic programming), and discussion of discrete and continuous optimization. Credit is not given for CS 277 if credit for CS 225 is earned. ",
+        "course_prerequisites": {
+            "raw_text": "STAT 207; one of MATH 220, MATH 221, MATH 234. CS 277 cannot be taken concurrently with CS 225.",
+            "prerequisites": [
+                [
+                    "STAT 207"
+                ],
+                [
+                    "MATH 220"
+                ],
+                [
+                    "MATH 221"
+                ],
+                [
+                    "MATH 234"
+                ],
+                [
+                    "CS 277"
+                ],
+                [
+                    "CS 225"
+                ]
+            ]
+        }
+    },
+    "CS 296": {
+        "course_code": "296",
+        "course_name": "Honors Course",
+        "course_hour": "1 Hour",
+        "course_description": "Group projects for honors credit in computer science. Sections of this course are offered in conjunction with other 200-level computer science courses taken concurrently. A special examination may be required for admission to this course. May be repeated. ",
+        "course_prerequisites": {
+            "raw_text": "Concurrent registration in another 200-level computer science course (see Schedule).",
+            "prerequisites": []
+        }
+    }
+}
